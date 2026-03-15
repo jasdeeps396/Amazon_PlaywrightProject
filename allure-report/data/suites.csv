@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","44680","User can search HP Smart Tank printer and add Smart Tank 589 to cart","chrome","2026-03-15","failed","2026-03-15","","AmazoneAddToCart.spec.ts","",""

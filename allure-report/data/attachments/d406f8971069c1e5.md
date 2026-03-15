@@ -1,0 +1,2276 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [ref=e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=e11]
+    - list "Keyboard shortcuts" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Search, alt, forward slash" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e15]:
+            - generic [ref=e16]: Search
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Cart, shift, alt, c" [ref=e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e23]:
+            - generic [ref=e24]: Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Home, shift, alt, h" [ref=e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e33]:
+            - generic [ref=e34]: Home
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Your orders, shift, alt, o" [ref=e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e43]:
+            - generic [ref=e44]: Orders
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Show/Hide shortcuts
+            - generic [ref=e55]:
+              - generic [ref=e56]: shift
+              - generic [ref=e57]: +
+              - generic [ref=e58]: alt
+              - generic [ref=e59]: +
+              - generic [ref=e60]: Z
+    - generic [ref=e66]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e67]:
+    - navigation "Primary" [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link "Amazon.in" [ref=e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Lucknow 226016 Update location" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: Delivering to Lucknow 226016
+              - generic [ref=e79]: Update location
+        - search [ref=e82]:
+          - generic [ref=e85]:
+            - generic [ref=e87]: All
+            - combobox "Select the department you want to search in" [ref=e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e92]: HP smart tank
+          - generic "Go" [ref=e95] [cursor=pointer]:
+            - button "Go" [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e100] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e103]:
+                - img "India" [ref=e104]
+                - generic [ref=e105]: EN
+            - button "Expand to Change Language or Country" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - link "Hello, sign in Account & Lists" [ref=e108] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3DHP%2Bsmart%2Btank%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e110]: Hello, sign in
+              - generic [ref=e111]: Account & Lists
+            - button "Expand Account and Lists" [ref=e112] [cursor=pointer]
+          - link "Returns & Orders" [ref=e113] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e114]: Returns
+            - generic [ref=e115]: "& Orders"
+          - link "0 items in cart" [ref=e116] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e118]: "0"
+            - generic [ref=e121]: Cart
+      - generic [ref=e122]:
+        - button "Open All Categories Menu" [ref=e124] [cursor=pointer]:
+          - generic [ref=e126]: All
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - link "Fresh" [ref=e133] [cursor=pointer]:
+              - /url: /fresh?ref_=nav_cs_fresh
+          - listitem [ref=e134]:
+            - link "MX Player" [ref=e136] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e137]:
+            - link "Sell" [ref=e139] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e140]:
+            - link "Bestsellers" [ref=e142] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e143]:
+            - link "Mobiles" [ref=e145] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e146]:
+            - link "Today's Deals" [ref=e148] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e149]:
+            - link "Customer Service" [ref=e151] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e152]:
+            - generic [ref=e153]:
+              - link "Prime" [ref=e154] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e155] [cursor=pointer]
+          - listitem [ref=e156]:
+            - link "New Releases" [ref=e158] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e159]:
+            - link "Fashion" [ref=e161] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e162]:
+            - link "Electronics" [ref=e164] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e165]:
+            - link "Amazon Pay" [ref=e167] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e168]:
+            - link "Home & Kitchen" [ref=e170] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e171]:
+            - link "Toys & Games" [ref=e173] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e174]:
+            - link "Computers" [ref=e176] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e177]:
+            - link "Books" [ref=e179] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e180]:
+            - link "Gift Cards" [ref=e182] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e183]:
+            - link "Beauty & Personal Care" [ref=e185] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e186]:
+            - link "Car & Motorbike" [ref=e188] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e189]:
+            - link "Home Improvement" [ref=e191] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e192]:
+            - link "Custom Products" [ref=e194] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e195]:
+            - link "Grocery & Gourmet Foods" [ref=e197] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e198]:
+            - link "Sports, Fitness & Outdoors" [ref=e200] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e201]:
+            - link "Health, Household & Personal Care" [ref=e203] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e204]:
+            - link "Video Games" [ref=e206] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e207]:
+            - link "Baby" [ref=e209] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e210]:
+            - link "Pet Supplies" [ref=e212] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e213]:
+            - link "Subscribe & Save" [ref=e215] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e216]:
+            - link "Audible" [ref=e218] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e219]:
+            - link "AmazonBasics" [ref=e221] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e222]:
+            - link "Kindle eBooks" [ref=e224] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e225]:
+            - link "Flights" [ref=e227] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+      - dialog [ref=e230]
+  - generic [ref=e232]:
+    - 'heading "1-16 of 538 results for \"HP smart tank\" Sort by: Featured" [level=1] [ref=e235]':
+      - generic [ref=e236]:
+        - heading "1-16 of 538 results for \"HP smart tank\"" [level=2] [ref=e241]
+        - generic [ref=e246]:
+          - generic [ref=e247]: "Sort by:"
+          - combobox "Sort by:" [ref=e248]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=e251] [cursor=pointer]: Sort by:Featured
+    - generic [ref=e253]:
+      - generic [ref=e255]:
+        - generic [ref=e257]:
+          - generic [ref=e260]:
+            - link "Sponsored ad from HP Printer. \"HP Smart Tank Printer.\" Shop HP Printer." [ref=e261] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/stores/page/0EBFA479-C0C4-42D3-B59A-C98BEB7F2CA2/?_encoding=UTF8&store_ref=SB_A02849954MT01K3V3JT6-A05053762LOWT5B9WHEUP&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN1S41VH%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=auto-sparkle-hsa-tetris&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_bkgd&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+            - generic [ref=e262]:
+              - generic [ref=e264]:
+                - link "HP Printer" [ref=e266] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/stores/page/0EBFA479-C0C4-42D3-B59A-C98BEB7F2CA2/?_encoding=UTF8&store_ref=SB_A02849954MT01K3V3JT6-A05053762LOWT5B9WHEUP&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN1S41VH%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=auto-sparkle-hsa-tetris&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_logo&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                  - img "HP Printer" [ref=e268]
+                - generic [ref=e270]:
+                  - link "HP Smart Tank Printer" [ref=e271] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/stores/page/0EBFA479-C0C4-42D3-B59A-C98BEB7F2CA2/?_encoding=UTF8&store_ref=SB_A02849954MT01K3V3JT6-A05053762LOWT5B9WHEUP&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN1S41VH%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=auto-sparkle-hsa-tetris&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_hl&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                    - generic [ref=e272]:
+                      - generic [ref=e273]: HP Smart Tank Printer
+                      - generic [ref=e274]: HP Smart Tank Printer
+                  - generic [ref=e275]:
+                    - button "Leave feedback on Sponsored ad" [ref=e279] [cursor=pointer]: Sponsored
+                    - generic [ref=e281]: "|"
+                    - generic [ref=e282]: Top 10 best-selling brand in printers
+                    - generic [ref=e283]: "|"
+                    - link "Shop HP Printer" [ref=e285] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/stores/page/0EBFA479-C0C4-42D3-B59A-C98BEB7F2CA2/?_encoding=UTF8&store_ref=SB_A02849954MT01K3V3JT6-A05053762LOWT5B9WHEUP&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN1S41VH%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=auto-sparkle-hsa-tetris&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_cta&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                      - generic [ref=e288]:
+                        - text: Shop HP
+                        - generic [ref=e289]:
+                          - text: Printer
+                          - img [ref=e290]
+              - group [ref=e292]:
+                - group [ref=e296]:
+                  - list [ref=e297]:
+                    - listitem [ref=e298]:
+                      - generic [ref=e300]:
+                        - link [ref=e301] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                        - link "HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e303] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_0_img&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                          - img "HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e306]
+                        - generic [ref=e308]:
+                          - link [ref=e309] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_0_bkgd&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                          - link "HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e311] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_0_title&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                            - generic [ref=e312]:
+                              - generic [ref=e313]: HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office
+                              - generic [ref=e314]: HP Smart Tank 589 All-in-One WiFi Colour Printer…
+                          - link "Rated 4 out of 5 stars by 2972 reviews. Go to review section." [ref=e315] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_0_rating&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778#customerReviews
+                            - generic [ref=e316]:
+                              - generic [ref=e317]: "4"
+                              - generic [ref=e319]: 4 out of 5 stars.
+                              - generic [ref=e320]: (2.9k)
+                          - link "Limited time deal" [ref=e322] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_0_badge&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                            - generic [ref=e325]: Limited time deal
+                          - link "-28% ₹12,499.00" [ref=e327] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-1-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_0_price&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                            - generic [ref=e328]:
+                              - generic [ref=e329]: "-28%"
+                              - generic [ref=e330]:
+                                - generic [ref=e331]: ₹12,499.00
+                                - generic [ref=e332]:
+                                  - text: ₹
+                                  - generic [ref=e333]:
+                                    - text: 12,499
+                                    - generic [ref=e334]: .
+                                  - text: "00"
+                          - generic [ref=e337]: "M.R.P: ₹17,275.00"
+                    - listitem [ref=e338]:
+                      - generic [ref=e340]:
+                        - link [ref=e341] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1S41VH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_1_bkgd&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                        - link "HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=e343] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1S41VH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                          - img "HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=e346]
+                        - generic [ref=e348]:
+                          - link [ref=e349] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1S41VH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_1_bkgd&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                          - link "HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=e351] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1S41VH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_1_title&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                            - generic [ref=e352]:
+                              - generic [ref=e353]: HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home
+                              - generic [ref=e354]: HP Smart Tank 580 All-in-One WiFi Colour Printer…
+                          - link "Rated 4 out of 5 stars by 1528 reviews. Go to review section." [ref=e355] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1S41VH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_1_rating&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778#customerReviews
+                            - generic [ref=e356]:
+                              - generic [ref=e357]: "4"
+                              - generic [ref=e359]: 4 out of 5 stars.
+                              - generic [ref=e360]: (1.5k)
+                          - link "Limited time deal" [ref=e362] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1S41VH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_1_badge&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                            - generic [ref=e365]: Limited time deal
+                          - link "-19% ₹14,499.00" [ref=e367] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B0BN1S41VH/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-2-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_1_price&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                            - generic [ref=e368]:
+                              - generic [ref=e369]: "-19%"
+                              - generic [ref=e370]:
+                                - generic [ref=e371]: ₹14,499.00
+                                - generic [ref=e372]:
+                                  - text: ₹
+                                  - generic [ref=e373]:
+                                    - text: 14,499
+                                    - generic [ref=e374]: .
+                                  - text: "00"
+                          - generic [ref=e377]: "M.R.P: ₹17,906.00"
+                    - listitem [ref=e378]:
+                      - generic [ref=e380]:
+                        - link [ref=e381] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_2_bkgd&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                        - link "HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [ref=e383] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_2_img&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                          - img "HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [ref=e386]
+                        - generic [ref=e388]:
+                          - link [ref=e389] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_2_bkgd&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                          - link "HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [ref=e391] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_2_title&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                            - generic [ref=e392]:
+                              - generic [ref=e393]: HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor
+                              - generic [ref=e394]: HP Smart Tank 670 All-in-One Auto Duplex WiFi I…
+                          - link "Rated 3.7 out of 5 stars by 2310 reviews. Go to review section." [ref=e395] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_2_rating&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778#customerReviews
+                            - generic [ref=e396]:
+                              - generic [ref=e397]: "3.7"
+                              - generic [ref=e399]: 3.7 out of 5 stars.
+                              - generic [ref=e400]: (2.3k)
+                          - link "Limited time deal" [ref=e402] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_2_badge&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                            - generic [ref=e405]: Limited time deal
+                          - link "-16% ₹17,999.00" [ref=e407] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJo0b2SY_FqmzHOdLgEfUiYAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD_hGl9/clv1c_ek-wBHE3IkbXDj-jE795m3ZIyJUfGRqZtHZwzBv_X4NHbXkDBv3FdmFj4MoApnNOuqwJ0MvsBxUSUAfFcYUbCylS3fp6spCXd18uuMhYIjexmkNnO-7pJLQQQRj_p2Cp1xw3i1AeU-wy0tPYJI5ZesC1sLyJqkfliMRwyCdqzRQ-WGgEfiityMFEdqOUR9zpBeoDgHuZjUc9vQp6slvYOvpbuN01VP4MtMZkiGjuZoAqoDRlepXxWv_iJDUbSxIH8gLvYj0UCwTBVVY48GcMS2g_c3uWbBkD_ivtctbeUTwrEv5-XLB3j5vV39-A_oIMopwUHpS8j8RXyn3_l0nuRIgwAJIh0Pdl4gBH_LA-Yri-LUTGrh_pKwjDzIC5u-WkPJC2mbG9d3ho7MAOQZR-WoTTSYhkxPI3eQHzI3T9VAvhE5TvN1vE-XkIrUAJ3jB6iQS9E8jOkIzR8J3Fui5bMJ2sSS4N2x8HWe1Kuj0axN_w3jmjFomVj5tiZG73VNVMBF0sgCfkHm6NyvFEE0fQhjke06TxYnSifn7I1PW0IVjuttMHveZr2ZTn2sf_y64fjy1NakFUqqnLV9m_-fsdfNcxOXg9OI23T3q7O4yWDJ8yBO7OcKdoFMsOXyDRqzpDuFqtDyc2rCaKOTpynWJCeaR2i7FHTxwCpGz8jMDCaQ0U6xdxqOLK2Yt0P5Eni2U2IGQtTUqlnDR1DY7FY4Yj_aid8OL5_O3Aca4sDAKz0ncqXt-Bh5xVdKmD83YTxbowLouGWuOrdvI_R-Ps5NZFADlC_UyLf8wgU4d4BX16BlPiAFYn05zFEtOoNWC0xk5Umh37nottl-AClc6Y-6iUwwBuafgCK_RGGVbZ98FOSYCgPoCwq2PRQ-WJ3MToClYmjHC4Zj-42iYC-1EYt0EtYVxvdagCxHkT8StlEJlDZ0Jyq_9zQqNSlJ-qGqiJC2leTT1wyVN3TOI8PFU9CV0VjJ3u-unKcC0z8kXD2KVshUvv9BPBprIaa7awMbHyv40HPAPeCZs_s1Odqd6vNNNUBT65SlYCkZJ9WSnzVDkqq3y0fQ2BjObgL0hxiw-QW-GOOSM_axYW3Z5J7WnRGM4JrcF_C_rfSXOoP4MUS6r-a-9m08HdkNMsibXtu7Wjso8F6jLpmDyi7ARS4hp-S2VRkLLBbeQALfzgVxZDA8OldYfaXjNhy9wJuhciVX8nMOo3To1u-tiwFe70N9ZjgAYkU6GikrYEoJkRgNhZ8IortjF0A1Q3QiuC8oxXfYn_9q4-L4sHPfXiwWkcI9kmQ94KkM4xZKF0Po_-ExCW4JGO_p4b1jG4PbeCME0FyfdeV5mmGS9pYogy1rGt0bYRLXopQDsv0hPzqEb3T8f9jwcALgrnZupUtLZQkJXAxLQeHOowZTJWE5aFMLra7-SvmMj7Rz5BC3LhUKXZJENklQWKkl5Fkniz43vRlPmwp1TRETwtL0Lx9Vj-aLAO1JFDYCuoVtU4k4tCbpzH-3CCt-FU8EW6RXoLRxtkLXC6wSGVjmVLVNmQ_GknBuh3mW2EXfs9CpjS9AQTtFljHvrUEjxele3X0JkUyshxhK7ykF-RFyIpzio5cpbzoQBIZatZFz2cSvD4cu7ad6YEDRosUYhGLFPYklB_z8Wir0IlWdLLgTb4YmEOEyVHzLCPZM2zgBeN7LEkc4OXkIt4H_Y-c6_cA7Qg9tUwpBJlV4K_3V4hR4C7MWzMNZKbtslQgN_xutce4GUanmg0O0ti/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c46deda07efbd1758b4472a7aeaf9d12&hsa_cr_id=0&qid=1773569561&sr=1-3-e0fa1fdd-d857-4087-adda-5bd576b25987&aref=YQU3QUCnBF&ref_=sbx_s_sparkle_sbtcd_asin_2_price&pd_rd_w=jKDXk&content-id=amzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05%3Aamzn1.sym.9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_p=9269eab1-ae85-443b-9ec2-b2fa4ebaad05&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=4Txo5&pd_rd_r=62627ee0-06e4-42f3-a866-d35387540778
+                            - generic [ref=e408]:
+                              - generic [ref=e409]: "-16%"
+                              - generic [ref=e410]:
+                                - generic [ref=e411]: ₹17,999.00
+                                - generic [ref=e412]:
+                                  - text: ₹
+                                  - generic [ref=e413]:
+                                    - text: 17,999
+                                    - generic [ref=e414]: .
+                                  - text: "00"
+                          - generic [ref=e417]: "M.R.P: ₹21,305.08"
+          - generic [ref=e419]:
+            - generic [ref=e422]:
+              - heading "Results" [level=2] [ref=e423]
+              - generic [ref=e424]: Check each product page for other buying options.
+            - generic:
+              - list:
+                - listitem [ref=e425]:
+                  - generic [ref=e433]:
+                    - link [ref=e439] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYXRmOjMwMDA1OTI5OTE5OTMzMjo6MDo6&url=%2FHP-Printer-Extended-Warranty-coverage-Print%2Fdp%2FB0BN1S41VH%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-1-spons%26aref%3DLn0V3H03xm%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=Ln0V3H03xm&sp_cr=ZAZ
+                      - img [ref=e441]
+                    - generic [ref=e444]:
+                      - generic [ref=e445]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e448] [cursor=pointer]:
+                          - generic [ref=e449]: Sponsored
+                        - heading "HP" [level=2] [ref=e453]
+                        - link "Sponsored Ad - Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=e454] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYXRmOjMwMDA1OTI5OTE5OTMzMjo6MDo6&url=%2FHP-Printer-Extended-Warranty-coverage-Print%2Fdp%2FB0BN1S41VH%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-1-spons%26aref%3DLn0V3H03xm%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=Ln0V3H03xm&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [level=2] [ref=e455]: Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home
+                      - generic [ref=e456]:
+                        - generic [ref=e457]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e459] [cursor=pointer]:
+                            - generic [ref=e461]: 4.0 out of 5 stars
+                          - link "1,528 ratings" [ref=e463] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYXRmOjMwMDA1OTI5OTE5OTMzMjo6MDo6&url=%2FHP-Printer-Extended-Warranty-coverage-Print%2Fdp%2FB0BN1S41VH%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-1-spons%26aref%3DLn0V3H03xm%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=Ln0V3H03xm&sp_cr=ZAZ#customerReviews
+                            - text: (1.5K)
+                        - generic [ref=e464]: 400+ bought in past month
+                      - generic [ref=e467]:
+                        - generic [ref=e468]:
+                          - link "Limited time deal" [ref=e470] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e473]: Limited time deal
+                          - generic [ref=e475]:
+                            - generic [ref=e476]: Price, product page
+                            - 'link "₹14,499 M.R.P: ₹17,906 M.R.P: ₹17,906" [ref=e477] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYXRmOjMwMDA1OTI5OTE5OTMzMjo6MDo6&url=%2FHP-Printer-Extended-Warranty-coverage-Print%2Fdp%2FB0BN1S41VH%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-1-spons%26aref%3DLn0V3H03xm%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=Ln0V3H03xm&sp_cr=ZAZ
+                              - generic [ref=e478]:
+                                - generic [ref=e479]: ₹14,499
+                                - generic [ref=e480]: ₹14,499
+                              - generic [ref=e481]: "M.R.P: ₹17,906"
+                              - generic [ref=e482]:
+                                - text: "M.R.P:"
+                                - generic [ref=e483]:
+                                  - generic [ref=e484]: ₹17,906
+                                  - text: ₹17,906
+                            - text: (19% off)
+                          - generic [ref=e488]:
+                            - generic [ref=e489]: Save extra with No Cost EMI
+                            - generic [ref=e490]: Save extra with No Cost EMI
+                        - generic [ref=e495]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e497]: "Service: Installation"
+                        - button "Add to cart" [ref=e511] [cursor=pointer]
+                - listitem [ref=e514]:
+                  - generic [ref=e522]:
+                    - link [ref=e528] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYXRmOjMwMDU1MDMyOTYxNDEzMjo6MDo6&url=%2FHP-Integrated-Printer-Capacity-Automatic%2Fdp%2FB09MFHQL9J%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-2-spons%26aref%3D6DwbpqTMfS%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=6DwbpqTMfS&sp_cr=ZAZ
+                      - img [ref=e530]
+                    - generic [ref=e533]:
+                      - generic [ref=e534]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e537] [cursor=pointer]:
+                          - generic [ref=e538]: Sponsored
+                        - heading "HP" [level=2] [ref=e542]
+                        - link "Sponsored Ad - Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [ref=e543] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYXRmOjMwMDU1MDMyOTYxNDEzMjo6MDo6&url=%2FHP-Integrated-Printer-Capacity-Automatic%2Fdp%2FB09MFHQL9J%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-2-spons%26aref%3D6DwbpqTMfS%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=6DwbpqTMfS&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [level=2] [ref=e544]: Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor
+                      - generic [ref=e545]:
+                        - generic [ref=e546]:
+                          - text: "3.7"
+                          - button "3.7 out of 5 stars, rating details" [ref=e548] [cursor=pointer]:
+                            - generic [ref=e550]: 3.7 out of 5 stars
+                          - link "2,310 ratings" [ref=e552] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYXRmOjMwMDU1MDMyOTYxNDEzMjo6MDo6&url=%2FHP-Integrated-Printer-Capacity-Automatic%2Fdp%2FB09MFHQL9J%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-2-spons%26aref%3D6DwbpqTMfS%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=6DwbpqTMfS&sp_cr=ZAZ#customerReviews
+                            - text: (2.3K)
+                        - generic [ref=e553]: 100+ bought in past month
+                      - generic [ref=e556]:
+                        - generic [ref=e557]:
+                          - link "Limited time deal" [ref=e559] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e562]: Limited time deal
+                          - generic [ref=e564]:
+                            - generic [ref=e565]: Price, product page
+                            - 'link "₹17,999 M.R.P: ₹21,305.08 M.R.P: ₹21,305.08" [ref=e566] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYXRmOjMwMDU1MDMyOTYxNDEzMjo6MDo6&url=%2FHP-Integrated-Printer-Capacity-Automatic%2Fdp%2FB09MFHQL9J%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-2-spons%26aref%3D6DwbpqTMfS%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=6DwbpqTMfS&sp_cr=ZAZ
+                              - generic [ref=e567]:
+                                - generic [ref=e568]: ₹17,999
+                                - generic [ref=e569]: ₹17,999
+                              - generic [ref=e570]: "M.R.P: ₹21,305.08"
+                              - generic [ref=e571]:
+                                - text: "M.R.P:"
+                                - generic [ref=e572]:
+                                  - generic [ref=e573]: ₹21,305.08
+                                  - text: ₹21,305.08
+                            - text: (16% off)
+                          - generic [ref=e577]:
+                            - generic [ref=e578]: Save extra with No Cost EMI
+                            - generic [ref=e579]: Save extra with No Cost EMI
+                        - generic [ref=e584]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e586]: "Service: Brand Installation"
+                        - button "Add to cart" [ref=e600] [cursor=pointer]
+                - listitem [ref=e603]:
+                  - generic [ref=e609]:
+                    - generic [ref=e611]:
+                      - generic "Amazon's Choice" [ref=e614]:
+                        - group "Amazon's Choice for \"HP smart tank\"" [ref=e617]:
+                          - generic [ref=e619]: Amazon's Choice
+                      - link [ref=e623] [cursor=pointer]:
+                        - /url: /HP-Smart-Colour-Printer-Included/dp/B0BN1XT6TF/ref=sr_1_3?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-3
+                        - img [ref=e625]
+                    - generic [ref=e628]:
+                      - generic [ref=e629]:
+                        - heading "HP" [level=2] [ref=e632]
+                        - link "Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [active] [ref=e633] [cursor=pointer]:
+                          - /url: /HP-Smart-Colour-Printer-Included/dp/B0BN1XT6TF/ref=sr_1_3?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-3
+                          - heading "Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [level=2] [ref=e634]
+                      - generic [ref=e635]:
+                        - generic [ref=e636]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e638] [cursor=pointer]:
+                            - generic [ref=e640]: 4.0 out of 5 stars
+                          - link "2,972 ratings" [ref=e642] [cursor=pointer]:
+                            - /url: /HP-Smart-Colour-Printer-Included/dp/B0BN1XT6TF/ref=sr_1_3?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-3#customerReviews
+                            - text: (2.9K)
+                        - generic [ref=e643]: 1K+ bought in past month
+                      - generic [ref=e646]:
+                        - generic [ref=e647]:
+                          - link "Limited time deal" [ref=e649] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e652]: Limited time deal
+                          - generic [ref=e654]:
+                            - generic [ref=e655]: Price, product page
+                            - 'link "₹12,499 M.R.P: ₹17,275 M.R.P: ₹17,275" [ref=e656] [cursor=pointer]':
+                              - /url: /HP-Smart-Colour-Printer-Included/dp/B0BN1XT6TF/ref=sr_1_3?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-3
+                              - generic [ref=e657]:
+                                - generic [ref=e658]: ₹12,499
+                                - generic [ref=e659]: ₹12,499
+                              - generic [ref=e660]: "M.R.P: ₹17,275"
+                              - generic [ref=e661]:
+                                - text: "M.R.P:"
+                                - generic [ref=e662]:
+                                  - generic [ref=e663]: ₹17,275
+                                  - text: ₹17,275
+                            - text: (28% off)
+                          - generic [ref=e667]:
+                            - generic [ref=e668]: Save extra with No Cost EMI
+                            - generic [ref=e669]: Save extra with No Cost EMI
+                        - generic [ref=e674]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e676]: "Service: Installation"
+                        - button "Add to cart" [ref=e690] [cursor=pointer]
+                - listitem [ref=e693]:
+                  - generic [ref=e699]:
+                    - link [ref=e705] [cursor=pointer]:
+                      - /url: /HP-Printer-Extended-Warranty-coverage-Print/dp/B0BN1S41VH/ref=sr_1_4?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-4
+                      - img [ref=e707]
+                    - generic [ref=e710]:
+                      - generic [ref=e711]:
+                        - heading "HP" [level=2] [ref=e714]
+                        - link "Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=e715] [cursor=pointer]:
+                          - /url: /HP-Printer-Extended-Warranty-coverage-Print/dp/B0BN1S41VH/ref=sr_1_4?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-4
+                          - heading "Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [level=2] [ref=e716]
+                      - generic [ref=e717]:
+                        - generic [ref=e718]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e720] [cursor=pointer]:
+                            - generic [ref=e722]: 4.0 out of 5 stars
+                          - link "1,528 ratings" [ref=e724] [cursor=pointer]:
+                            - /url: /HP-Printer-Extended-Warranty-coverage-Print/dp/B0BN1S41VH/ref=sr_1_4?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-4#customerReviews
+                            - text: (1.5K)
+                        - generic [ref=e725]: 400+ bought in past month
+                      - generic [ref=e728]:
+                        - generic [ref=e729]:
+                          - link "Limited time deal" [ref=e731] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e734]: Limited time deal
+                          - generic [ref=e736]:
+                            - generic [ref=e737]: Price, product page
+                            - 'link "₹14,499 M.R.P: ₹17,906 M.R.P: ₹17,906" [ref=e738] [cursor=pointer]':
+                              - /url: /HP-Printer-Extended-Warranty-coverage-Print/dp/B0BN1S41VH/ref=sr_1_4?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-4
+                              - generic [ref=e739]:
+                                - generic [ref=e740]: ₹14,499
+                                - generic [ref=e741]: ₹14,499
+                              - generic [ref=e742]: "M.R.P: ₹17,906"
+                              - generic [ref=e743]:
+                                - text: "M.R.P:"
+                                - generic [ref=e744]:
+                                  - generic [ref=e745]: ₹17,906
+                                  - text: ₹17,906
+                            - text: (19% off)
+                          - generic [ref=e749]:
+                            - generic [ref=e750]: Save extra with No Cost EMI
+                            - generic [ref=e751]: Save extra with No Cost EMI
+                        - generic [ref=e756]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e758]: "Service: Installation"
+                        - button "Add to cart" [ref=e772] [cursor=pointer]
+                - listitem [ref=e775]:
+                  - generic [ref=e781]:
+                    - link [ref=e787] [cursor=pointer]:
+                      - /url: /HP-Smart-Colour-Printer-Included/dp/B0BN287KYS/ref=sr_1_5?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-5
+                      - img [ref=e789]
+                    - generic [ref=e792]:
+                      - generic [ref=e793]:
+                        - heading "HP" [level=2] [ref=e796]
+                        - link "Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e797] [cursor=pointer]:
+                          - /url: /HP-Smart-Colour-Printer-Included/dp/B0BN287KYS/ref=sr_1_5?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-5
+                          - heading "Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [level=2] [ref=e798]
+                      - generic [ref=e799]:
+                        - generic [ref=e800]:
+                          - text: "3.6"
+                          - button "3.6 out of 5 stars, rating details" [ref=e802] [cursor=pointer]:
+                            - generic [ref=e804]: 3.6 out of 5 stars
+                          - link "1,081 ratings" [ref=e806] [cursor=pointer]:
+                            - /url: /HP-Smart-Colour-Printer-Included/dp/B0BN287KYS/ref=sr_1_5?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-5#customerReviews
+                            - text: (1K)
+                        - generic [ref=e807]: 200+ bought in past month
+                      - generic [ref=e810]:
+                        - generic [ref=e811]:
+                          - link "Limited time deal" [ref=e813] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e816]: Limited time deal
+                          - generic [ref=e818]:
+                            - generic [ref=e819]: Price, product page
+                            - 'link "₹10,699 M.R.P: ₹13,134 M.R.P: ₹13,134" [ref=e820] [cursor=pointer]':
+                              - /url: /HP-Smart-Colour-Printer-Included/dp/B0BN287KYS/ref=sr_1_5?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-5
+                              - generic [ref=e821]:
+                                - generic [ref=e822]: ₹10,699
+                                - generic [ref=e823]: ₹10,699
+                              - generic [ref=e824]: "M.R.P: ₹13,134"
+                              - generic [ref=e825]:
+                                - text: "M.R.P:"
+                                - generic [ref=e826]:
+                                  - generic [ref=e827]: ₹13,134
+                                  - text: ₹13,134
+                            - text: (19% off)
+                          - generic [ref=e831]:
+                            - generic [ref=e832]: Save extra with No Cost EMI
+                            - generic [ref=e833]: Save extra with No Cost EMI
+                        - generic [ref=e838]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e840]: "Service: Installation"
+                        - button "Add to cart" [ref=e854] [cursor=pointer]
+          - generic [ref=e859]:
+            - link "Sponsored ad from HP Printer. \"#ConsiderItDone with HP's New Smart Tank Series.\" Shop HP Printer." [ref=e860] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-inline&aref=bmIbICSPIp&ref_=sbx__sbtcd2_bkgd&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+            - generic [ref=e861]:
+              - generic [ref=e863]:
+                - link "HP Printer" [ref=e865] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-inline&aref=bmIbICSPIp&ref_=sbx__sbtcd2_logo&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                  - img "HP Printer" [ref=e867]
+                - generic [ref=e869]:
+                  - link "#ConsiderItDone with HP's New Smart Tank Series" [ref=e870] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-inline&aref=bmIbICSPIp&ref_=sbx__sbtcd2_hl&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                    - generic [ref=e871]:
+                      - generic [ref=e872]: "#ConsiderItDone with HP's New Smart Tank Series"
+                      - generic [ref=e873]: "#ConsiderItDone with HP's New Smart Tank Series"
+                  - generic [ref=e874]:
+                    - button "Leave feedback on Sponsored ad" [ref=e878] [cursor=pointer]: Sponsored
+                    - generic [ref=e880]: "|"
+                    - generic [ref=e881]: Top 10 best-selling brand in printers
+                    - generic [ref=e882]: "|"
+                    - link "Shop HP Printer" [ref=e884] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-inline&aref=bmIbICSPIp&ref_=sbx__sbtcd2_cta&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                      - generic [ref=e887]:
+                        - text: Shop HP
+                        - generic [ref=e888]:
+                          - text: Printer
+                          - img [ref=e889]
+              - group [ref=e892]:
+                - group [ref=e896]:
+                  - list [ref=e897]:
+                    - listitem [ref=e898]:
+                      - generic [ref=e900]:
+                        - link [ref=e901] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_0_bkgd&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                        - link "HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e902] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_0_img&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                          - img "HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e905]
+                        - generic [ref=e906]:
+                          - link [ref=e907] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_0_bkgd&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                          - link "HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e909] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_0_title&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                            - generic [ref=e910]:
+                              - generic [ref=e911]: HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office
+                              - generic [ref=e912]: HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office
+                          - link "Rated 4 out of 5 stars by 2972 reviews. Go to review section." [ref=e913] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_0_rating&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190#customerReviews
+                            - generic [ref=e914]:
+                              - generic [ref=e915]: "4"
+                              - generic [ref=e917]: 4 out of 5 stars.
+                              - generic [ref=e918]: 2,972
+                          - link "Limited time deal" [ref=e920] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_0_badge&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                            - generic [ref=e923]: Limited time deal
+                          - link "-28% ₹12,499.00" [ref=e925] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN1XT6TF/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-1-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_0_price&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                            - generic [ref=e926]:
+                              - generic [ref=e927]: "-28%"
+                              - generic [ref=e928]:
+                                - generic [ref=e929]: ₹12,499.00
+                                - generic [ref=e930]:
+                                  - text: ₹
+                                  - generic [ref=e931]:
+                                    - text: 12,499
+                                    - generic [ref=e932]: .
+                                  - text: "00"
+                          - generic [ref=e935]: "M.R.P: ₹17,275.00"
+                    - listitem [ref=e936]:
+                      - generic [ref=e938]:
+                        - link [ref=e939] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN287KYS/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_1_bkgd&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                        - link "HP Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e940] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN287KYS/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_1_img&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                          - img "HP Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e943]
+                        - generic [ref=e944]:
+                          - link [ref=e945] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN287KYS/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_1_bkgd&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                          - link "HP Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e947] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN287KYS/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_1_title&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                            - generic [ref=e948]:
+                              - generic [ref=e949]: HP Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office
+                              - generic [ref=e950]: HP Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office
+                          - link "Rated 3.6 out of 5 stars by 1081 reviews. Go to review section." [ref=e951] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN287KYS/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_1_rating&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190#customerReviews
+                            - generic [ref=e952]:
+                              - generic [ref=e953]: "3.6"
+                              - generic [ref=e955]: 3.6 out of 5 stars.
+                              - generic [ref=e956]: 1,081
+                          - link "Limited time deal" [ref=e958] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN287KYS/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_1_badge&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                            - generic [ref=e961]: Limited time deal
+                          - link "-19% ₹10,699.00" [ref=e963] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B0BN287KYS/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-2-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_1_price&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                            - generic [ref=e964]:
+                              - generic [ref=e965]: "-19%"
+                              - generic [ref=e966]:
+                                - generic [ref=e967]: ₹10,699.00
+                                - generic [ref=e968]:
+                                  - text: ₹
+                                  - generic [ref=e969]:
+                                    - text: 10,699
+                                    - generic [ref=e970]: .
+                                  - text: "00"
+                          - generic [ref=e973]: "M.R.P: ₹13,134.00"
+                    - listitem [ref=e974]:
+                      - generic [ref=e976]:
+                        - link [ref=e977] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_2_bkgd&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                        - link "HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [ref=e978] [cursor=pointer]:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_2_img&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                          - img "HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [ref=e981]
+                        - generic [ref=e982]:
+                          - link [ref=e983] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_2_bkgd&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                          - link "HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [ref=e985] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_2_title&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                            - generic [ref=e986]:
+                              - generic [ref=e987]: HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor
+                              - generic [ref=e988]: HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor
+                          - link "Rated 3.7 out of 5 stars by 2310 reviews. Go to review section." [ref=e989] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_2_rating&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190#customerReviews
+                            - generic [ref=e990]:
+                              - generic [ref=e991]: "3.7"
+                              - generic [ref=e993]: 3.7 out of 5 stars.
+                              - generic [ref=e994]: 2,310
+                          - link "Limited time deal" [ref=e996] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_2_badge&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                            - generic [ref=e999]: Limited time deal
+                          - link "-16% ₹17,999.00" [ref=e1001] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JNthouZAQhQutzxlIax109gAAAGc8PvUOQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICD6KGFX/clv1c_ek-wBPHXLcTWnuOrE0tHGtJ9hAhRVoLnMY3UGnTDC7M0F9Rwr-Hm9k3x2b7UpS9wN0lOR_3J9AwEvoy-KZwfEyIwSeVp7W5rI70Bp2fEmdSYo_FIpC5OC-QY4P9l0mot1SU8IJrxuI9xlavCC1lGgoAapsnEVtTtIMD9x69qbYQaR5Mt4A8hjGnNiU9SRwlxsMbnGZiKGgXuoWwU10nDbEMRr1sVNvz6sPtSYb_qX9kauYDyYTcZCv2NRdaISe2aUJtSPqj4SxFfhni1NxD53JYa-fP0bgx_fp8XDziwaJ3VjHCwP9U9B31zgOq03ECyxk4gMfFofZyVMF6KXXFGXCt_rg3ewKrGpTvhZg6KMdHt2pFG1-whhLEf1E8fXu6gYE-Cjz8uAsCmHGAm3g64JyNO3hgLPFPj2YdIFIY91mPEqJLVaKIheoYzA-t7GiVEX7J7fFgljVTM_-orADVZiu_1ZUr0Ml24_3gGR4a2VZH4tyry3YPfCUD9rUTNS6ygzQtydtQNfj75oysMeyBNgFPdh6ZltECxacFl0jb5qB4xZxLc8-xeffVuuNnqyemOU3K83Tsqe9MWnsCiDtvEN21eUi9_o5mk-QOAsbZxtX15B1u9rfig1ur9NsMHlsjGMehR93Ka4QBw1eWCSr8Yc9dDzCf6sZjZ9vh0A9Y9yoNoypGOtBCpXTZAL9E5wR-i1YTb5_WQ9FmGtBbUHkslW--WK4uExMR4I2Ux3vFQkKPB-Pn8T1clSnOWHsNPoBB4r0WgdU5R_f2ov4Znm6EOMYrrVQ0hwEF94XCwgbpzDxKD8HrXw57OxGMZApZkr-qwA4_oQaeosh-D24UInrDMWlXVBdX0MxyIygFRaKOjMJrtWx-PWhKg47pX6vLTJvKngJdlzsdq0iyRq89PtfdTKjwXH_BhFegAW4syLN4MU3QslWh5D3ELXJDHhxSJtzQYWzs_fkaMPUhDraJ8fESdyNptsMSJ-YmhjEc5Q4j3qLU_bAQi6IjXFdtuHDDGqr06xzpqjE6bzxZ22fHIa-WdvISoR0EeT5WUPS3d5Vbk92LxTbztuZ3ljcdoNILOQkqA30-GhUnDbjjeCRSsISU7DjvkAtmeEdeV0Ckgw5l-NxH76pn8EUZGAWBbn0JcxBr40AwD7RYGxDp22oFnpc7GieeIA8LqzZLayRW4brVZ9liwhtPodys5lYt5tnMeBdF1ZeBt7DTlPd45kOdMYKvzcSffmZiYmjK85zHVm-zVhAu0P6W5ujt9w8dlPStyItyjOlxg9_R0Dir5boyXq8OYPAI3Emj0JKNH8BmqPMxZKElW_YHUnYqXMtrSgrxQuNaoBWNCRn6_ghRqAnVw2qz4a0GrfSeSd6q4USi6GhTJsxMfudmSIHOLmI0SYtcJVTey2nRFaN8cYHDpDr_G1rWeWPesyrigxS12GkVLEfJP6x7ho3UcBgSjHY_a_077oqJz6gzSIe1t-3P1uYwh7qgeX87CWjGA4ZJ7N7ZxxuDbu8LMp2002SyFIlbcEe7_XX5dRGQOX6nIasMp0ccuI6exmIt55No_cxm8yoV9doHvcUUh6B9mPBeanCfJlYYCLsB9iHjK5bHnUx8mH4JdPlwvePROOBFK76NFelP4UtYwxCuAuWeQoud7iWjibGyJ0bsl3AsQTZ5-0hSM2WRT6vV8GTKcxJt58dlD8KV8AzjC2zTP8yyf8zF2uSCcp5E/https://www.amazon.in/gp/aw/d/B09MFHQL9J/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&qid=1773569561&sr=1-3-1ee1b2e4-01d1-4cd0-b737-4c27ebfc8105&aref=bmIbICSPIp&ref_=sbx__sbtcd2_asin_2_price&pd_rd_w=9E2GY&content-id=amzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25%3Aamzn1.sym.a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_p=a66b3449-0491-4455-b928-7d9918a72d25&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=lAGhe&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+                            - generic [ref=e1002]:
+                              - generic [ref=e1003]: "-16%"
+                              - generic [ref=e1004]:
+                                - generic [ref=e1005]: ₹17,999.00
+                                - generic [ref=e1006]:
+                                  - text: ₹
+                                  - generic [ref=e1007]:
+                                    - text: 17,999
+                                    - generic [ref=e1008]: .
+                                  - text: "00"
+                          - generic [ref=e1011]: "M.R.P: ₹21,305.08"
+          - generic [ref=e1019]:
+            - link "Sponsored video; click to navigate to featured product page. HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=e1023] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JCc19be9gSPEeSIt8lZLEIoAAAGc8PvUPwoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICB7RHIs/clv1c_ek-wBPHXFbbWzjK3YoscrxfcuU0CLg9JQi6sB93piw54O0VvaqpKByw7Y2HhHBgWbeUIIgY0HmDUjH8C9yUpTr_bAn4kajA8NrlgDysjnw8-6C2_skCK79b968NUxjC08Qj-s8GD0fx7HJEvON1evSg64diE3hVrk2hxwza8nG5fmesUMyfi6euf8wlHCDAdhZjGqEcz9xeolGGwNEr0_jkJCUZ7UBoz1DqXzD7-Nt3RR9jxiGaEzV5_DKxRS92ChJJOfI6I8ymQIgpRPhS7PAI5oEBBSdHNxsJv_TiIUDXyCrywPT0qHzQ7mlmQmqe2DMwwmFipAyWBZRhmwNa5El06dno75byo1--2Ct5s_JlytqvE7Xwi0Bmw96BaXupkp1u-TDI5deTNxDdOi1Ysc-YRCUmaTY7ZA49sm-724fkL-gyhoxS-NhZLCr-gRyoLz5Gr84rVCqPJHsog-n5t7t87EvBqNEx2sd1LWcepWXEItLBV1CFBlW_cTGfZmdqiRqlm44La0hRpcssjTeBIZX4Ume7vstU9_vOWuBmeJ5HIsp_FGM0Prk8b0BCrniBeoSEBH5QKFk6r-YMJXQoV3l0xM7nInnwx_sXssHrT2sj0silpuMxcvKpE1dbSg2GCay29yLmHS3zxCxvGOZdZcl13y3lKGnPARhVci4swIuKx0cXf2qpezMOriisnZp-vNFLh4phWYOfMYxwo-TjbHgtCHbSmQRhOuyk5eMDhM1DY4X9WTBM67DM7oOaEB6STj3ucMl4PM0wnrX0EQNE3NJBJ5NfAbxmndHtM8KIjgnwY3V8y0UXbEXkqcXkN76NcCHu0EhMJ2N-yforXkuBqGTtbLAe3lot-nN5Tq-lmcw0ThGhKvdEIpHHJ0NV0STzS-1iN3reTJI4quO-VOSl8VoJJpD3uFJsHuMAVWkQoj7mkpTjoBuf7kVSf0h8GskyoV9HHDLvezSQYPMkc4l0GubGTcBtE1kGl64zkBJFXGz2UybSuaVjhcxx07Crk4-xi-Wboj5KVsQx8OToPG5a5b8gBnMn1NkjkamRxalpNXxEO43OFou_HcW9n0HuEK--oUWovmD4afeWNROtsRvEtt-E-So-q6sLJ12lx5HJkIxmKe37ybyDvjzSkVk2l_Xq87INYO7anzblxFutxd5pGBz9nBSqo3rLJqyV8WsCK3x39NX9vgDnT6k3hFB4efMLlXq6sygfQIi9d29KtxNPuNN9ThG0bgT564JaQAS90GDY6TCtMz3XKm4YuoiE2Fsuj2kUow1i4-EexlE1PLU4m4dY2NNWJOPZFJFwF8ADuYk-jDhvEkM1CqH0qPObVqCYK6R_92I8kGwc6utarquCnHwkLmIBs5piGWbZbTYtYCAKuhQTUsV11izxqhCo2h7ChDOkoon5GjxbDofVM1iUL4IfxOeaXknMYdAeqJfbXUBhg0JzD6mZ9jFbE7uqaYTf7AmFZzq8Li1Mda4xd8Hrehq_MvddrS3DvstbodN5SYc2iDvZmq4WSyfBQ2EJFRTmBx6lfzKP83uRfIGJjL-fMJGm9HsOIio8ipzSBM0tGQ-YfMQr25LZ-XIezzp-cMnYvL5p-oYJqzUb_ED-uKalTFLgsNoN85Zbz6pfQ2GdugsZRMYG7S9-zKkjwCm7JfEA77PtP-oJudIhCwvctQLFn-AKVNunee84HqDxbW54lWek4/https://www.amazon.in/dp/B0BN1S41VH?aref=Gblab4XOK2&pd_rd_i=B0BN1S41VH&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pd_rd_wg=lAGhe&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_w=ooySi&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190
+              - generic "Sponsored video; click to navigate to featured product page. HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=e1024]
+            - generic [ref=e1032]:
+              - link [ref=e1038] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JCc19be9gSPEeSIt8lZLEIoAAAGc8PvUPwoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICB7RHIs/clv1c_ek-wBPHXFbbWzjK3YoscrxfcuU0CLg9JQi6sB93piw54O0VvaqpKByw7Y2HhHBgWbeUIIgY0HmDUjH8C9yUpTr_bAn4kajA8NrlgDysjnw8-6C2_skCK79b968NUxjC08Qj-s8GD0fx7HJEvON1evSg64diE3hVrk2hxwza8nG5fmesUMyfi6euf8wlHCDAdhZjGqEcz9xeolGGwNEr0_jkJCUZ7UBoz1DqXzD7-Nt3RR9jxiGaEzV5_DKxRS92ChJJOfI6I8ymQIgpRPhS7PAI5oEBBSdHNxsJv_TiIUDXyCrywPT0qHzQ7mlmQmqe2DMwwmFipAyWBZRhmwNa5El06dno75byo1--2Ct5s_JlytqvE7Xwi0Bmw96BaXupkp1u-TDI5deTNxDdOi1Ysc-YRCUmaTY7ZA49sm-724fkL-gyhoxS-NhZLCr-gRyoLz5Gr84rVCqPJHsog-n5t7t87EvBqNEx2sd1LWcepWXEItLBV1CFBlW_cTGfZmdqiRqlm44La0hRpcssjTeBIZX4Ume7vstU9_vOWuBmeJ5HIsp_FGM0Prk8b0BCrniBeoSEBH5QKFk6r-YMJXQoV3l0xM7nInnwx_sXssHrT2sj0silpuMxcvKpE1dbSg2GCay29yLmHS3zxCxvGOZdZcl13y3lKGnPARhVci4swIuKx0cXf2qpezMOriisnZp-vNFLh4phWYOfMYxwo-TjbHgtCHbSmQRhOuyk5eMDhM1DY4X9WTBM67DM7oOaEB6STj3ucMl4PM0wnrX0EQNE3NJBJ5NfAbxmndHtM8KIjgnwY3V8y0UXbEXkqcXkN76NcCHu0EhMJ2N-yforXkuBqGTtbLAe3lot-nN5Tq-lmcw0ThGhKvdEIpHHJ0NV0STzS-1iN3reTJI4quO-VOSl8VoJJpD3uFJsHuMAVWkQoj7mkpTjoBuf7kVSf0h8GskyoV9HHDLvezSQYPMkc4l0GubGTcBtE1kGl64zkBJFXGz2UybSuaVjhcxx07Crk4-xi-Wboj5KVsQx8OToPG5a5b8gBnMn1NkjkamRxalpNXxEO43OFou_HcW9n0HuEK--oUWovmD4afeWNROtsRvEtt-E-So-q6sLJ12lx5HJkIxmKe37ybyDvjzSkVk2l_Xq87INYO7anzblxFutxd5pGBz9nBSqo3rLJqyV8WsCK3x39NX9vgDnT6k3hFB4efMLlXq6sygfQIi9d29KtxNPuNN9ThG0bgT564JaQAS90GDY6TCtMz3XKm4YuoiE2Fsuj2kUow1i4-EexlE1PLU4m4dY2NNWJOPZFJFwF8ADuYk-jDhvEkM1CqH0qPObVqCYK6R_92I8kGwc6utarquCnHwkLmIBs5piGWbZbTYtYCAKuhQTUsV11izxqhCo2h7ChDOkoon5GjxbDofVM1iUL4IfxOeaXknMYdAeqJfbXUBhg0JzD6mZ9jFbE7uqaYTf7AmFZzq8Li1Mda4xd8Hrehq_MvddrS3DvstbodN5SYc2iDvZmq4WSyfBQ2EJFRTmBx6lfzKP83uRfIGJjL-fMJGm9HsOIio8ipzSBM0tGQ-YfMQr25LZ-XIezzp-cMnYvL5p-oYJqzUb_ED-uKalTFLgsNoN85Zbz6pfQ2GdugsZRMYG7S9-zKkjwCm7JfEA77PtP-oJudIhCwvctQLFn-AKVNunee84HqDxbW54lWek4/https://www.amazon.in/HP-Printer-Extended-Warranty-coverage-Print/dp/B0BN1S41VH/ref=sxin_15_sbv_search_btf?aref=Gblab4XOK2&content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&cv_ct_cx=HP+smart+tank&keywords=HP+smart+tank&pd_rd_i=B0BN1S41VH&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190&pd_rd_w=ooySi&pd_rd_wg=lAGhe&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&qid=1773569561&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+                - img [ref=e1040]
+              - generic [ref=e1043]:
+                - generic [ref=e1044]:
+                  - generic [ref=e1047] [cursor=pointer]: Sponsored
+                  - link "HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=e1049] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JCc19be9gSPEeSIt8lZLEIoAAAGc8PvUPwoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICB7RHIs/clv1c_ek-wBPHXFbbWzjK3YoscrxfcuU0CLg9JQi6sB93piw54O0VvaqpKByw7Y2HhHBgWbeUIIgY0HmDUjH8C9yUpTr_bAn4kajA8NrlgDysjnw8-6C2_skCK79b968NUxjC08Qj-s8GD0fx7HJEvON1evSg64diE3hVrk2hxwza8nG5fmesUMyfi6euf8wlHCDAdhZjGqEcz9xeolGGwNEr0_jkJCUZ7UBoz1DqXzD7-Nt3RR9jxiGaEzV5_DKxRS92ChJJOfI6I8ymQIgpRPhS7PAI5oEBBSdHNxsJv_TiIUDXyCrywPT0qHzQ7mlmQmqe2DMwwmFipAyWBZRhmwNa5El06dno75byo1--2Ct5s_JlytqvE7Xwi0Bmw96BaXupkp1u-TDI5deTNxDdOi1Ysc-YRCUmaTY7ZA49sm-724fkL-gyhoxS-NhZLCr-gRyoLz5Gr84rVCqPJHsog-n5t7t87EvBqNEx2sd1LWcepWXEItLBV1CFBlW_cTGfZmdqiRqlm44La0hRpcssjTeBIZX4Ume7vstU9_vOWuBmeJ5HIsp_FGM0Prk8b0BCrniBeoSEBH5QKFk6r-YMJXQoV3l0xM7nInnwx_sXssHrT2sj0silpuMxcvKpE1dbSg2GCay29yLmHS3zxCxvGOZdZcl13y3lKGnPARhVci4swIuKx0cXf2qpezMOriisnZp-vNFLh4phWYOfMYxwo-TjbHgtCHbSmQRhOuyk5eMDhM1DY4X9WTBM67DM7oOaEB6STj3ucMl4PM0wnrX0EQNE3NJBJ5NfAbxmndHtM8KIjgnwY3V8y0UXbEXkqcXkN76NcCHu0EhMJ2N-yforXkuBqGTtbLAe3lot-nN5Tq-lmcw0ThGhKvdEIpHHJ0NV0STzS-1iN3reTJI4quO-VOSl8VoJJpD3uFJsHuMAVWkQoj7mkpTjoBuf7kVSf0h8GskyoV9HHDLvezSQYPMkc4l0GubGTcBtE1kGl64zkBJFXGz2UybSuaVjhcxx07Crk4-xi-Wboj5KVsQx8OToPG5a5b8gBnMn1NkjkamRxalpNXxEO43OFou_HcW9n0HuEK--oUWovmD4afeWNROtsRvEtt-E-So-q6sLJ12lx5HJkIxmKe37ybyDvjzSkVk2l_Xq87INYO7anzblxFutxd5pGBz9nBSqo3rLJqyV8WsCK3x39NX9vgDnT6k3hFB4efMLlXq6sygfQIi9d29KtxNPuNN9ThG0bgT564JaQAS90GDY6TCtMz3XKm4YuoiE2Fsuj2kUow1i4-EexlE1PLU4m4dY2NNWJOPZFJFwF8ADuYk-jDhvEkM1CqH0qPObVqCYK6R_92I8kGwc6utarquCnHwkLmIBs5piGWbZbTYtYCAKuhQTUsV11izxqhCo2h7ChDOkoon5GjxbDofVM1iUL4IfxOeaXknMYdAeqJfbXUBhg0JzD6mZ9jFbE7uqaYTf7AmFZzq8Li1Mda4xd8Hrehq_MvddrS3DvstbodN5SYc2iDvZmq4WSyfBQ2EJFRTmBx6lfzKP83uRfIGJjL-fMJGm9HsOIio8ipzSBM0tGQ-YfMQr25LZ-XIezzp-cMnYvL5p-oYJqzUb_ED-uKalTFLgsNoN85Zbz6pfQ2GdugsZRMYG7S9-zKkjwCm7JfEA77PtP-oJudIhCwvctQLFn-AKVNunee84HqDxbW54lWek4/https://www.amazon.in/HP-Printer-Extended-Warranty-coverage-Print/dp/B0BN1S41VH/ref=sxin_15_sbv_search_btf?aref=Gblab4XOK2&content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&cv_ct_cx=HP+smart+tank&keywords=HP+smart+tank&pd_rd_i=B0BN1S41VH&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190&pd_rd_w=ooySi&pd_rd_wg=lAGhe&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&qid=1773569561&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+                    - heading "HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [level=2] [ref=e1050]
+                - generic [ref=e1051]:
+                  - generic [ref=e1052]:
+                    - text: "4.0"
+                    - button "4.0 out of 5 stars, rating details" [ref=e1054] [cursor=pointer]:
+                      - generic [ref=e1056]: 4.0 out of 5 stars
+                    - link "1,528 ratings" [ref=e1058] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JCc19be9gSPEeSIt8lZLEIoAAAGc8PvUPwoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICB7RHIs/clv1c_ek-wBPHXFbbWzjK3YoscrxfcuU0CLg9JQi6sB93piw54O0VvaqpKByw7Y2HhHBgWbeUIIgY0HmDUjH8C9yUpTr_bAn4kajA8NrlgDysjnw8-6C2_skCK79b968NUxjC08Qj-s8GD0fx7HJEvON1evSg64diE3hVrk2hxwza8nG5fmesUMyfi6euf8wlHCDAdhZjGqEcz9xeolGGwNEr0_jkJCUZ7UBoz1DqXzD7-Nt3RR9jxiGaEzV5_DKxRS92ChJJOfI6I8ymQIgpRPhS7PAI5oEBBSdHNxsJv_TiIUDXyCrywPT0qHzQ7mlmQmqe2DMwwmFipAyWBZRhmwNa5El06dno75byo1--2Ct5s_JlytqvE7Xwi0Bmw96BaXupkp1u-TDI5deTNxDdOi1Ysc-YRCUmaTY7ZA49sm-724fkL-gyhoxS-NhZLCr-gRyoLz5Gr84rVCqPJHsog-n5t7t87EvBqNEx2sd1LWcepWXEItLBV1CFBlW_cTGfZmdqiRqlm44La0hRpcssjTeBIZX4Ume7vstU9_vOWuBmeJ5HIsp_FGM0Prk8b0BCrniBeoSEBH5QKFk6r-YMJXQoV3l0xM7nInnwx_sXssHrT2sj0silpuMxcvKpE1dbSg2GCay29yLmHS3zxCxvGOZdZcl13y3lKGnPARhVci4swIuKx0cXf2qpezMOriisnZp-vNFLh4phWYOfMYxwo-TjbHgtCHbSmQRhOuyk5eMDhM1DY4X9WTBM67DM7oOaEB6STj3ucMl4PM0wnrX0EQNE3NJBJ5NfAbxmndHtM8KIjgnwY3V8y0UXbEXkqcXkN76NcCHu0EhMJ2N-yforXkuBqGTtbLAe3lot-nN5Tq-lmcw0ThGhKvdEIpHHJ0NV0STzS-1iN3reTJI4quO-VOSl8VoJJpD3uFJsHuMAVWkQoj7mkpTjoBuf7kVSf0h8GskyoV9HHDLvezSQYPMkc4l0GubGTcBtE1kGl64zkBJFXGz2UybSuaVjhcxx07Crk4-xi-Wboj5KVsQx8OToPG5a5b8gBnMn1NkjkamRxalpNXxEO43OFou_HcW9n0HuEK--oUWovmD4afeWNROtsRvEtt-E-So-q6sLJ12lx5HJkIxmKe37ybyDvjzSkVk2l_Xq87INYO7anzblxFutxd5pGBz9nBSqo3rLJqyV8WsCK3x39NX9vgDnT6k3hFB4efMLlXq6sygfQIi9d29KtxNPuNN9ThG0bgT564JaQAS90GDY6TCtMz3XKm4YuoiE2Fsuj2kUow1i4-EexlE1PLU4m4dY2NNWJOPZFJFwF8ADuYk-jDhvEkM1CqH0qPObVqCYK6R_92I8kGwc6utarquCnHwkLmIBs5piGWbZbTYtYCAKuhQTUsV11izxqhCo2h7ChDOkoon5GjxbDofVM1iUL4IfxOeaXknMYdAeqJfbXUBhg0JzD6mZ9jFbE7uqaYTf7AmFZzq8Li1Mda4xd8Hrehq_MvddrS3DvstbodN5SYc2iDvZmq4WSyfBQ2EJFRTmBx6lfzKP83uRfIGJjL-fMJGm9HsOIio8ipzSBM0tGQ-YfMQr25LZ-XIezzp-cMnYvL5p-oYJqzUb_ED-uKalTFLgsNoN85Zbz6pfQ2GdugsZRMYG7S9-zKkjwCm7JfEA77PtP-oJudIhCwvctQLFn-AKVNunee84HqDxbW54lWek4/https://www.amazon.in/HP-Printer-Extended-Warranty-coverage-Print/dp/B0BN1S41VH/ref=sxin_15_sbv_search_btf?aref=Gblab4XOK2&content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&cv_ct_cx=HP+smart+tank&keywords=HP+smart+tank&pd_rd_i=B0BN1S41VH&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190&pd_rd_w=ooySi&pd_rd_wg=lAGhe&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&qid=1773569561&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81#customerReviews
+                      - text: (1.5K)
+                  - generic [ref=e1059]: 400+ bought in past month
+                - generic [ref=e1062]:
+                  - generic [ref=e1063]:
+                    - link "Limited time deal" [ref=e1065] [cursor=pointer]:
+                      - /url: /deals
+                      - generic [ref=e1068]: Limited time deal
+                    - generic [ref=e1070]:
+                      - generic [ref=e1071]: Price, product page
+                      - 'link "₹14,499 M.R.P: ₹17,906 M.R.P: ₹17,906" [ref=e1072] [cursor=pointer]':
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JCc19be9gSPEeSIt8lZLEIoAAAGc8PvUPwoAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICB7RHIs/clv1c_ek-wBPHXFbbWzjK3YoscrxfcuU0CLg9JQi6sB93piw54O0VvaqpKByw7Y2HhHBgWbeUIIgY0HmDUjH8C9yUpTr_bAn4kajA8NrlgDysjnw8-6C2_skCK79b968NUxjC08Qj-s8GD0fx7HJEvON1evSg64diE3hVrk2hxwza8nG5fmesUMyfi6euf8wlHCDAdhZjGqEcz9xeolGGwNEr0_jkJCUZ7UBoz1DqXzD7-Nt3RR9jxiGaEzV5_DKxRS92ChJJOfI6I8ymQIgpRPhS7PAI5oEBBSdHNxsJv_TiIUDXyCrywPT0qHzQ7mlmQmqe2DMwwmFipAyWBZRhmwNa5El06dno75byo1--2Ct5s_JlytqvE7Xwi0Bmw96BaXupkp1u-TDI5deTNxDdOi1Ysc-YRCUmaTY7ZA49sm-724fkL-gyhoxS-NhZLCr-gRyoLz5Gr84rVCqPJHsog-n5t7t87EvBqNEx2sd1LWcepWXEItLBV1CFBlW_cTGfZmdqiRqlm44La0hRpcssjTeBIZX4Ume7vstU9_vOWuBmeJ5HIsp_FGM0Prk8b0BCrniBeoSEBH5QKFk6r-YMJXQoV3l0xM7nInnwx_sXssHrT2sj0silpuMxcvKpE1dbSg2GCay29yLmHS3zxCxvGOZdZcl13y3lKGnPARhVci4swIuKx0cXf2qpezMOriisnZp-vNFLh4phWYOfMYxwo-TjbHgtCHbSmQRhOuyk5eMDhM1DY4X9WTBM67DM7oOaEB6STj3ucMl4PM0wnrX0EQNE3NJBJ5NfAbxmndHtM8KIjgnwY3V8y0UXbEXkqcXkN76NcCHu0EhMJ2N-yforXkuBqGTtbLAe3lot-nN5Tq-lmcw0ThGhKvdEIpHHJ0NV0STzS-1iN3reTJI4quO-VOSl8VoJJpD3uFJsHuMAVWkQoj7mkpTjoBuf7kVSf0h8GskyoV9HHDLvezSQYPMkc4l0GubGTcBtE1kGl64zkBJFXGz2UybSuaVjhcxx07Crk4-xi-Wboj5KVsQx8OToPG5a5b8gBnMn1NkjkamRxalpNXxEO43OFou_HcW9n0HuEK--oUWovmD4afeWNROtsRvEtt-E-So-q6sLJ12lx5HJkIxmKe37ybyDvjzSkVk2l_Xq87INYO7anzblxFutxd5pGBz9nBSqo3rLJqyV8WsCK3x39NX9vgDnT6k3hFB4efMLlXq6sygfQIi9d29KtxNPuNN9ThG0bgT564JaQAS90GDY6TCtMz3XKm4YuoiE2Fsuj2kUow1i4-EexlE1PLU4m4dY2NNWJOPZFJFwF8ADuYk-jDhvEkM1CqH0qPObVqCYK6R_92I8kGwc6utarquCnHwkLmIBs5piGWbZbTYtYCAKuhQTUsV11izxqhCo2h7ChDOkoon5GjxbDofVM1iUL4IfxOeaXknMYdAeqJfbXUBhg0JzD6mZ9jFbE7uqaYTf7AmFZzq8Li1Mda4xd8Hrehq_MvddrS3DvstbodN5SYc2iDvZmq4WSyfBQ2EJFRTmBx6lfzKP83uRfIGJjL-fMJGm9HsOIio8ipzSBM0tGQ-YfMQr25LZ-XIezzp-cMnYvL5p-oYJqzUb_ED-uKalTFLgsNoN85Zbz6pfQ2GdugsZRMYG7S9-zKkjwCm7JfEA77PtP-oJudIhCwvctQLFn-AKVNunee84HqDxbW54lWek4/https://www.amazon.in/HP-Printer-Extended-Warranty-coverage-Print/dp/B0BN1S41VH/ref=sxin_15_sbv_search_btf?aref=Gblab4XOK2&content-id=amzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6%3Aamzn1.sym.7f127af2-01e9-4e9a-857b-f7f598682cc6&cv_ct_cx=HP+smart+tank&keywords=HP+smart+tank&pd_rd_i=B0BN1S41VH&pd_rd_r=c25e51f2-3c66-4655-a939-29afb45c5190&pd_rd_w=ooySi&pd_rd_wg=lAGhe&pf_rd_p=7f127af2-01e9-4e9a-857b-f7f598682cc6&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&qid=1773569561&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-9131241a-a358-4619-a7b8-0f5a65d91d81
+                        - generic [ref=e1073]:
+                          - generic [ref=e1074]: ₹14,499
+                          - generic [ref=e1075]: ₹14,499
+                        - generic [ref=e1076]: "M.R.P: ₹17,906"
+                        - generic [ref=e1077]:
+                          - text: "M.R.P:"
+                          - generic [ref=e1078]:
+                            - generic [ref=e1079]: ₹17,906
+                            - text: ₹17,906
+                      - text: (19% off)
+                    - generic [ref=e1083]:
+                      - generic [ref=e1084]: Save extra with No Cost EMI
+                      - generic [ref=e1085]: Save extra with No Cost EMI
+                  - generic [ref=e1090]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+          - generic [ref=e1092]:
+            - heading "More results" [level=2] [ref=e1096]
+            - generic:
+              - list:
+                - listitem [ref=e1097]:
+                  - generic [ref=e1103]:
+                    - link [ref=e1109] [cursor=pointer]:
+                      - /url: /HP-Duplex-Colour-Printer-Included/dp/B09H342LC8/ref=sr_1_6?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-6
+                      - img [ref=e1111]
+                    - generic [ref=e1114]:
+                      - generic [ref=e1115]:
+                        - heading "HP" [level=2] [ref=e1118]
+                        - link "Smart Tank 790 All-in-One Auto Duplex WiFi Colour Printer with ADF and FAX, Print, Scan & Copy for Office with ADF and FAX" [ref=e1119] [cursor=pointer]:
+                          - /url: /HP-Duplex-Colour-Printer-Included/dp/B09H342LC8/ref=sr_1_6?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-6
+                          - heading "Smart Tank 790 All-in-One Auto Duplex WiFi Colour Printer with ADF and FAX, Print, Scan & Copy for Office with ADF and FAX" [level=2] [ref=e1120]
+                      - generic [ref=e1121]:
+                        - generic [ref=e1122]:
+                          - text: "3.7"
+                          - button "3.7 out of 5 stars, rating details" [ref=e1124] [cursor=pointer]:
+                            - generic [ref=e1126]: 3.7 out of 5 stars
+                          - link "2,310 ratings" [ref=e1128] [cursor=pointer]:
+                            - /url: /HP-Duplex-Colour-Printer-Included/dp/B09H342LC8/ref=sr_1_6?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-6#customerReviews
+                            - text: (2.3K)
+                        - generic [ref=e1129]: 50+ bought in past month
+                      - generic [ref=e1132]:
+                        - generic [ref=e1133]:
+                          - generic [ref=e1135]:
+                            - generic [ref=e1136]: Price, product page
+                            - 'link "₹25,999 M.R.P: ₹29,314 M.R.P: ₹29,314" [ref=e1137] [cursor=pointer]':
+                              - /url: /HP-Duplex-Colour-Printer-Included/dp/B09H342LC8/ref=sr_1_6?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-6
+                              - generic [ref=e1138]:
+                                - generic [ref=e1139]: ₹25,999
+                                - generic [ref=e1140]: ₹25,999
+                              - generic [ref=e1141]: "M.R.P: ₹29,314"
+                              - generic [ref=e1142]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1143]:
+                                  - generic [ref=e1144]: ₹29,314
+                                  - text: ₹29,314
+                            - text: (11% off)
+                          - generic [ref=e1148]:
+                            - generic [ref=e1149]: Save extra with No Cost EMI
+                            - generic [ref=e1150]: Save extra with No Cost EMI
+                        - generic [ref=e1155]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e1157]: "Service: Brand Installation"
+                        - button "Add to cart" [ref=e1171] [cursor=pointer]
+                - listitem [ref=e1174]:
+                  - generic [ref=e1180]:
+                    - link [ref=e1186] [cursor=pointer]:
+                      - /url: /HP-Printer-Extended-Warranty-Coverage/dp/B0BN215GT7/ref=sr_1_7?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-7
+                      - img [ref=e1188]
+                    - generic [ref=e1191]:
+                      - generic [ref=e1192]:
+                        - heading "HP" [level=2] [ref=e1195]
+                        - link "Smart Tank 520 All-in-One Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints | Print,Scan & Copy for Office/Home" [ref=e1196] [cursor=pointer]:
+                          - /url: /HP-Printer-Extended-Warranty-Coverage/dp/B0BN215GT7/ref=sr_1_7?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-7
+                          - heading "Smart Tank 520 All-in-One Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints | Print,Scan & Copy for Office/Home" [level=2] [ref=e1197]
+                      - generic [ref=e1199]:
+                        - text: "4.0"
+                        - button "4.0 out of 5 stars, rating details" [ref=e1201] [cursor=pointer]:
+                          - generic [ref=e1203]: 4.0 out of 5 stars
+                        - link "1,863 ratings" [ref=e1205] [cursor=pointer]:
+                          - /url: /HP-Printer-Extended-Warranty-Coverage/dp/B0BN215GT7/ref=sr_1_7?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-7#customerReviews
+                          - text: (1.8K)
+                      - generic [ref=e1208]:
+                        - generic [ref=e1209]:
+                          - link "Limited time deal" [ref=e1211] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1214]: Limited time deal
+                          - generic [ref=e1216]:
+                            - generic [ref=e1217]: Price, product page
+                            - 'link "₹11,499 M.R.P: ₹13,855 M.R.P: ₹13,855" [ref=e1218] [cursor=pointer]':
+                              - /url: /HP-Printer-Extended-Warranty-Coverage/dp/B0BN215GT7/ref=sr_1_7?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-7
+                              - generic [ref=e1219]:
+                                - generic [ref=e1220]: ₹11,499
+                                - generic [ref=e1221]: ₹11,499
+                              - generic [ref=e1222]: "M.R.P: ₹13,855"
+                              - generic [ref=e1223]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1224]:
+                                  - generic [ref=e1225]: ₹13,855
+                                  - text: ₹13,855
+                            - text: (17% off)
+                          - generic [ref=e1229]:
+                            - generic [ref=e1230]: Save extra with No Cost EMI
+                            - generic [ref=e1231]: Save extra with No Cost EMI
+                        - generic [ref=e1236]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e1238]: "Service: Installation"
+                        - button "Add to cart" [ref=e1252] [cursor=pointer]
+                - listitem [ref=e1255]:
+                  - generic [ref=e1261]:
+                    - link [ref=e1267] [cursor=pointer]:
+                      - /url: /HP-Smart-Tank-All-Printer/dp/B09PW8D757/ref=sr_1_8?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-8
+                      - img [ref=e1269]
+                    - generic [ref=e1272]:
+                      - generic [ref=e1273]:
+                        - heading "HP" [level=2] [ref=e1276]
+                        - link "Smart Tank 675 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor" [ref=e1277] [cursor=pointer]:
+                          - /url: /HP-Smart-Tank-All-Printer/dp/B09PW8D757/ref=sr_1_8?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-8
+                          - heading "Smart Tank 675 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor" [level=2] [ref=e1278]
+                      - generic [ref=e1280]:
+                        - text: "3.5"
+                        - button "3.5 out of 5 stars, rating details" [ref=e1282] [cursor=pointer]:
+                          - generic [ref=e1284]: 3.5 out of 5 stars
+                        - link "115 ratings" [ref=e1286] [cursor=pointer]:
+                          - /url: /HP-Smart-Tank-All-Printer/dp/B09PW8D757/ref=sr_1_8?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-8#customerReviews
+                          - text: (115)
+                      - generic [ref=e1289]:
+                        - generic [ref=e1290]:
+                          - generic [ref=e1292]:
+                            - generic [ref=e1293]: Price, product page
+                            - 'link "₹18,699 M.R.P: ₹21,802 M.R.P: ₹21,802" [ref=e1294] [cursor=pointer]':
+                              - /url: /HP-Smart-Tank-All-Printer/dp/B09PW8D757/ref=sr_1_8?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-8
+                              - generic [ref=e1295]:
+                                - generic [ref=e1296]: ₹18,699
+                                - generic [ref=e1297]: ₹18,699
+                              - generic [ref=e1298]: "M.R.P: ₹21,802"
+                              - generic [ref=e1299]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1300]:
+                                  - generic [ref=e1301]: ₹21,802
+                                  - text: ₹21,802
+                            - text: (14% off)
+                          - generic [ref=e1305]:
+                            - generic [ref=e1306]: Save extra with No Cost EMI
+                            - generic [ref=e1307]: Save extra with No Cost EMI
+                        - generic [ref=e1312]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e1314]: "Service: Installation"
+                        - button "Add to cart" [ref=e1328] [cursor=pointer]
+                - listitem [ref=e1331]:
+                  - generic [ref=e1337]:
+                    - link [ref=e1343] [cursor=pointer]:
+                      - /url: /HP-Smart-Colour-Printer-Included/dp/B0BNV6QNLM/ref=sr_1_9?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-9
+                      - img [ref=e1345]
+                    - generic [ref=e1348]:
+                      - generic [ref=e1349]:
+                        - heading "HP" [level=2] [ref=e1352]
+                        - link "Smart Tank 525 All-in-one Colour Printer" [ref=e1353] [cursor=pointer]:
+                          - /url: /HP-Smart-Colour-Printer-Included/dp/B0BNV6QNLM/ref=sr_1_9?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-9
+                          - heading "Smart Tank 525 All-in-one Colour Printer" [level=2] [ref=e1354]
+                      - generic [ref=e1356]:
+                        - text: "3.7"
+                        - button "3.7 out of 5 stars, rating details" [ref=e1358] [cursor=pointer]:
+                          - generic [ref=e1360]: 3.7 out of 5 stars
+                        - link "235 ratings" [ref=e1362] [cursor=pointer]:
+                          - /url: /HP-Smart-Colour-Printer-Included/dp/B0BNV6QNLM/ref=sr_1_9?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-9#customerReviews
+                          - text: (235)
+                      - generic [ref=e1365]:
+                        - link "See options" [ref=e1373] [cursor=pointer]:
+                          - /url: /HP-Smart-Colour-Printer-Included/dp/B0BNV6QNLM/ref=sr_1_9_so_PRINTER?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-9
+                        - generic [ref=e1375]:
+                          - text: No featured offers available
+                          - text: ₹10,998
+                          - link "(1 new offer)" [ref=e1377] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0BNV6QNLM/ref=sr_1_9_olp?keywords=HP+smart+tank&dib_tag=se&dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&qid=1773569561&sr=8-9
+                - listitem [ref=e1380]:
+                  - generic [ref=e1386]:
+                    - link [ref=e1392] [cursor=pointer]:
+                      - /url: /HP-Colour-Printer-Extended-Warranty/dp/B0DKDKT4WP/ref=sr_1_10?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-10
+                      - img [ref=e1394]
+                    - generic [ref=e1397]:
+                      - generic [ref=e1398]:
+                        - heading "HP" [level=2] [ref=e1401]
+                        - link "Smart Tank 524 All-in-One Colour Printer |1+1 Year Extended Warranty on Registration| Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e1402] [cursor=pointer]:
+                          - /url: /HP-Colour-Printer-Extended-Warranty/dp/B0DKDKT4WP/ref=sr_1_10?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-10
+                          - heading "Smart Tank 524 All-in-One Colour Printer |1+1 Year Extended Warranty on Registration| Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [level=2] [ref=e1403]
+                      - generic [ref=e1405]:
+                        - text: "3.7"
+                        - button "3.7 out of 5 stars, rating details" [ref=e1407] [cursor=pointer]:
+                          - generic [ref=e1409]: 3.7 out of 5 stars
+                        - link "235 ratings" [ref=e1411] [cursor=pointer]:
+                          - /url: /HP-Colour-Printer-Extended-Warranty/dp/B0DKDKT4WP/ref=sr_1_10?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-10#customerReviews
+                          - text: (235)
+                      - generic [ref=e1414]:
+                        - generic [ref=e1415]:
+                          - link "Limited time deal" [ref=e1417] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1420]: Limited time deal
+                          - generic [ref=e1422]:
+                            - generic [ref=e1423]: Price, product page
+                            - 'link "₹10,999 M.R.P: ₹13,528 M.R.P: ₹13,528" [ref=e1424] [cursor=pointer]':
+                              - /url: /HP-Colour-Printer-Extended-Warranty/dp/B0DKDKT4WP/ref=sr_1_10?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-10
+                              - generic [ref=e1425]:
+                                - generic [ref=e1426]: ₹10,999
+                                - generic [ref=e1427]: ₹10,999
+                              - generic [ref=e1428]: "M.R.P: ₹13,528"
+                              - generic [ref=e1429]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1430]:
+                                  - generic [ref=e1431]: ₹13,528
+                                  - text: ₹13,528
+                            - text: (19% off)
+                          - generic [ref=e1435]:
+                            - generic [ref=e1436]: Save extra with No Cost EMI
+                            - generic [ref=e1437]: Save extra with No Cost EMI
+                        - generic [ref=e1442]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e1444]: "Service: Installation"
+                        - button "Add to cart" [ref=e1458] [cursor=pointer]
+                - listitem [ref=e1461]:
+                  - generic [ref=e1469]:
+                    - link [ref=e1475] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfbXRmOjMwMDA2NjM5ODcyOTMzMjo6MDo6&url=%2FHP-Smart-Colour-Printer-Included%2Fdp%2FB0BN287KYS%2Fref%3Dsr_1_11_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-11-spons%26aref%3DSwOa3VCrn2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=SwOa3VCrn2&sp_cr=ZAZ
+                      - img [ref=e1477]
+                    - generic [ref=e1480]:
+                      - generic [ref=e1481]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1484] [cursor=pointer]:
+                          - generic [ref=e1485]: Sponsored
+                        - heading "HP" [level=2] [ref=e1489]
+                        - link "Sponsored Ad - Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e1490] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfbXRmOjMwMDA2NjM5ODcyOTMzMjo6MDo6&url=%2FHP-Smart-Colour-Printer-Included%2Fdp%2FB0BN287KYS%2Fref%3Dsr_1_11_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-11-spons%26aref%3DSwOa3VCrn2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=SwOa3VCrn2&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [level=2] [ref=e1491]: Smart Tank 529 All-in-One Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office
+                      - generic [ref=e1492]:
+                        - generic [ref=e1493]:
+                          - text: "3.6"
+                          - button "3.6 out of 5 stars, rating details" [ref=e1495] [cursor=pointer]:
+                            - generic [ref=e1497]: 3.6 out of 5 stars
+                          - link "1,081 ratings" [ref=e1499] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfbXRmOjMwMDA2NjM5ODcyOTMzMjo6MDo6&url=%2FHP-Smart-Colour-Printer-Included%2Fdp%2FB0BN287KYS%2Fref%3Dsr_1_11_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-11-spons%26aref%3DSwOa3VCrn2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=SwOa3VCrn2&sp_cr=ZAZ#customerReviews
+                            - text: (1K)
+                        - generic [ref=e1500]: 200+ bought in past month
+                      - generic [ref=e1503]:
+                        - generic [ref=e1504]:
+                          - link "Limited time deal" [ref=e1506] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1509]: Limited time deal
+                          - generic [ref=e1511]:
+                            - generic [ref=e1512]: Price, product page
+                            - 'link "₹10,699 M.R.P: ₹13,134 M.R.P: ₹13,134" [ref=e1513] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfbXRmOjMwMDA2NjM5ODcyOTMzMjo6MDo6&url=%2FHP-Smart-Colour-Printer-Included%2Fdp%2FB0BN287KYS%2Fref%3Dsr_1_11_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-11-spons%26aref%3DSwOa3VCrn2%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=SwOa3VCrn2&sp_cr=ZAZ
+                              - generic [ref=e1514]:
+                                - generic [ref=e1515]: ₹10,699
+                                - generic [ref=e1516]: ₹10,699
+                              - generic [ref=e1517]: "M.R.P: ₹13,134"
+                              - generic [ref=e1518]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1519]:
+                                  - generic [ref=e1520]: ₹13,134
+                                  - text: ₹13,134
+                            - text: (19% off)
+                          - generic [ref=e1524]:
+                            - generic [ref=e1525]: Save extra with No Cost EMI
+                            - generic [ref=e1526]: Save extra with No Cost EMI
+                        - generic [ref=e1531]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e1533]: "Service: Installation"
+                        - button "Add to cart" [ref=e1547] [cursor=pointer]
+                - listitem [ref=e1550]:
+                  - generic [ref=e1558]:
+                    - link [ref=e1564] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfbXRmOjMwMDk3MTMzMDg5NDUzMjo6MDo6&url=%2FBrother-DCP-T535DW-Launch-Printer-Installation%2Fdp%2FB0FBGDCMTB%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-12-spons%26aref%3DTVSTfHBuLl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=TVSTfHBuLl&sp_cr=ZAZ
+                      - img [ref=e1566]
+                    - generic [ref=e1569]:
+                      - generic [ref=e1570]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1573] [cursor=pointer]:
+                          - generic [ref=e1574]: Sponsored
+                        - heading "Brother" [level=2] [ref=e1578]
+                        - link "Sponsored Ad - Ink Tank DCP-T535DW New Launch (Print Scan Copy) WiFi Auto Duplex Printer, 128MB Memory, Print Pages Upto 15K in Black & 5K in Color Each (CMY) Get an Extra Black Ink Bottle, Free Installation" [ref=e1579] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfbXRmOjMwMDk3MTMzMDg5NDUzMjo6MDo6&url=%2FBrother-DCP-T535DW-Launch-Printer-Installation%2Fdp%2FB0FBGDCMTB%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-12-spons%26aref%3DTVSTfHBuLl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=TVSTfHBuLl&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Ink Tank DCP-T535DW New Launch (Print Scan Copy) WiFi Auto Duplex Printer, 128MB Memory, Print Pages Upto 15K in Black & 5K in Color Each (CMY) Get an Extra Black Ink Bottle, Free Installation" [level=2] [ref=e1580]: Ink Tank DCP-T535DW New Launch (Print Scan Copy) WiFi Auto Duplex Printer, 128MB Memory, Print Pages Upto 15K in Black & 5K in Color Each (CMY) Get an Extra Black Ink Bottle, Free Installation
+                      - generic [ref=e1581]:
+                        - generic [ref=e1582]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1584] [cursor=pointer]:
+                            - generic [ref=e1586]: 4.2 out of 5 stars
+                          - link "1,150 ratings" [ref=e1588] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfbXRmOjMwMDk3MTMzMDg5NDUzMjo6MDo6&url=%2FBrother-DCP-T535DW-Launch-Printer-Installation%2Fdp%2FB0FBGDCMTB%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-12-spons%26aref%3DTVSTfHBuLl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=TVSTfHBuLl&sp_cr=ZAZ#customerReviews
+                            - text: (1.1K)
+                        - generic [ref=e1589]: 400+ bought in past month
+                      - generic [ref=e1592]:
+                        - generic [ref=e1593]:
+                          - generic [ref=e1595]:
+                            - generic [ref=e1596]: Price, product page
+                            - 'link "₹16,499 M.R.P: ₹18,290 M.R.P: ₹18,290" [ref=e1597] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfbXRmOjMwMDk3MTMzMDg5NDUzMjo6MDo6&url=%2FBrother-DCP-T535DW-Launch-Printer-Installation%2Fdp%2FB0FBGDCMTB%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-12-spons%26aref%3DTVSTfHBuLl%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=TVSTfHBuLl&sp_cr=ZAZ
+                              - generic [ref=e1598]:
+                                - generic [ref=e1599]: ₹16,499
+                                - generic [ref=e1600]: ₹16,499
+                              - generic [ref=e1601]: "M.R.P: ₹18,290"
+                              - generic [ref=e1602]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1603]:
+                                  - generic [ref=e1604]: ₹18,290
+                                  - text: ₹18,290
+                            - text: (10% off)
+                          - generic [ref=e1608]:
+                            - generic [ref=e1609]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1610]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1615]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e1617]: "Service: Installation"
+                        - button "Add to cart" [ref=e1631] [cursor=pointer]
+                - listitem [ref=e1634]:
+                  - generic [ref=e1640]:
+                    - link [ref=e1646] [cursor=pointer]:
+                      - /url: /Brother-DCP-T535DW-Launch-Printer-Installation/dp/B0FBGDCMTB/ref=sr_1_13?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-13
+                      - img [ref=e1648]
+                    - generic [ref=e1651]:
+                      - generic [ref=e1652]:
+                        - heading "Brother" [level=2] [ref=e1655]
+                        - link "Ink Tank DCP-T535DW New Launch (Print Scan Copy) WiFi Auto Duplex Printer, 128MB Memory, Print Pages Upto 15K in Black & 5K in Color Each (CMY) Get an Extra Black Ink Bottle, Free Installation" [ref=e1656] [cursor=pointer]:
+                          - /url: /Brother-DCP-T535DW-Launch-Printer-Installation/dp/B0FBGDCMTB/ref=sr_1_13?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-13
+                          - heading "Ink Tank DCP-T535DW New Launch (Print Scan Copy) WiFi Auto Duplex Printer, 128MB Memory, Print Pages Upto 15K in Black & 5K in Color Each (CMY) Get an Extra Black Ink Bottle, Free Installation" [level=2] [ref=e1657]
+                      - generic [ref=e1658]:
+                        - generic [ref=e1659]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e1661] [cursor=pointer]:
+                            - generic [ref=e1663]: 4.2 out of 5 stars
+                          - link "1,150 ratings" [ref=e1665] [cursor=pointer]:
+                            - /url: /Brother-DCP-T535DW-Launch-Printer-Installation/dp/B0FBGDCMTB/ref=sr_1_13?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-13#customerReviews
+                            - text: (1.1K)
+                        - generic [ref=e1666]: 400+ bought in past month
+                      - generic [ref=e1669]:
+                        - generic [ref=e1670]:
+                          - generic [ref=e1672]:
+                            - generic [ref=e1673]: Price, product page
+                            - 'link "₹16,499 M.R.P: ₹18,290 M.R.P: ₹18,290" [ref=e1674] [cursor=pointer]':
+                              - /url: /Brother-DCP-T535DW-Launch-Printer-Installation/dp/B0FBGDCMTB/ref=sr_1_13?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-13
+                              - generic [ref=e1675]:
+                                - generic [ref=e1676]: ₹16,499
+                                - generic [ref=e1677]: ₹16,499
+                              - generic [ref=e1678]: "M.R.P: ₹18,290"
+                              - generic [ref=e1679]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1680]:
+                                  - generic [ref=e1681]: ₹18,290
+                                  - text: ₹18,290
+                            - text: (10% off)
+                          - generic [ref=e1685]:
+                            - generic [ref=e1686]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e1687]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e1692]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e1694]: "Service: Installation"
+                        - button "Add to cart" [ref=e1708] [cursor=pointer]
+                - listitem [ref=e1711]:
+                  - generic [ref=e1717]:
+                    - link [ref=e1723] [cursor=pointer]:
+                      - /url: /Smart-Tank-530-AiO-Printer/dp/B07TMFCNXB/ref=sr_1_14?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-14
+                      - img [ref=e1725]
+                    - generic [ref=e1728]:
+                      - generic [ref=e1729]:
+                        - heading "HP" [level=2] [ref=e1732]
+                        - link "Smart Tank 530 All-in-one WiFi Colour Printer with ADF (Upto 18000 Black and 8000 Colour Pages Included in The Box). - Print, Scan & Copy for Office/Home" [ref=e1733] [cursor=pointer]:
+                          - /url: /Smart-Tank-530-AiO-Printer/dp/B07TMFCNXB/ref=sr_1_14?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-14
+                          - heading "Smart Tank 530 All-in-one WiFi Colour Printer with ADF (Upto 18000 Black and 8000 Colour Pages Included in The Box). - Print, Scan & Copy for Office/Home" [level=2] [ref=e1734]
+                      - generic [ref=e1736]:
+                        - text: "3.8"
+                        - button "3.8 out of 5 stars, rating details" [ref=e1738] [cursor=pointer]:
+                          - generic [ref=e1740]: 3.8 out of 5 stars
+                        - link "1,374 ratings" [ref=e1742] [cursor=pointer]:
+                          - /url: /Smart-Tank-530-AiO-Printer/dp/B07TMFCNXB/ref=sr_1_14?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-14#customerReviews
+                          - text: (1.3K)
+                      - generic [ref=e1745]:
+                        - link "See options" [ref=e1753] [cursor=pointer]:
+                          - /url: /Smart-Tank-530-AiO-Printer/dp/B07TMFCNXB/ref=sr_1_14_so_PRINTER?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-14
+                        - generic [ref=e1755]:
+                          - text: No featured offers available
+                          - text: ₹17,499
+                          - link "(1 new offer)" [ref=e1757] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B07TMFCNXB/ref=sr_1_14_olp?keywords=HP+smart+tank&dib_tag=se&dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&qid=1773569561&sr=8-14
+                - listitem [ref=e1760]:
+                  - generic [ref=e1766]:
+                    - link [ref=e1772] [cursor=pointer]:
+                      - /url: /HP-Printer-Extended-Warranty-Coverage/dp/B0C1JSPZ51/ref=sr_1_15?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-15
+                      - img [ref=e1774]
+                    - generic [ref=e1777]:
+                      - generic [ref=e1778]:
+                        - heading "HP" [level=2] [ref=e1781]
+                        - link "Smart Tank 581 All-in-One WiFi Colour Printer | 2 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 12000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=e1782] [cursor=pointer]:
+                          - /url: /HP-Printer-Extended-Warranty-Coverage/dp/B0C1JSPZ51/ref=sr_1_15?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-15
+                          - heading "Smart Tank 581 All-in-One WiFi Colour Printer | 2 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 12000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [level=2] [ref=e1783]
+                      - generic [ref=e1785]:
+                        - text: "3.9"
+                        - button "3.9 out of 5 stars, rating details" [ref=e1787] [cursor=pointer]:
+                          - generic [ref=e1789]: 3.9 out of 5 stars
+                        - link "1,261 ratings" [ref=e1791] [cursor=pointer]:
+                          - /url: /HP-Printer-Extended-Warranty-Coverage/dp/B0C1JSPZ51/ref=sr_1_15?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-15#customerReviews
+                          - text: (1.2K)
+                      - generic [ref=e1794]:
+                        - generic [ref=e1795]:
+                          - link "Limited time deal" [ref=e1797] [cursor=pointer]:
+                            - /url: /deals
+                            - generic [ref=e1800]: Limited time deal
+                          - generic [ref=e1802]:
+                            - generic [ref=e1803]: Price, product page
+                            - 'link "₹14,999 M.R.P: ₹18,848 M.R.P: ₹18,848" [ref=e1804] [cursor=pointer]':
+                              - /url: /HP-Printer-Extended-Warranty-Coverage/dp/B0C1JSPZ51/ref=sr_1_15?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-15
+                              - generic [ref=e1805]:
+                                - generic [ref=e1806]: ₹14,999
+                                - generic [ref=e1807]: ₹14,999
+                              - generic [ref=e1808]: "M.R.P: ₹18,848"
+                              - generic [ref=e1809]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1810]:
+                                  - generic [ref=e1811]: ₹18,848
+                                  - text: ₹18,848
+                            - text: (20% off)
+                          - generic [ref=e1815]:
+                            - generic [ref=e1816]: Save extra with No Cost EMI
+                            - generic [ref=e1817]: Save extra with No Cost EMI
+                        - generic [ref=e1822]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e1824]: "Service: Installation"
+                        - button "Add to cart" [ref=e1838] [cursor=pointer]
+                - listitem [ref=e1841]:
+                  - generic [ref=e1847]:
+                    - link [ref=e1853] [cursor=pointer]:
+                      - /url: /HP-Smart-Colour-Printer-Included/dp/B0BNV9QP8J/ref=sr_1_16?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-16
+                      - img [ref=e1855]
+                    - generic [ref=e1858]:
+                      - generic [ref=e1859]:
+                        - heading "HP" [level=2] [ref=e1862]
+                        - link "Smart Tank 585 All-in-One WiFi Colour Printer" [ref=e1863] [cursor=pointer]:
+                          - /url: /HP-Smart-Colour-Printer-Included/dp/B0BNV9QP8J/ref=sr_1_16?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-16
+                          - heading "Smart Tank 585 All-in-One WiFi Colour Printer" [level=2] [ref=e1864]
+                      - generic [ref=e1866]:
+                        - text: "4.0"
+                        - button "4.0 out of 5 stars, rating details" [ref=e1868] [cursor=pointer]:
+                          - generic [ref=e1870]: 4.0 out of 5 stars
+                        - link "5,010 ratings" [ref=e1872] [cursor=pointer]:
+                          - /url: /HP-Smart-Colour-Printer-Included/dp/B0BNV9QP8J/ref=sr_1_16?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-16#customerReviews
+                          - text: (5K)
+                      - generic [ref=e1875]:
+                        - link "See options" [ref=e1883] [cursor=pointer]:
+                          - /url: /HP-Smart-Colour-Printer-Included/dp/B0BNV9QP8J/ref=sr_1_16_so_PRINTER?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-16
+                        - generic [ref=e1885]:
+                          - text: No featured offers available
+                          - text: ₹14,890
+                          - link "(1 new offer)" [ref=e1887] [cursor=pointer]:
+                            - /url: /gp/offer-listing/B0BNV9QP8J/ref=sr_1_16_olp?keywords=HP+smart+tank&dib_tag=se&dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&qid=1773569561&sr=8-16
+                - listitem [ref=e1890]:
+                  - generic [ref=e1896]:
+                    - link [ref=e1902] [cursor=pointer]:
+                      - /url: /Epson-EcoTank-L3252-Wi-Fi-Printer/dp/B09KGV4PYS/ref=sr_1_17?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-17
+                      - img [ref=e1904]
+                    - generic [ref=e1907]:
+                      - generic [ref=e1908]:
+                        - heading "Epson" [level=2] [ref=e1911]
+                        - link "EcoTank L3252 Wi-Fi All-in-One Ink Tank Printer (Black)" [ref=e1912] [cursor=pointer]:
+                          - /url: /Epson-EcoTank-L3252-Wi-Fi-Printer/dp/B09KGV4PYS/ref=sr_1_17?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-17
+                          - heading "EcoTank L3252 Wi-Fi All-in-One Ink Tank Printer (Black)" [level=2] [ref=e1913]
+                      - generic [ref=e1914]:
+                        - generic [ref=e1915]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e1917] [cursor=pointer]:
+                            - generic [ref=e1919]: 4.1 out of 5 stars
+                          - link "3,879 ratings" [ref=e1921] [cursor=pointer]:
+                            - /url: /Epson-EcoTank-L3252-Wi-Fi-Printer/dp/B09KGV4PYS/ref=sr_1_17?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-17#customerReviews
+                            - text: (3.8K)
+                        - generic [ref=e1922]: 1K+ bought in past month
+                      - generic [ref=e1925]:
+                        - generic [ref=e1926]:
+                          - generic [ref=e1928]:
+                            - generic [ref=e1929]: Price, product page
+                            - 'link "₹13,999 M.R.P: ₹17,999 M.R.P: ₹17,999" [ref=e1930] [cursor=pointer]':
+                              - /url: /Epson-EcoTank-L3252-Wi-Fi-Printer/dp/B09KGV4PYS/ref=sr_1_17?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-17
+                              - generic [ref=e1931]:
+                                - generic [ref=e1932]: ₹13,999
+                                - generic [ref=e1933]: ₹13,999
+                              - generic [ref=e1934]: "M.R.P: ₹17,999"
+                              - generic [ref=e1935]:
+                                - text: "M.R.P:"
+                                - generic [ref=e1936]:
+                                  - generic [ref=e1937]: ₹17,999
+                                  - text: ₹17,999
+                            - text: (22% off)
+                          - generic [ref=e1941]:
+                            - generic [ref=e1942]: Save extra with No Cost EMI
+                            - generic [ref=e1943]: Save extra with No Cost EMI
+                        - generic [ref=e1948]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e1950]: "Service: Installation"
+                        - button "Add to cart" [ref=e1964] [cursor=pointer]
+                - listitem [ref=e1967]:
+                  - generic [ref=e1973]:
+                    - link [ref=e1979] [cursor=pointer]:
+                      - /url: /HP-GT53-Black-Original-Bottle/dp/B07STXJDST/ref=sr_1_18?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-18
+                      - img [ref=e1981]
+                    - generic [ref=e1984]:
+                      - generic [ref=e1985]:
+                        - heading "HP" [level=2] [ref=e1988]
+                        - link "GT53 90ml Black Original High Yield Ink Bottle|Works DeskJet GT 5800 Series, Ink Tank 300/400 Series, Smart Tank 300/400 / 500/600 / 700 Series" [ref=e1989] [cursor=pointer]:
+                          - /url: /HP-GT53-Black-Original-Bottle/dp/B07STXJDST/ref=sr_1_18?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-18
+                          - heading "GT53 90ml Black Original High Yield Ink Bottle|Works DeskJet GT 5800 Series, Ink Tank 300/400 Series, Smart Tank 300/400 / 500/600 / 700 Series" [level=2] [ref=e1990]
+                      - generic [ref=e1991]:
+                        - generic [ref=e1992]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=e1994] [cursor=pointer]:
+                            - generic [ref=e1996]: 4.5 out of 5 stars
+                          - link "358 ratings" [ref=e1998] [cursor=pointer]:
+                            - /url: /HP-GT53-Black-Original-Bottle/dp/B07STXJDST/ref=sr_1_18?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-18#customerReviews
+                            - text: (358)
+                        - generic [ref=e1999]: 1K+ bought in past month
+                      - generic [ref=e2002]:
+                        - generic [ref=e2003]:
+                          - generic [ref=e2005]:
+                            - generic [ref=e2006]: Price, product page
+                            - link "₹549" [ref=e2007] [cursor=pointer]:
+                              - /url: /HP-GT53-Black-Original-Bottle/dp/B07STXJDST/ref=sr_1_18?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-18
+                              - generic [ref=e2008]:
+                                - generic [ref=e2009]: ₹549
+                                - generic [ref=e2010]: ₹549
+                          - generic [ref=e2014]:
+                            - generic [ref=e2015]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e2016]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e2021]: FREE delivery Wed, 18 Mar
+                        - button "Add to cart" [ref=e2035] [cursor=pointer]
+                - listitem [ref=e2038]:
+                  - generic [ref=e2044]:
+                    - link [ref=e2050] [cursor=pointer]:
+                      - /url: /HP-Smart-Tank-521-All-in-One/dp/B0D1CB3DW4/ref=sr_1_19?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-19
+                      - img [ref=e2052]
+                    - generic [ref=e2055]:
+                      - generic [ref=e2056]:
+                        - heading "HP" [level=2] [ref=e2059]
+                        - link "Smart Ink Tank 521 All-in-One Printer Multi-Function Color Ink Tank Printer (Black)" [ref=e2060] [cursor=pointer]:
+                          - /url: /HP-Smart-Tank-521-All-in-One/dp/B0D1CB3DW4/ref=sr_1_19?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-19
+                          - heading "Smart Ink Tank 521 All-in-One Printer Multi-Function Color Ink Tank Printer (Black)" [level=2] [ref=e2061]
+                      - generic [ref=e2064]:
+                        - generic [ref=e2065]:
+                          - generic [ref=e2067]:
+                            - generic [ref=e2068]: Price, product page
+                            - 'link "₹15,750 M.R.P: ₹15,980 M.R.P: ₹15,980" [ref=e2069] [cursor=pointer]':
+                              - /url: /HP-Smart-Tank-521-All-in-One/dp/B0D1CB3DW4/ref=sr_1_19?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-19
+                              - generic [ref=e2070]:
+                                - generic [ref=e2071]: ₹15,750
+                                - generic [ref=e2072]: ₹15,750
+                              - generic [ref=e2073]: "M.R.P: ₹15,980"
+                              - generic [ref=e2074]:
+                                - text: "M.R.P:"
+                                - generic [ref=e2075]:
+                                  - generic [ref=e2076]: ₹15,980
+                                  - text: ₹15,980
+                            - text: (1% off)
+                          - generic [ref=e2080]:
+                            - generic [ref=e2081]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e2082]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e2089]: FREE delivery Mon, 23 Mar
+                        - button "Add to cart" [ref=e2103] [cursor=pointer]
+                - listitem [ref=e2106]:
+                  - generic [ref=e2112]:
+                    - link [ref=e2118] [cursor=pointer]:
+                      - /url: /Brother-DCP-T730DW-Multifunction-Printer-Installation/dp/B0DWN3RFR5/ref=sr_1_20?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-20
+                      - img [ref=e2120]
+                    - generic [ref=e2123]:
+                      - generic [ref=e2124]:
+                        - heading "Brother" [level=2] [ref=e2127]
+                        - link "Ink Tank DCP-T730DW (New Launch) WIFI Auto Duplex Color Multifunction Printer (Print Scan Copy), ADF, Print Upto 15K Pages Black & 5K in Color Each for(CMY), Extra Black Ink, Free Installation" [ref=e2128] [cursor=pointer]:
+                          - /url: /Brother-DCP-T730DW-Multifunction-Printer-Installation/dp/B0DWN3RFR5/ref=sr_1_20?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-20
+                          - heading "Ink Tank DCP-T730DW (New Launch) WIFI Auto Duplex Color Multifunction Printer (Print Scan Copy), ADF, Print Upto 15K Pages Black & 5K in Color Each for(CMY), Extra Black Ink, Free Installation" [level=2] [ref=e2129]
+                      - generic [ref=e2130]:
+                        - generic [ref=e2131]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e2133] [cursor=pointer]:
+                            - generic [ref=e2135]: 4.1 out of 5 stars
+                          - link "174 ratings" [ref=e2137] [cursor=pointer]:
+                            - /url: /Brother-DCP-T730DW-Multifunction-Printer-Installation/dp/B0DWN3RFR5/ref=sr_1_20?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-20#customerReviews
+                            - text: (174)
+                        - generic [ref=e2138]: 300+ bought in past month
+                      - generic [ref=e2141]:
+                        - generic [ref=e2142]:
+                          - generic [ref=e2144]:
+                            - generic [ref=e2145]: Price, product page
+                            - 'link "₹18,499 M.R.P: ₹22,990 M.R.P: ₹22,990" [ref=e2146] [cursor=pointer]':
+                              - /url: /Brother-DCP-T730DW-Multifunction-Printer-Installation/dp/B0DWN3RFR5/ref=sr_1_20?dib=eyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk&dib_tag=se&keywords=HP+smart+tank&qid=1773569561&sr=8-20
+                              - generic [ref=e2147]:
+                                - generic [ref=e2148]: ₹18,499
+                                - generic [ref=e2149]: ₹18,499
+                              - generic [ref=e2150]: "M.R.P: ₹22,990"
+                              - generic [ref=e2151]:
+                                - text: "M.R.P:"
+                                - generic [ref=e2152]:
+                                  - generic [ref=e2153]: ₹22,990
+                                  - text: ₹22,990
+                            - text: (20% off)
+                          - generic [ref=e2157]:
+                            - generic [ref=e2158]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e2159]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e2164]: FREE delivery as soon as Tue, 17 Mar, 7 am - 9 pm
+                        - generic [ref=e2166]: "Service: Installation"
+                        - button "Add to cart" [ref=e2180] [cursor=pointer]
+                - listitem [ref=e2183]:
+                  - generic [ref=e2191]:
+                    - link [ref=e2197] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYnRmOjMwMDk3MTIyMTQ3NDEzMjo6MDo6&url=%2FCanon-Pixma-G2010-Colour-Printer%2Fdp%2FB079TNNLQ2%2Fref%3Dsr_1_21_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-21-spons%26aref%3DOtpAi6UpAa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=OtpAi6UpAa&sp_cr=ZAZ
+                      - img [ref=e2199]
+                    - generic [ref=e2202]:
+                      - generic [ref=e2203]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e2206] [cursor=pointer]:
+                          - generic [ref=e2207]: Sponsored
+                        - heading "Canon" [level=2] [ref=e2211]
+                        - link "Sponsored Ad - PIXMA MegaTank G2010 All-in-One Ink Tank Colour Printer (Black)" [ref=e2212] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYnRmOjMwMDk3MTIyMTQ3NDEzMjo6MDo6&url=%2FCanon-Pixma-G2010-Colour-Printer%2Fdp%2FB079TNNLQ2%2Fref%3Dsr_1_21_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-21-spons%26aref%3DOtpAi6UpAa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=OtpAi6UpAa&sp_cr=ZAZ
+                          - heading "Sponsored Ad - PIXMA MegaTank G2010 All-in-One Ink Tank Colour Printer (Black)" [level=2] [ref=e2213]: PIXMA MegaTank G2010 All-in-One Ink Tank Colour Printer (Black)
+                      - generic [ref=e2214]:
+                        - generic [ref=e2215]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e2217] [cursor=pointer]:
+                            - generic [ref=e2219]: 4.1 out of 5 stars
+                          - link "330 ratings" [ref=e2221] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYnRmOjMwMDk3MTIyMTQ3NDEzMjo6MDo6&url=%2FCanon-Pixma-G2010-Colour-Printer%2Fdp%2FB079TNNLQ2%2Fref%3Dsr_1_21_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-21-spons%26aref%3DOtpAi6UpAa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=OtpAi6UpAa&sp_cr=ZAZ#customerReviews
+                            - text: (330)
+                        - generic [ref=e2222]: 50+ bought in past month
+                      - generic [ref=e2225]:
+                        - generic [ref=e2226]:
+                          - generic [ref=e2228]:
+                            - generic [ref=e2229]: Price, product page
+                            - link "₹11,255" [ref=e2230] [cursor=pointer]:
+                              - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYnRmOjMwMDk3MTIyMTQ3NDEzMjo6MDo6&url=%2FCanon-Pixma-G2010-Colour-Printer%2Fdp%2FB079TNNLQ2%2Fref%3Dsr_1_21_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-21-spons%26aref%3DOtpAi6UpAa%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=OtpAi6UpAa&sp_cr=ZAZ
+                              - generic [ref=e2231]:
+                                - generic [ref=e2232]: ₹11,255
+                                - generic [ref=e2233]: ₹11,255
+                          - generic [ref=e2237]:
+                            - generic [ref=e2238]: Up to 5% back with Amazon Pay ICICI card
+                            - generic [ref=e2239]: Up to 5% back with Amazon Pay ICI...
+                        - generic [ref=e2244]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e2246]: "Service: Installation"
+                        - button "Add to cart" [ref=e2260] [cursor=pointer]
+                - listitem [ref=e2263]:
+                  - generic [ref=e2271]:
+                    - link [ref=e2277] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYnRmOjIwMTY3MDk5NjI1NDk4OjowOjo&url=%2FCanon-G3000-Wireless-Colour-Printer%2Fdp%2FB01H25A1AE%2Fref%3Dsr_1_22_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-22-spons%26aref%3D7zQweBfaK8%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=7zQweBfaK8&sp_cr=ZAZ
+                      - img [ref=e2279]
+                    - generic [ref=e2282]:
+                      - generic [ref=e2283]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e2286] [cursor=pointer]:
+                          - generic [ref=e2287]: Sponsored
+                        - heading "Canon" [level=2] [ref=e2291]
+                        - link "Sponsored Ad - PIXMA MegaTank G3000 All in One WiFi Inktank Colour Printer with 2 Additional Black Ink Bottles for Home and Office" [ref=e2292] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYnRmOjIwMTY3MDk5NjI1NDk4OjowOjo&url=%2FCanon-G3000-Wireless-Colour-Printer%2Fdp%2FB01H25A1AE%2Fref%3Dsr_1_22_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-22-spons%26aref%3D7zQweBfaK8%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=7zQweBfaK8&sp_cr=ZAZ
+                          - heading "Sponsored Ad - PIXMA MegaTank G3000 All in One WiFi Inktank Colour Printer with 2 Additional Black Ink Bottles for Home and Office" [level=2] [ref=e2293]: PIXMA MegaTank G3000 All in One WiFi Inktank Colour Printer with 2 Additional Black Ink Bottles for Home and Office
+                      - generic [ref=e2294]:
+                        - generic [ref=e2295]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e2297] [cursor=pointer]:
+                            - generic [ref=e2299]: 4.0 out of 5 stars
+                          - link "12,846 ratings" [ref=e2301] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYnRmOjIwMTY3MDk5NjI1NDk4OjowOjo&url=%2FCanon-G3000-Wireless-Colour-Printer%2Fdp%2FB01H25A1AE%2Fref%3Dsr_1_22_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-22-spons%26aref%3D7zQweBfaK8%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=7zQweBfaK8&sp_cr=ZAZ#customerReviews
+                            - text: (12.8K)
+                        - generic [ref=e2302]: 400+ bought in past month
+                      - generic [ref=e2305]:
+                        - generic [ref=e2306]:
+                          - generic [ref=e2308]:
+                            - generic [ref=e2309]: Price, product page
+                            - 'link "₹13,999 M.R.P: ₹18,295 M.R.P: ₹18,295" [ref=e2310] [cursor=pointer]':
+                              - /url: /sspa/click?ie=UTF8&spc=MTo4NjcwNDgxNjk0MDYxNjc0OjE3NzM1Njk1NjE6c3BfYnRmOjIwMTY3MDk5NjI1NDk4OjowOjo&url=%2FCanon-G3000-Wireless-Colour-Printer%2Fdp%2FB01H25A1AE%2Fref%3Dsr_1_22_sspa%3Fdib%3DeyJ2IjoiMSJ9.oz5M-Nnbn47gyB1en11llHgS_uy0mxSLulTENPHg4Kdnz6HcesR7O4nEtHEOx-MNX-C06MHvPC3Mv_DVFjqz4gT3u2dUVcsgA9FLxMcRFGkAPRWOZIALR7jzQOqlPE3U_JfTriJTokylJ_N_0a97tTQ90YiwBkk3bG-MuoKXiT3RjgNR3wYC-G0JN5l1WdQ5S_vsKCLKZnwjzgF6MBfaGFRa80dkNcUhMwLLkzR-h34.MUTFqCEJ7Zd2_mm1v0aZk5rlFBDlt0-YGQArn8_xnRk%26dib_tag%3Dse%26keywords%3DHP%2Bsmart%2Btank%26qid%3D1773569561%26sr%3D8-22-spons%26aref%3D7zQweBfaK8%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=7zQweBfaK8&sp_cr=ZAZ
+                              - generic [ref=e2311]:
+                                - generic [ref=e2312]: ₹13,999
+                                - generic [ref=e2313]: ₹13,999
+                              - generic [ref=e2314]: "M.R.P: ₹18,295"
+                              - generic [ref=e2315]:
+                                - text: "M.R.P:"
+                                - generic [ref=e2316]:
+                                  - generic [ref=e2317]: ₹18,295
+                                  - text: ₹18,295
+                            - text: (23% off)
+                          - generic [ref=e2321]:
+                            - generic [ref=e2322]: Save extra with No Cost EMI
+                            - generic [ref=e2323]: Save extra with No Cost EMI
+                        - generic [ref=e2328]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+                        - generic [ref=e2330]: "Service: Installation"
+                        - button "Add to cart" [ref=e2344] [cursor=pointer]
+          - generic [ref=e2354]:
+            - link "Sponsored video; click to navigate to featured product page. HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e2358] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JHQhaWYoNobw9ZbV5sactTcAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBX-edU/clv1c_ek-IBPHTEsbWTm7asH6Hz6s9f9mXFtBg_1bUWrqil1ZP6_KkKBWasJu0xQ95pgJTxYkfiwjNclee_NBJuqaZizP3VpCcZyAhvGD5IiMTV9kVBwEpIr3X54QgiLnyr0rpB3ljrbUCuz9pmd8OXG_CX1SZrvwdmE3a0sT_6zygyL7f-2kQFfahdQLMw0hU61fg4RjlRGcfUIXB1OqJD3yoMqup7CemBHyEJgLmcBE7CsyVqFKfGQHlkW0ZkRRBa3HK6m9aUkPl6C2Z3X2oCmvFd7G3b6LnP-Lw9HIu7ZTzdJ-Wk5VkQS83JXnOxSxpVN8S6mi6OsU15-TzWuON0f7B_uKCnFlCCYHGql02ysJj7crwJBZkS2t3Lh9iE-1bjq_ahztOS03w4Tn2efTz2pKN3WJapKV8G9PvuAshe6H7YRM_Lfy1IY3WG8eyUjhPvEzqhfLQDes-viA0gTcm1LXxHS1riTK3bHEPCK3aiYxVanX8GCX_epkyRL_-GEF9NxDsk-2ZmvhAI8RiFDwPC-A9ZX4VvMqHUslEoS0--F_qVQPqweWZRpbxgxmuvSvx84rsXffYYZWNCmc1na7hIlh0AXZjlkhH5kjdorrkCd6WZ9ProMunqT8Sfo-jCZN-c0B66rwdogRrGVmySwD_bW6eMBp6iqFJYS0ZMansRiRRoD3XUerCaqVC8wEX5c-bqhqn3c0G0icpwUfx3fwCUjCycm8w180anrNfcVyWp8NSJ9Gvyul90T-zIOH2xOgVjjTQRUtkY5UpqfiJgnHU2T0iFLU_gmSFrL4bgkBr5weCsX4YjU84JYt_DcfYy-hgZwci3nGBoN9dPsdMyQO_DEi5rlBO9gja0FsWO0IKN7deyQYgqxdJVigAS2hzLaA_y_2Kvjvg5d0ViseW7ZG10qz624w4Fz6SnXCQk4U4YPXoy26aKXutoYzEPVSL169fvso2KMP3Hia0Jr-9Q6qo3uzZX8-mmbTIbQYtLOuiqTYOzGyZWHmdxaoOPSG9qNBo3umF5NPT8MsYkfytI3dp7oVbjS5WiQ-M9iyfB5dXtSH7wdvafhpnP1Z4pdXWoP51Y8E6XeDjUe6OO5g4bKLLA9Pa2Ly4NoYfhs-CfHqf60K8wIDSv02HYLP6-4DpT_1ENaZ8axHVOxKHyopGZ_8oUnbodg1IE8XZVDedYRRBwkUOIKR5tDQaNh5_7YOrQd29kL7gJEFdwyqryD4gfmOshoXrFQytFaOwHdiksf1IEVf6m4PRuy8QwaAN-BHEtoi8oQrjfxeR8jBn1ZQLfWlrxzKcoixUPmHu4GXpWu4Lu213IQ8u6JOBMKhFOB7enzaFmL3PBCjMnprZiMXUMtnfl_x9n_6Gd5nT28DpjMAy5IgBM8dJV2f9QT70m7eysAFA8fQCQBhLjI4nL2Xbp5mCk77w2-CdZ7owXxNuT5QGaF1enhCz72bf2nzZSqp2EaOo5HicIlTKCCfE2SaEeU7Pi9CIsHIWjvtxONVMz_QPAPtNWnxfv3OfMWJqHbjPFFwPT3mxPoMi9jjOtS3P4TcvlRwY2QkdUp8XEYU6sGC1WsOpnLRr4NbFLRuefqLmyuXWIK-JrtLtIFBrjYjAaOStzokqyVjnYRPclFYamDxRFoAu7AhDXjhbzJPHXfkCxFqekFUs5P7lC7RbXwir3Nr6Ak804ps1QK1gB0uAGWQ0xufTMi21gg/https://www.amazon.in/dp/B0BN1XT6TF?aref=ZLLiHM1tvS&pd_rd_i=B0BN1XT6TF&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pd_rd_wg=26dA1&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_w=2KBBB&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9
+              - generic "Sponsored video; click to navigate to featured product page. HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e2359]
+            - generic [ref=e2367]:
+              - link [ref=e2373] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JHQhaWYoNobw9ZbV5sactTcAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBX-edU/clv1c_ek-IBPHTEsbWTm7asH6Hz6s9f9mXFtBg_1bUWrqil1ZP6_KkKBWasJu0xQ95pgJTxYkfiwjNclee_NBJuqaZizP3VpCcZyAhvGD5IiMTV9kVBwEpIr3X54QgiLnyr0rpB3ljrbUCuz9pmd8OXG_CX1SZrvwdmE3a0sT_6zygyL7f-2kQFfahdQLMw0hU61fg4RjlRGcfUIXB1OqJD3yoMqup7CemBHyEJgLmcBE7CsyVqFKfGQHlkW0ZkRRBa3HK6m9aUkPl6C2Z3X2oCmvFd7G3b6LnP-Lw9HIu7ZTzdJ-Wk5VkQS83JXnOxSxpVN8S6mi6OsU15-TzWuON0f7B_uKCnFlCCYHGql02ysJj7crwJBZkS2t3Lh9iE-1bjq_ahztOS03w4Tn2efTz2pKN3WJapKV8G9PvuAshe6H7YRM_Lfy1IY3WG8eyUjhPvEzqhfLQDes-viA0gTcm1LXxHS1riTK3bHEPCK3aiYxVanX8GCX_epkyRL_-GEF9NxDsk-2ZmvhAI8RiFDwPC-A9ZX4VvMqHUslEoS0--F_qVQPqweWZRpbxgxmuvSvx84rsXffYYZWNCmc1na7hIlh0AXZjlkhH5kjdorrkCd6WZ9ProMunqT8Sfo-jCZN-c0B66rwdogRrGVmySwD_bW6eMBp6iqFJYS0ZMansRiRRoD3XUerCaqVC8wEX5c-bqhqn3c0G0icpwUfx3fwCUjCycm8w180anrNfcVyWp8NSJ9Gvyul90T-zIOH2xOgVjjTQRUtkY5UpqfiJgnHU2T0iFLU_gmSFrL4bgkBr5weCsX4YjU84JYt_DcfYy-hgZwci3nGBoN9dPsdMyQO_DEi5rlBO9gja0FsWO0IKN7deyQYgqxdJVigAS2hzLaA_y_2Kvjvg5d0ViseW7ZG10qz624w4Fz6SnXCQk4U4YPXoy26aKXutoYzEPVSL169fvso2KMP3Hia0Jr-9Q6qo3uzZX8-mmbTIbQYtLOuiqTYOzGyZWHmdxaoOPSG9qNBo3umF5NPT8MsYkfytI3dp7oVbjS5WiQ-M9iyfB5dXtSH7wdvafhpnP1Z4pdXWoP51Y8E6XeDjUe6OO5g4bKLLA9Pa2Ly4NoYfhs-CfHqf60K8wIDSv02HYLP6-4DpT_1ENaZ8axHVOxKHyopGZ_8oUnbodg1IE8XZVDedYRRBwkUOIKR5tDQaNh5_7YOrQd29kL7gJEFdwyqryD4gfmOshoXrFQytFaOwHdiksf1IEVf6m4PRuy8QwaAN-BHEtoi8oQrjfxeR8jBn1ZQLfWlrxzKcoixUPmHu4GXpWu4Lu213IQ8u6JOBMKhFOB7enzaFmL3PBCjMnprZiMXUMtnfl_x9n_6Gd5nT28DpjMAy5IgBM8dJV2f9QT70m7eysAFA8fQCQBhLjI4nL2Xbp5mCk77w2-CdZ7owXxNuT5QGaF1enhCz72bf2nzZSqp2EaOo5HicIlTKCCfE2SaEeU7Pi9CIsHIWjvtxONVMz_QPAPtNWnxfv3OfMWJqHbjPFFwPT3mxPoMi9jjOtS3P4TcvlRwY2QkdUp8XEYU6sGC1WsOpnLRr4NbFLRuefqLmyuXWIK-JrtLtIFBrjYjAaOStzokqyVjnYRPclFYamDxRFoAu7AhDXjhbzJPHXfkCxFqekFUs5P7lC7RbXwir3Nr6Ak804ps1QK1gB0uAGWQ0xufTMi21gg/https://www.amazon.in/HP-Smart-Colour-Printer-Included/dp/B0BN1XT6TF/ref=sxbs_sbv_search_btf?aref=ZLLiHM1tvS&content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&cv_ct_cx=HP+smart+tank&keywords=HP+smart+tank&pd_rd_i=B0BN1XT6TF&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&pd_rd_w=2KBBB&pd_rd_wg=26dA1&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&qid=1773569561&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                - img [ref=e2375]
+              - generic [ref=e2378]:
+                - generic [ref=e2379]:
+                  - generic [ref=e2382] [cursor=pointer]: Sponsored
+                  - link "HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [ref=e2384] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JHQhaWYoNobw9ZbV5sactTcAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBX-edU/clv1c_ek-IBPHTEsbWTm7asH6Hz6s9f9mXFtBg_1bUWrqil1ZP6_KkKBWasJu0xQ95pgJTxYkfiwjNclee_NBJuqaZizP3VpCcZyAhvGD5IiMTV9kVBwEpIr3X54QgiLnyr0rpB3ljrbUCuz9pmd8OXG_CX1SZrvwdmE3a0sT_6zygyL7f-2kQFfahdQLMw0hU61fg4RjlRGcfUIXB1OqJD3yoMqup7CemBHyEJgLmcBE7CsyVqFKfGQHlkW0ZkRRBa3HK6m9aUkPl6C2Z3X2oCmvFd7G3b6LnP-Lw9HIu7ZTzdJ-Wk5VkQS83JXnOxSxpVN8S6mi6OsU15-TzWuON0f7B_uKCnFlCCYHGql02ysJj7crwJBZkS2t3Lh9iE-1bjq_ahztOS03w4Tn2efTz2pKN3WJapKV8G9PvuAshe6H7YRM_Lfy1IY3WG8eyUjhPvEzqhfLQDes-viA0gTcm1LXxHS1riTK3bHEPCK3aiYxVanX8GCX_epkyRL_-GEF9NxDsk-2ZmvhAI8RiFDwPC-A9ZX4VvMqHUslEoS0--F_qVQPqweWZRpbxgxmuvSvx84rsXffYYZWNCmc1na7hIlh0AXZjlkhH5kjdorrkCd6WZ9ProMunqT8Sfo-jCZN-c0B66rwdogRrGVmySwD_bW6eMBp6iqFJYS0ZMansRiRRoD3XUerCaqVC8wEX5c-bqhqn3c0G0icpwUfx3fwCUjCycm8w180anrNfcVyWp8NSJ9Gvyul90T-zIOH2xOgVjjTQRUtkY5UpqfiJgnHU2T0iFLU_gmSFrL4bgkBr5weCsX4YjU84JYt_DcfYy-hgZwci3nGBoN9dPsdMyQO_DEi5rlBO9gja0FsWO0IKN7deyQYgqxdJVigAS2hzLaA_y_2Kvjvg5d0ViseW7ZG10qz624w4Fz6SnXCQk4U4YPXoy26aKXutoYzEPVSL169fvso2KMP3Hia0Jr-9Q6qo3uzZX8-mmbTIbQYtLOuiqTYOzGyZWHmdxaoOPSG9qNBo3umF5NPT8MsYkfytI3dp7oVbjS5WiQ-M9iyfB5dXtSH7wdvafhpnP1Z4pdXWoP51Y8E6XeDjUe6OO5g4bKLLA9Pa2Ly4NoYfhs-CfHqf60K8wIDSv02HYLP6-4DpT_1ENaZ8axHVOxKHyopGZ_8oUnbodg1IE8XZVDedYRRBwkUOIKR5tDQaNh5_7YOrQd29kL7gJEFdwyqryD4gfmOshoXrFQytFaOwHdiksf1IEVf6m4PRuy8QwaAN-BHEtoi8oQrjfxeR8jBn1ZQLfWlrxzKcoixUPmHu4GXpWu4Lu213IQ8u6JOBMKhFOB7enzaFmL3PBCjMnprZiMXUMtnfl_x9n_6Gd5nT28DpjMAy5IgBM8dJV2f9QT70m7eysAFA8fQCQBhLjI4nL2Xbp5mCk77w2-CdZ7owXxNuT5QGaF1enhCz72bf2nzZSqp2EaOo5HicIlTKCCfE2SaEeU7Pi9CIsHIWjvtxONVMz_QPAPtNWnxfv3OfMWJqHbjPFFwPT3mxPoMi9jjOtS3P4TcvlRwY2QkdUp8XEYU6sGC1WsOpnLRr4NbFLRuefqLmyuXWIK-JrtLtIFBrjYjAaOStzokqyVjnYRPclFYamDxRFoAu7AhDXjhbzJPHXfkCxFqekFUs5P7lC7RbXwir3Nr6Ak804ps1QK1gB0uAGWQ0xufTMi21gg/https://www.amazon.in/HP-Smart-Colour-Printer-Included/dp/B0BN1XT6TF/ref=sxbs_sbv_search_btf?aref=ZLLiHM1tvS&content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&cv_ct_cx=HP+smart+tank&keywords=HP+smart+tank&pd_rd_i=B0BN1XT6TF&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&pd_rd_w=2KBBB&pd_rd_wg=26dA1&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&qid=1773569561&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                    - heading "HP Smart Tank 589 All-in-One WiFi Colour Printer |Up to 4000 Black & 6000 Colour Prints I Print,Scan & Copy for Home/Office" [level=2] [ref=e2385]
+                - generic [ref=e2386]:
+                  - generic [ref=e2387]:
+                    - text: "4.0"
+                    - button "4.0 out of 5 stars, rating details" [ref=e2389] [cursor=pointer]:
+                      - generic [ref=e2391]: 4.0 out of 5 stars
+                    - link "2,972 ratings" [ref=e2393] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/JHQhaWYoNobw9ZbV5sactTcAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBX-edU/clv1c_ek-IBPHTEsbWTm7asH6Hz6s9f9mXFtBg_1bUWrqil1ZP6_KkKBWasJu0xQ95pgJTxYkfiwjNclee_NBJuqaZizP3VpCcZyAhvGD5IiMTV9kVBwEpIr3X54QgiLnyr0rpB3ljrbUCuz9pmd8OXG_CX1SZrvwdmE3a0sT_6zygyL7f-2kQFfahdQLMw0hU61fg4RjlRGcfUIXB1OqJD3yoMqup7CemBHyEJgLmcBE7CsyVqFKfGQHlkW0ZkRRBa3HK6m9aUkPl6C2Z3X2oCmvFd7G3b6LnP-Lw9HIu7ZTzdJ-Wk5VkQS83JXnOxSxpVN8S6mi6OsU15-TzWuON0f7B_uKCnFlCCYHGql02ysJj7crwJBZkS2t3Lh9iE-1bjq_ahztOS03w4Tn2efTz2pKN3WJapKV8G9PvuAshe6H7YRM_Lfy1IY3WG8eyUjhPvEzqhfLQDes-viA0gTcm1LXxHS1riTK3bHEPCK3aiYxVanX8GCX_epkyRL_-GEF9NxDsk-2ZmvhAI8RiFDwPC-A9ZX4VvMqHUslEoS0--F_qVQPqweWZRpbxgxmuvSvx84rsXffYYZWNCmc1na7hIlh0AXZjlkhH5kjdorrkCd6WZ9ProMunqT8Sfo-jCZN-c0B66rwdogRrGVmySwD_bW6eMBp6iqFJYS0ZMansRiRRoD3XUerCaqVC8wEX5c-bqhqn3c0G0icpwUfx3fwCUjCycm8w180anrNfcVyWp8NSJ9Gvyul90T-zIOH2xOgVjjTQRUtkY5UpqfiJgnHU2T0iFLU_gmSFrL4bgkBr5weCsX4YjU84JYt_DcfYy-hgZwci3nGBoN9dPsdMyQO_DEi5rlBO9gja0FsWO0IKN7deyQYgqxdJVigAS2hzLaA_y_2Kvjvg5d0ViseW7ZG10qz624w4Fz6SnXCQk4U4YPXoy26aKXutoYzEPVSL169fvso2KMP3Hia0Jr-9Q6qo3uzZX8-mmbTIbQYtLOuiqTYOzGyZWHmdxaoOPSG9qNBo3umF5NPT8MsYkfytI3dp7oVbjS5WiQ-M9iyfB5dXtSH7wdvafhpnP1Z4pdXWoP51Y8E6XeDjUe6OO5g4bKLLA9Pa2Ly4NoYfhs-CfHqf60K8wIDSv02HYLP6-4DpT_1ENaZ8axHVOxKHyopGZ_8oUnbodg1IE8XZVDedYRRBwkUOIKR5tDQaNh5_7YOrQd29kL7gJEFdwyqryD4gfmOshoXrFQytFaOwHdiksf1IEVf6m4PRuy8QwaAN-BHEtoi8oQrjfxeR8jBn1ZQLfWlrxzKcoixUPmHu4GXpWu4Lu213IQ8u6JOBMKhFOB7enzaFmL3PBCjMnprZiMXUMtnfl_x9n_6Gd5nT28DpjMAy5IgBM8dJV2f9QT70m7eysAFA8fQCQBhLjI4nL2Xbp5mCk77w2-CdZ7owXxNuT5QGaF1enhCz72bf2nzZSqp2EaOo5HicIlTKCCfE2SaEeU7Pi9CIsHIWjvtxONVMz_QPAPtNWnxfv3OfMWJqHbjPFFwPT3mxPoMi9jjOtS3P4TcvlRwY2QkdUp8XEYU6sGC1WsOpnLRr4NbFLRuefqLmyuXWIK-JrtLtIFBrjYjAaOStzokqyVjnYRPclFYamDxRFoAu7AhDXjhbzJPHXfkCxFqekFUs5P7lC7RbXwir3Nr6Ak804ps1QK1gB0uAGWQ0xufTMi21gg/https://www.amazon.in/HP-Smart-Colour-Printer-Included/dp/B0BN1XT6TF/ref=sxbs_sbv_search_btf?aref=ZLLiHM1tvS&content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&cv_ct_cx=HP+smart+tank&keywords=HP+smart+tank&pd_rd_i=B0BN1XT6TF&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&pd_rd_w=2KBBB&pd_rd_wg=26dA1&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&qid=1773569561&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55#customerReviews
+                      - text: (2.9K)
+                  - generic [ref=e2394]: 1K+ bought in past month
+                - generic [ref=e2397]:
+                  - generic [ref=e2398]:
+                    - link "Limited time deal" [ref=e2400] [cursor=pointer]:
+                      - /url: /deals
+                      - generic [ref=e2403]: Limited time deal
+                    - generic [ref=e2405]:
+                      - generic [ref=e2406]: Price, product page
+                      - 'link "₹12,499 M.R.P: ₹17,275 M.R.P: ₹17,275" [ref=e2407] [cursor=pointer]':
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JHQhaWYoNobw9ZbV5sactTcAAAGc8PvUPAoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDIgICBX-edU/clv1c_ek-IBPHTEsbWTm7asH6Hz6s9f9mXFtBg_1bUWrqil1ZP6_KkKBWasJu0xQ95pgJTxYkfiwjNclee_NBJuqaZizP3VpCcZyAhvGD5IiMTV9kVBwEpIr3X54QgiLnyr0rpB3ljrbUCuz9pmd8OXG_CX1SZrvwdmE3a0sT_6zygyL7f-2kQFfahdQLMw0hU61fg4RjlRGcfUIXB1OqJD3yoMqup7CemBHyEJgLmcBE7CsyVqFKfGQHlkW0ZkRRBa3HK6m9aUkPl6C2Z3X2oCmvFd7G3b6LnP-Lw9HIu7ZTzdJ-Wk5VkQS83JXnOxSxpVN8S6mi6OsU15-TzWuON0f7B_uKCnFlCCYHGql02ysJj7crwJBZkS2t3Lh9iE-1bjq_ahztOS03w4Tn2efTz2pKN3WJapKV8G9PvuAshe6H7YRM_Lfy1IY3WG8eyUjhPvEzqhfLQDes-viA0gTcm1LXxHS1riTK3bHEPCK3aiYxVanX8GCX_epkyRL_-GEF9NxDsk-2ZmvhAI8RiFDwPC-A9ZX4VvMqHUslEoS0--F_qVQPqweWZRpbxgxmuvSvx84rsXffYYZWNCmc1na7hIlh0AXZjlkhH5kjdorrkCd6WZ9ProMunqT8Sfo-jCZN-c0B66rwdogRrGVmySwD_bW6eMBp6iqFJYS0ZMansRiRRoD3XUerCaqVC8wEX5c-bqhqn3c0G0icpwUfx3fwCUjCycm8w180anrNfcVyWp8NSJ9Gvyul90T-zIOH2xOgVjjTQRUtkY5UpqfiJgnHU2T0iFLU_gmSFrL4bgkBr5weCsX4YjU84JYt_DcfYy-hgZwci3nGBoN9dPsdMyQO_DEi5rlBO9gja0FsWO0IKN7deyQYgqxdJVigAS2hzLaA_y_2Kvjvg5d0ViseW7ZG10qz624w4Fz6SnXCQk4U4YPXoy26aKXutoYzEPVSL169fvso2KMP3Hia0Jr-9Q6qo3uzZX8-mmbTIbQYtLOuiqTYOzGyZWHmdxaoOPSG9qNBo3umF5NPT8MsYkfytI3dp7oVbjS5WiQ-M9iyfB5dXtSH7wdvafhpnP1Z4pdXWoP51Y8E6XeDjUe6OO5g4bKLLA9Pa2Ly4NoYfhs-CfHqf60K8wIDSv02HYLP6-4DpT_1ENaZ8axHVOxKHyopGZ_8oUnbodg1IE8XZVDedYRRBwkUOIKR5tDQaNh5_7YOrQd29kL7gJEFdwyqryD4gfmOshoXrFQytFaOwHdiksf1IEVf6m4PRuy8QwaAN-BHEtoi8oQrjfxeR8jBn1ZQLfWlrxzKcoixUPmHu4GXpWu4Lu213IQ8u6JOBMKhFOB7enzaFmL3PBCjMnprZiMXUMtnfl_x9n_6Gd5nT28DpjMAy5IgBM8dJV2f9QT70m7eysAFA8fQCQBhLjI4nL2Xbp5mCk77w2-CdZ7owXxNuT5QGaF1enhCz72bf2nzZSqp2EaOo5HicIlTKCCfE2SaEeU7Pi9CIsHIWjvtxONVMz_QPAPtNWnxfv3OfMWJqHbjPFFwPT3mxPoMi9jjOtS3P4TcvlRwY2QkdUp8XEYU6sGC1WsOpnLRr4NbFLRuefqLmyuXWIK-JrtLtIFBrjYjAaOStzokqyVjnYRPclFYamDxRFoAu7AhDXjhbzJPHXfkCxFqekFUs5P7lC7RbXwir3Nr6Ak804ps1QK1gB0uAGWQ0xufTMi21gg/https://www.amazon.in/HP-Smart-Colour-Printer-Included/dp/B0BN1XT6TF/ref=sxbs_sbv_search_btf?aref=ZLLiHM1tvS&content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&cv_ct_cx=HP+smart+tank&keywords=HP+smart+tank&pd_rd_i=B0BN1XT6TF&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&pd_rd_w=2KBBB&pd_rd_wg=26dA1&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&qid=1773569561&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                        - generic [ref=e2408]:
+                          - generic [ref=e2409]: ₹12,499
+                          - generic [ref=e2410]: ₹12,499
+                        - generic [ref=e2411]: "M.R.P: ₹17,275"
+                        - generic [ref=e2412]:
+                          - text: "M.R.P:"
+                          - generic [ref=e2413]:
+                            - generic [ref=e2414]: ₹17,275
+                            - text: ₹17,275
+                      - text: (28% off)
+                    - generic [ref=e2418]:
+                      - generic [ref=e2419]: Save extra with No Cost EMI
+                      - generic [ref=e2420]: Save extra with No Cost EMI
+                  - generic [ref=e2425]: FREE delivery as soon as Tue, 17 Mar, 7 am - 10 pm
+          - generic [ref=e2431]:
+            - generic "Related searches in HP smart tank" [ref=e2432]:
+              - heading "Related searches" [level=2] [ref=e2435]
+            - list [ref=e2437]:
+              - generic [ref=e2438]:
+                - listitem [ref=e2439]:
+                  - link "hp smart tank 580 printer" [ref=e2441] [cursor=pointer]:
+                    - /url: /s?k=hp+smart+tank+580+printer&ref=rsl_sug_0_0&pd_rd_w=dE9CW&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=26dA1&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&qid=1773569561
+                    - generic [ref=e2446]: hp smart tank 580 printer
+                - listitem [ref=e2447]:
+                  - link "printer" [ref=e2449] [cursor=pointer]:
+                    - /url: /s?k=printer&ref=rsl_sug_0_3&pd_rd_w=dE9CW&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=26dA1&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&qid=1773569561
+                    - generic [ref=e2454]: printer
+              - generic [ref=e2455]:
+                - listitem [ref=e2456]:
+                  - link "hp printer" [ref=e2458] [cursor=pointer]:
+                    - /url: /s?k=hp+printer&ref=rsl_sug_0_1&pd_rd_w=dE9CW&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=26dA1&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&qid=1773569561
+                    - generic [ref=e2463]: hp printer
+                - listitem [ref=e2464]:
+                  - link "hp smart tank 790" [ref=e2466] [cursor=pointer]:
+                    - /url: /s?k=hp+smart+tank+790&ref=rsl_sug_0_4&pd_rd_w=dE9CW&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=26dA1&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&qid=1773569561
+                    - generic [ref=e2471]: hp smart tank 790
+              - generic [ref=e2472]:
+                - listitem [ref=e2473]:
+                  - link "hp smart tank 585 all-in-one printer" [ref=e2475] [cursor=pointer]:
+                    - /url: /s?k=hp+smart+tank+585+all-in-one+printer&ref=rsl_sug_0_2&pd_rd_w=dE9CW&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=26dA1&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&qid=1773569561
+                    - generic [ref=e2480]: hp smart tank 585 all-in-one printer
+                - listitem [ref=e2481]:
+                  - link "hp smart tank 520" [ref=e2483] [cursor=pointer]:
+                    - /url: /s?k=hp+smart+tank+520&ref=rsl_sug_0_5&pd_rd_w=dE9CW&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=26dA1&pd_rd_r=bf03f7c1-007a-405e-930f-11524c1f86a9&qid=1773569561
+                    - generic [ref=e2488]: hp smart tank 520
+          - navigation "pagination" [ref=e2491]:
+            - list [ref=e2493]:
+              - listitem [ref=e2494]:
+                - button "Previous" [disabled] [ref=e2496]:
+                  - img [ref=e2497]
+                  - text: Previous
+              - listitem [ref=e2499]:
+                - button "Page 1" [ref=e2501]: "1"
+              - listitem [ref=e2502]:
+                - button "Go to page 2" [ref=e2504] [cursor=pointer]: "2"
+              - listitem [ref=e2505]:
+                - button "Go to page 3" [ref=e2507] [cursor=pointer]: "3"
+              - button [disabled] [ref=e2508]:
+                - img [ref=e2509]: ...
+              - button "20" [disabled] [ref=e2511]
+              - listitem [ref=e2512]:
+                - button "Go to next page, page 2" [ref=e2514] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e2515]
+          - generic [ref=e2519]:
+            - separator [ref=e2520]
+            - generic [ref=e2521]:
+              - heading "Brands related to your search" [ref=e2522]
+              - button "Leave feedback on Sponsored ad" [ref=e2527] [cursor=pointer]: Sponsored
+              - generic [ref=e2531]:
+                - generic [ref=e2533]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JJhijey0CNp8a40b2FDx46QAAAGc8PvUxQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCXsIMY/clv1c_ek-wBIf3LcTanut7cOfOvo-uc7kGmJKXYQmLZ3qj3aMqLkJdl1aFiAHFIGnjLJjCIPh1wh6q7eam40vUUr_mdxzJYUvkS9AJJj_vn3WFzE8uTzGNJHBJvo9S6_s45rKy2VvBrluQjLsIs15JHe7HvYGPpkVclFzCokRBj7Km165LmQqcE2PI7vSAVlmEk6qO1nhgJRrM1YfBzNKJR1EQcuz-1-2VhMw6OJzOnrMNCwKrCBikUwO3sfA80LpX7dbhw_sCtrW4ej62kMncNJxDtOFg54pisiD-h3qqJ81CkrSd3HVQ3lgaZ_D60cY7bM-VEik61wRwcqiZ-zgcXfYfx2MPPXw4Nt-FIdenPAgVNe5iAitVB9CRyO889Dh_MiFeueNd-yXwlYw4E_HGt2yIeRW2vSPsMyDY3WJwo00O4GgK2LQArfZhGv0zy_UmrxBDhvb24rFjf4tSTSrri_6onOkeZXud3hD352APKFaGjfc8KsK_7tGNv3THaDvsJ1w9NkGscV93qkLowz2RC_LavzP-Dmw_F7C8pTCmAu0ftB_0bi3pCB21j04tFt9e98wEdhdd45QUDDP7ztUJWydazay1JaAxZzVRdLNytQRYsWlyCfQ1qNcIqRwuTnPYHeblWenEy8oOWW4PlQh3G08ZG4DZVU7HPCed__VjAb4Lu6q-A-DmuClchGpb9coI2eSHQCfv-G2A6F0M1VD7RDoLWyTHOr_D0FdTteia8uQ4H2tKi9jFxX5UzUOmghDNawgJWp3CKUhHvsoaHd80lerJ6YZt32udIVk-oZQ7Lh77gBVG82bAc7GYGFfC5VFqNBzQMS8ZZT5-utetdAIrxN47xhipc38l5ij0PW6CAx6oqTOpeSuaQNSKQJEo7WGCxlM6FyKL0wilK7P0K0Pkn5aiazr5psbmKrRUwlJ2-65xJ-4X3wq01sSUD74zdl3Rn28ibr1PVnifmhKwR2wFlr5DqkQ7qInXYdoXs1YhakOHkwmdOC0Li0jCFU0xmXCHbNXQ3Z5KB193g0L4COxF-V3JZegapyQhj5uMQXaxgxhmdCFCvH-XdAfxzPfrU_wxl8aWiJoZIwoOcIsbRFDab3weyqofnfeJpymr1XmLlsR3NAjkoJJ1sglGSGE6hQf735ASpSi3Un_ppArPjt0i1g8ru0jMorQwLFAdfg7VLTor12Mn5AefjJeYgtpN7gwlcJcYpzPuyGoTcECekXnNl2L8vpEjKMM6uylZZB-Gr35AR8W2VI9g9XOHMVftN7T55le1o_m7LSO6dLUNchjAeA2YK0EDrzYPbW3AM0p1h5-MokO-druWsru_vaax-khBbXLVIbilKVcKnXBmjmGYjLfKV9sfLGB5hCyHjh7SF1bhiWvkg5AkVGvSD_sp2r7afbKB_szpW08e9GlapqHvFu5HK0fGR4DUMQZGAul6B4y0fToQEvlfc0KqXUXfywquv2wOZLml455Zu7CVLp0SwTwPR7i8NhXMUeV-ncWmnChpyAcw3kow3PR6ZjfLzpti0X5CWoMwcq_vt_mdMyRjS3XzMrhbv_CIpP_tj0k-_ieE6AaLGoNiCT0GpOREGyD9lScodl51rCJqQInqa2sUF5L8vxMrgMB9JCykaUcwxfZIBsu82v-5qwxXeUEoDU1nPAg3YS_YCvoZdPDBYGgQBaDpY9qaLefqf3ZteP1Q338WXvhNdYJY2pJr/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=bmIbICSPIp&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                      - link "HP Printer" [ref=e2534] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JJhijey0CNp8a40b2FDx46QAAAGc8PvUxQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCXsIMY/clv1c_ek-wBIf3LcTanut7cOfOvo-uc7kGmJKXYQmLZ3qj3aMqLkJdl1aFiAHFIGnjLJjCIPh1wh6q7eam40vUUr_mdxzJYUvkS9AJJj_vn3WFzE8uTzGNJHBJvo9S6_s45rKy2VvBrluQjLsIs15JHe7HvYGPpkVclFzCokRBj7Km165LmQqcE2PI7vSAVlmEk6qO1nhgJRrM1YfBzNKJR1EQcuz-1-2VhMw6OJzOnrMNCwKrCBikUwO3sfA80LpX7dbhw_sCtrW4ej62kMncNJxDtOFg54pisiD-h3qqJ81CkrSd3HVQ3lgaZ_D60cY7bM-VEik61wRwcqiZ-zgcXfYfx2MPPXw4Nt-FIdenPAgVNe5iAitVB9CRyO889Dh_MiFeueNd-yXwlYw4E_HGt2yIeRW2vSPsMyDY3WJwo00O4GgK2LQArfZhGv0zy_UmrxBDhvb24rFjf4tSTSrri_6onOkeZXud3hD352APKFaGjfc8KsK_7tGNv3THaDvsJ1w9NkGscV93qkLowz2RC_LavzP-Dmw_F7C8pTCmAu0ftB_0bi3pCB21j04tFt9e98wEdhdd45QUDDP7ztUJWydazay1JaAxZzVRdLNytQRYsWlyCfQ1qNcIqRwuTnPYHeblWenEy8oOWW4PlQh3G08ZG4DZVU7HPCed__VjAb4Lu6q-A-DmuClchGpb9coI2eSHQCfv-G2A6F0M1VD7RDoLWyTHOr_D0FdTteia8uQ4H2tKi9jFxX5UzUOmghDNawgJWp3CKUhHvsoaHd80lerJ6YZt32udIVk-oZQ7Lh77gBVG82bAc7GYGFfC5VFqNBzQMS8ZZT5-utetdAIrxN47xhipc38l5ij0PW6CAx6oqTOpeSuaQNSKQJEo7WGCxlM6FyKL0wilK7P0K0Pkn5aiazr5psbmKrRUwlJ2-65xJ-4X3wq01sSUD74zdl3Rn28ibr1PVnifmhKwR2wFlr5DqkQ7qInXYdoXs1YhakOHkwmdOC0Li0jCFU0xmXCHbNXQ3Z5KB193g0L4COxF-V3JZegapyQhj5uMQXaxgxhmdCFCvH-XdAfxzPfrU_wxl8aWiJoZIwoOcIsbRFDab3weyqofnfeJpymr1XmLlsR3NAjkoJJ1sglGSGE6hQf735ASpSi3Un_ppArPjt0i1g8ru0jMorQwLFAdfg7VLTor12Mn5AefjJeYgtpN7gwlcJcYpzPuyGoTcECekXnNl2L8vpEjKMM6uylZZB-Gr35AR8W2VI9g9XOHMVftN7T55le1o_m7LSO6dLUNchjAeA2YK0EDrzYPbW3AM0p1h5-MokO-druWsru_vaax-khBbXLVIbilKVcKnXBmjmGYjLfKV9sfLGB5hCyHjh7SF1bhiWvkg5AkVGvSD_sp2r7afbKB_szpW08e9GlapqHvFu5HK0fGR4DUMQZGAul6B4y0fToQEvlfc0KqXUXfywquv2wOZLml455Zu7CVLp0SwTwPR7i8NhXMUeV-ncWmnChpyAcw3kow3PR6ZjfLzpti0X5CWoMwcq_vt_mdMyRjS3XzMrhbv_CIpP_tj0k-_ieE6AaLGoNiCT0GpOREGyD9lScodl51rCJqQInqa2sUF5L8vxMrgMB9JCykaUcwxfZIBsu82v-5qwxXeUEoDU1nPAg3YS_YCvoZdPDBYGgQBaDpY9qaLefqf3ZteP1Q338WXvhNdYJY2pJr/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=bmIbICSPIp&ref_=sbx_be_s_3psl_mbd_mb0_ls&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                        - img "HP Printer" [ref=e2535]
+                      - generic [ref=e2537]:
+                        - generic [ref=e2538]:
+                          - link [ref=e2539] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJhijey0CNp8a40b2FDx46QAAAGc8PvUxQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCXsIMY/clv1c_ek-wBIf3LcTanut7cOfOvo-uc7kGmJKXYQmLZ3qj3aMqLkJdl1aFiAHFIGnjLJjCIPh1wh6q7eam40vUUr_mdxzJYUvkS9AJJj_vn3WFzE8uTzGNJHBJvo9S6_s45rKy2VvBrluQjLsIs15JHe7HvYGPpkVclFzCokRBj7Km165LmQqcE2PI7vSAVlmEk6qO1nhgJRrM1YfBzNKJR1EQcuz-1-2VhMw6OJzOnrMNCwKrCBikUwO3sfA80LpX7dbhw_sCtrW4ej62kMncNJxDtOFg54pisiD-h3qqJ81CkrSd3HVQ3lgaZ_D60cY7bM-VEik61wRwcqiZ-zgcXfYfx2MPPXw4Nt-FIdenPAgVNe5iAitVB9CRyO889Dh_MiFeueNd-yXwlYw4E_HGt2yIeRW2vSPsMyDY3WJwo00O4GgK2LQArfZhGv0zy_UmrxBDhvb24rFjf4tSTSrri_6onOkeZXud3hD352APKFaGjfc8KsK_7tGNv3THaDvsJ1w9NkGscV93qkLowz2RC_LavzP-Dmw_F7C8pTCmAu0ftB_0bi3pCB21j04tFt9e98wEdhdd45QUDDP7ztUJWydazay1JaAxZzVRdLNytQRYsWlyCfQ1qNcIqRwuTnPYHeblWenEy8oOWW4PlQh3G08ZG4DZVU7HPCed__VjAb4Lu6q-A-DmuClchGpb9coI2eSHQCfv-G2A6F0M1VD7RDoLWyTHOr_D0FdTteia8uQ4H2tKi9jFxX5UzUOmghDNawgJWp3CKUhHvsoaHd80lerJ6YZt32udIVk-oZQ7Lh77gBVG82bAc7GYGFfC5VFqNBzQMS8ZZT5-utetdAIrxN47xhipc38l5ij0PW6CAx6oqTOpeSuaQNSKQJEo7WGCxlM6FyKL0wilK7P0K0Pkn5aiazr5psbmKrRUwlJ2-65xJ-4X3wq01sSUD74zdl3Rn28ibr1PVnifmhKwR2wFlr5DqkQ7qInXYdoXs1YhakOHkwmdOC0Li0jCFU0xmXCHbNXQ3Z5KB193g0L4COxF-V3JZegapyQhj5uMQXaxgxhmdCFCvH-XdAfxzPfrU_wxl8aWiJoZIwoOcIsbRFDab3weyqofnfeJpymr1XmLlsR3NAjkoJJ1sglGSGE6hQf735ASpSi3Un_ppArPjt0i1g8ru0jMorQwLFAdfg7VLTor12Mn5AefjJeYgtpN7gwlcJcYpzPuyGoTcECekXnNl2L8vpEjKMM6uylZZB-Gr35AR8W2VI9g9XOHMVftN7T55le1o_m7LSO6dLUNchjAeA2YK0EDrzYPbW3AM0p1h5-MokO-druWsru_vaax-khBbXLVIbilKVcKnXBmjmGYjLfKV9sfLGB5hCyHjh7SF1bhiWvkg5AkVGvSD_sp2r7afbKB_szpW08e9GlapqHvFu5HK0fGR4DUMQZGAul6B4y0fToQEvlfc0KqXUXfywquv2wOZLml455Zu7CVLp0SwTwPR7i8NhXMUeV-ncWmnChpyAcw3kow3PR6ZjfLzpti0X5CWoMwcq_vt_mdMyRjS3XzMrhbv_CIpP_tj0k-_ieE6AaLGoNiCT0GpOREGyD9lScodl51rCJqQInqa2sUF5L8vxMrgMB9JCykaUcwxfZIBsu82v-5qwxXeUEoDU1nPAg3YS_YCvoZdPDBYGgQBaDpY9qaLefqf3ZteP1Q338WXvhNdYJY2pJr/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=bmIbICSPIp&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                          - link "HP Printer" [ref=e2540] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJhijey0CNp8a40b2FDx46QAAAGc8PvUxQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCXsIMY/clv1c_ek-wBIf3LcTanut7cOfOvo-uc7kGmJKXYQmLZ3qj3aMqLkJdl1aFiAHFIGnjLJjCIPh1wh6q7eam40vUUr_mdxzJYUvkS9AJJj_vn3WFzE8uTzGNJHBJvo9S6_s45rKy2VvBrluQjLsIs15JHe7HvYGPpkVclFzCokRBj7Km165LmQqcE2PI7vSAVlmEk6qO1nhgJRrM1YfBzNKJR1EQcuz-1-2VhMw6OJzOnrMNCwKrCBikUwO3sfA80LpX7dbhw_sCtrW4ej62kMncNJxDtOFg54pisiD-h3qqJ81CkrSd3HVQ3lgaZ_D60cY7bM-VEik61wRwcqiZ-zgcXfYfx2MPPXw4Nt-FIdenPAgVNe5iAitVB9CRyO889Dh_MiFeueNd-yXwlYw4E_HGt2yIeRW2vSPsMyDY3WJwo00O4GgK2LQArfZhGv0zy_UmrxBDhvb24rFjf4tSTSrri_6onOkeZXud3hD352APKFaGjfc8KsK_7tGNv3THaDvsJ1w9NkGscV93qkLowz2RC_LavzP-Dmw_F7C8pTCmAu0ftB_0bi3pCB21j04tFt9e98wEdhdd45QUDDP7ztUJWydazay1JaAxZzVRdLNytQRYsWlyCfQ1qNcIqRwuTnPYHeblWenEy8oOWW4PlQh3G08ZG4DZVU7HPCed__VjAb4Lu6q-A-DmuClchGpb9coI2eSHQCfv-G2A6F0M1VD7RDoLWyTHOr_D0FdTteia8uQ4H2tKi9jFxX5UzUOmghDNawgJWp3CKUhHvsoaHd80lerJ6YZt32udIVk-oZQ7Lh77gBVG82bAc7GYGFfC5VFqNBzQMS8ZZT5-utetdAIrxN47xhipc38l5ij0PW6CAx6oqTOpeSuaQNSKQJEo7WGCxlM6FyKL0wilK7P0K0Pkn5aiazr5psbmKrRUwlJ2-65xJ-4X3wq01sSUD74zdl3Rn28ibr1PVnifmhKwR2wFlr5DqkQ7qInXYdoXs1YhakOHkwmdOC0Li0jCFU0xmXCHbNXQ3Z5KB193g0L4COxF-V3JZegapyQhj5uMQXaxgxhmdCFCvH-XdAfxzPfrU_wxl8aWiJoZIwoOcIsbRFDab3weyqofnfeJpymr1XmLlsR3NAjkoJJ1sglGSGE6hQf735ASpSi3Un_ppArPjt0i1g8ru0jMorQwLFAdfg7VLTor12Mn5AefjJeYgtpN7gwlcJcYpzPuyGoTcECekXnNl2L8vpEjKMM6uylZZB-Gr35AR8W2VI9g9XOHMVftN7T55le1o_m7LSO6dLUNchjAeA2YK0EDrzYPbW3AM0p1h5-MokO-druWsru_vaax-khBbXLVIbilKVcKnXBmjmGYjLfKV9sfLGB5hCyHjh7SF1bhiWvkg5AkVGvSD_sp2r7afbKB_szpW08e9GlapqHvFu5HK0fGR4DUMQZGAul6B4y0fToQEvlfc0KqXUXfywquv2wOZLml455Zu7CVLp0SwTwPR7i8NhXMUeV-ncWmnChpyAcw3kow3PR6ZjfLzpti0X5CWoMwcq_vt_mdMyRjS3XzMrhbv_CIpP_tj0k-_ieE6AaLGoNiCT0GpOREGyD9lScodl51rCJqQInqa2sUF5L8vxMrgMB9JCykaUcwxfZIBsu82v-5qwxXeUEoDU1nPAg3YS_YCvoZdPDBYGgQBaDpY9qaLefqf3ZteP1Q338WXvhNdYJY2pJr/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=bmIbICSPIp&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                            - img "HP Printer" [ref=e2542]
+                        - generic [ref=e2543]:
+                          - link [ref=e2544] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJhijey0CNp8a40b2FDx46QAAAGc8PvUxQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCXsIMY/clv1c_ek-wBIf3LcTanut7cOfOvo-uc7kGmJKXYQmLZ3qj3aMqLkJdl1aFiAHFIGnjLJjCIPh1wh6q7eam40vUUr_mdxzJYUvkS9AJJj_vn3WFzE8uTzGNJHBJvo9S6_s45rKy2VvBrluQjLsIs15JHe7HvYGPpkVclFzCokRBj7Km165LmQqcE2PI7vSAVlmEk6qO1nhgJRrM1YfBzNKJR1EQcuz-1-2VhMw6OJzOnrMNCwKrCBikUwO3sfA80LpX7dbhw_sCtrW4ej62kMncNJxDtOFg54pisiD-h3qqJ81CkrSd3HVQ3lgaZ_D60cY7bM-VEik61wRwcqiZ-zgcXfYfx2MPPXw4Nt-FIdenPAgVNe5iAitVB9CRyO889Dh_MiFeueNd-yXwlYw4E_HGt2yIeRW2vSPsMyDY3WJwo00O4GgK2LQArfZhGv0zy_UmrxBDhvb24rFjf4tSTSrri_6onOkeZXud3hD352APKFaGjfc8KsK_7tGNv3THaDvsJ1w9NkGscV93qkLowz2RC_LavzP-Dmw_F7C8pTCmAu0ftB_0bi3pCB21j04tFt9e98wEdhdd45QUDDP7ztUJWydazay1JaAxZzVRdLNytQRYsWlyCfQ1qNcIqRwuTnPYHeblWenEy8oOWW4PlQh3G08ZG4DZVU7HPCed__VjAb4Lu6q-A-DmuClchGpb9coI2eSHQCfv-G2A6F0M1VD7RDoLWyTHOr_D0FdTteia8uQ4H2tKi9jFxX5UzUOmghDNawgJWp3CKUhHvsoaHd80lerJ6YZt32udIVk-oZQ7Lh77gBVG82bAc7GYGFfC5VFqNBzQMS8ZZT5-utetdAIrxN47xhipc38l5ij0PW6CAx6oqTOpeSuaQNSKQJEo7WGCxlM6FyKL0wilK7P0K0Pkn5aiazr5psbmKrRUwlJ2-65xJ-4X3wq01sSUD74zdl3Rn28ibr1PVnifmhKwR2wFlr5DqkQ7qInXYdoXs1YhakOHkwmdOC0Li0jCFU0xmXCHbNXQ3Z5KB193g0L4COxF-V3JZegapyQhj5uMQXaxgxhmdCFCvH-XdAfxzPfrU_wxl8aWiJoZIwoOcIsbRFDab3weyqofnfeJpymr1XmLlsR3NAjkoJJ1sglGSGE6hQf735ASpSi3Un_ppArPjt0i1g8ru0jMorQwLFAdfg7VLTor12Mn5AefjJeYgtpN7gwlcJcYpzPuyGoTcECekXnNl2L8vpEjKMM6uylZZB-Gr35AR8W2VI9g9XOHMVftN7T55le1o_m7LSO6dLUNchjAeA2YK0EDrzYPbW3AM0p1h5-MokO-druWsru_vaax-khBbXLVIbilKVcKnXBmjmGYjLfKV9sfLGB5hCyHjh7SF1bhiWvkg5AkVGvSD_sp2r7afbKB_szpW08e9GlapqHvFu5HK0fGR4DUMQZGAul6B4y0fToQEvlfc0KqXUXfywquv2wOZLml455Zu7CVLp0SwTwPR7i8NhXMUeV-ncWmnChpyAcw3kow3PR6ZjfLzpti0X5CWoMwcq_vt_mdMyRjS3XzMrhbv_CIpP_tj0k-_ieE6AaLGoNiCT0GpOREGyD9lScodl51rCJqQInqa2sUF5L8vxMrgMB9JCykaUcwxfZIBsu82v-5qwxXeUEoDU1nPAg3YS_YCvoZdPDBYGgQBaDpY9qaLefqf3ZteP1Q338WXvhNdYJY2pJr/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=bmIbICSPIp&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                          - link "#ConsiderItDone with HP's New Smart Tank Series" [ref=e2545] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJhijey0CNp8a40b2FDx46QAAAGc8PvUxQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCXsIMY/clv1c_ek-wBIf3LcTanut7cOfOvo-uc7kGmJKXYQmLZ3qj3aMqLkJdl1aFiAHFIGnjLJjCIPh1wh6q7eam40vUUr_mdxzJYUvkS9AJJj_vn3WFzE8uTzGNJHBJvo9S6_s45rKy2VvBrluQjLsIs15JHe7HvYGPpkVclFzCokRBj7Km165LmQqcE2PI7vSAVlmEk6qO1nhgJRrM1YfBzNKJR1EQcuz-1-2VhMw6OJzOnrMNCwKrCBikUwO3sfA80LpX7dbhw_sCtrW4ej62kMncNJxDtOFg54pisiD-h3qqJ81CkrSd3HVQ3lgaZ_D60cY7bM-VEik61wRwcqiZ-zgcXfYfx2MPPXw4Nt-FIdenPAgVNe5iAitVB9CRyO889Dh_MiFeueNd-yXwlYw4E_HGt2yIeRW2vSPsMyDY3WJwo00O4GgK2LQArfZhGv0zy_UmrxBDhvb24rFjf4tSTSrri_6onOkeZXud3hD352APKFaGjfc8KsK_7tGNv3THaDvsJ1w9NkGscV93qkLowz2RC_LavzP-Dmw_F7C8pTCmAu0ftB_0bi3pCB21j04tFt9e98wEdhdd45QUDDP7ztUJWydazay1JaAxZzVRdLNytQRYsWlyCfQ1qNcIqRwuTnPYHeblWenEy8oOWW4PlQh3G08ZG4DZVU7HPCed__VjAb4Lu6q-A-DmuClchGpb9coI2eSHQCfv-G2A6F0M1VD7RDoLWyTHOr_D0FdTteia8uQ4H2tKi9jFxX5UzUOmghDNawgJWp3CKUhHvsoaHd80lerJ6YZt32udIVk-oZQ7Lh77gBVG82bAc7GYGFfC5VFqNBzQMS8ZZT5-utetdAIrxN47xhipc38l5ij0PW6CAx6oqTOpeSuaQNSKQJEo7WGCxlM6FyKL0wilK7P0K0Pkn5aiazr5psbmKrRUwlJ2-65xJ-4X3wq01sSUD74zdl3Rn28ibr1PVnifmhKwR2wFlr5DqkQ7qInXYdoXs1YhakOHkwmdOC0Li0jCFU0xmXCHbNXQ3Z5KB193g0L4COxF-V3JZegapyQhj5uMQXaxgxhmdCFCvH-XdAfxzPfrU_wxl8aWiJoZIwoOcIsbRFDab3weyqofnfeJpymr1XmLlsR3NAjkoJJ1sglGSGE6hQf735ASpSi3Un_ppArPjt0i1g8ru0jMorQwLFAdfg7VLTor12Mn5AefjJeYgtpN7gwlcJcYpzPuyGoTcECekXnNl2L8vpEjKMM6uylZZB-Gr35AR8W2VI9g9XOHMVftN7T55le1o_m7LSO6dLUNchjAeA2YK0EDrzYPbW3AM0p1h5-MokO-druWsru_vaax-khBbXLVIbilKVcKnXBmjmGYjLfKV9sfLGB5hCyHjh7SF1bhiWvkg5AkVGvSD_sp2r7afbKB_szpW08e9GlapqHvFu5HK0fGR4DUMQZGAul6B4y0fToQEvlfc0KqXUXfywquv2wOZLml455Zu7CVLp0SwTwPR7i8NhXMUeV-ncWmnChpyAcw3kow3PR6ZjfLzpti0X5CWoMwcq_vt_mdMyRjS3XzMrhbv_CIpP_tj0k-_ieE6AaLGoNiCT0GpOREGyD9lScodl51rCJqQInqa2sUF5L8vxMrgMB9JCykaUcwxfZIBsu82v-5qwxXeUEoDU1nPAg3YS_YCvoZdPDBYGgQBaDpY9qaLefqf3ZteP1Q338WXvhNdYJY2pJr/https://www.amazon.in/stores/page/1B5265A4-6724-4563-B439-71492D10DE21/?_encoding=UTF8&store_ref=SB_A06187422LBDOJ57FDK3H-A03740273FI3EG95OVT47&pd_rd_plhdr=t&aaxitk=e9975c2d278de5bdfd56d24c0c30478b&hsa_cr_id=0&lp_asins=B0BN1XT6TF%2CB0BN287KYS%2CB09MFHQL9J&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=bmIbICSPIp&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                            - generic [ref=e2547]:
+                              - generic [ref=e2548]: "#ConsiderItDone with HP's New Smart Tank Series"
+                              - generic [ref=e2549]: "#ConsiderItDone with HP's New Smart Tank Series"
+                - generic [ref=e2551]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JBtfNvBTnfvUNhOpN8mpL24AAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDj9MlP/clv1c_ek-ABIHXKsTWnuvbk1pDgEg6pcgZK_KoUKJxUhrBvl_A1iaqqmmEiitv1mKXPuqiex0FbyFLF5_v_2xKmeWpjzPzW3ubKnGmGaxtRJtFhNlXBwDlIKQVOBw1YPF5tgKRVdn0L_7V4YRcIbwvHkMU35qPcFybjAUKkmthz7SjwLwPiQqdj_fl0SNtNUZdWznnOb3QIxJbvwbOxs5F42AAsF2fXE1-QgsjnErPjmNP8VUDA09L6lK2uDS7qlZIR5LzGMb5ZLNVMVIqc-K5U2CIcyuD72wInFlP6lzZ8KVyeHoNK798zXglSy_7v9SPN1GncAN9AGpoSfB9xt59fap865CYfYRcVqoZ1oGbg9F55xKik5pHAJjnOjVnIzCwHeliUOQ6nS8yLgKr39iIBOnZgYmmLZObSYkJVzZX9qND8FRXNdT1u1pkaWppxE8isDptByiFrlvhcKM_eXdgovYdmuBpXkqWj89vxwFvCS7L58Njuy33jPl_jYIuJZxQRTzKYdCK57ubWOke3mYGZDjLtosvCOiqBzwMxGw5cLN415uuKIBZyWKzzyMnoAeYdagBPEPcj1Uexsdy-HN7knDsBKWiiS8IVgaTL-6Tsc5wknHbRdhYfcQM6uvanyHd9_771jt8djkLo7L3c2Qps12bDxPGcJgStelmIdhHzAmiSrhRcTZJWdWgc38SwsWl9d0lRf9JJ-Oc-jMa_rcw4Rf4ziPvoVJbDQEPuemgkrqvvsA5TmA7r_poIhAiUSr0Sz20kNCPwmAL4r9_dujIQ3ekTngptrGQrY2IMWsGvWrb7mpWB1uu3QsZNfsInf-IqGuePh6JSQ0G71yyrRfAValipQDsZv9NKTBJkD-v4_KolDpBjzXjpe2dSOrSP0_V1jhgwxzWGtg4t-NyRf2VOpFoDW0LffNuWOi-Q4DAqrn2Q-AxV_RxyugfFM9J0oApD2pGyjIMZC9653idQUjq83yjD8m1njAR2rNm-l1YtZ2UsupOgmzW9AG_ZvV4nMHIbpZmwnMn91v9ff9_rO22tBy6_tEi26E8YS7VWBEXLhBwaKwj6fynCyYkYgU6YdEloxTbgKH232lWJj9XS0O1KXinSmSnbBG2koitBahrdO7ryaU78QWdJ4UmKcuD64P4toQazRJI5hjZt6OTVqQcTkW4mRFbkyl_3Aiwy4N6ioZM1wgSA3JyDfqN-3-4tRxv5o9dDrtX_xyL-gehqfMzLtgscmqW913eglan3Y1TL8leDWnf_H9JTnzXhP6KEVhB4Sm14T2wbGYtcc3W0JmV1Gm31TmDT9ifB37QnbNSGTWlnRKkJ-iqWbmBCPhFTZZYgid4dDrWwfBKf1_lbttq2edZugeMJQtAjf5ZAnBrrH7kx5pyoj4elV462BHV0KUOe9o80WRTUNkWHdijYH5rKXIyZCAcIjcc0lXcWPecYFZNTCbAIqP7_L8OQUgAmPuNFhus7ELH8ioB6odWY109xRyi17Q9U-a5ng8U5LsN7urVcKmtwa_Zz7D2o4h-o2PT89T8BnC58R1HnO63ZQ1NHj6dskB0FxfGvkY2d_g_0oVCrnYCBUjuMqpQq_Puc-XiZ1jlysw44EApGgIdne7R21TCiPmbdUZwQU2gWUnH508QeAUhKQF5qIEYX2HH0DD3TqyJ7rZqVlr95LJyumZ3NM28/https://www.amazon.in/stores/page/DECE5086-AFE9-4F3F-A26C-4D9E6309E886/?_encoding=UTF8&store_ref=SB_A08210613A7NRR9EV2EUT-A0585884134MNLHLAEFLT&pd_rd_plhdr=t&aaxitk=7e54e0b7824da5585a7fcbef0dc73c96&hsa_cr_id=6913562130202&lp_asins=B07PY3FHQT%2CB0CWGRVPYZ%2CB07SHMDWSB&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=sb8U6bX2TF&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                      - link "proffisy" [ref=e2552] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JBtfNvBTnfvUNhOpN8mpL24AAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDj9MlP/clv1c_ek-ABIHXKsTWnuvbk1pDgEg6pcgZK_KoUKJxUhrBvl_A1iaqqmmEiitv1mKXPuqiex0FbyFLF5_v_2xKmeWpjzPzW3ubKnGmGaxtRJtFhNlXBwDlIKQVOBw1YPF5tgKRVdn0L_7V4YRcIbwvHkMU35qPcFybjAUKkmthz7SjwLwPiQqdj_fl0SNtNUZdWznnOb3QIxJbvwbOxs5F42AAsF2fXE1-QgsjnErPjmNP8VUDA09L6lK2uDS7qlZIR5LzGMb5ZLNVMVIqc-K5U2CIcyuD72wInFlP6lzZ8KVyeHoNK798zXglSy_7v9SPN1GncAN9AGpoSfB9xt59fap865CYfYRcVqoZ1oGbg9F55xKik5pHAJjnOjVnIzCwHeliUOQ6nS8yLgKr39iIBOnZgYmmLZObSYkJVzZX9qND8FRXNdT1u1pkaWppxE8isDptByiFrlvhcKM_eXdgovYdmuBpXkqWj89vxwFvCS7L58Njuy33jPl_jYIuJZxQRTzKYdCK57ubWOke3mYGZDjLtosvCOiqBzwMxGw5cLN415uuKIBZyWKzzyMnoAeYdagBPEPcj1Uexsdy-HN7knDsBKWiiS8IVgaTL-6Tsc5wknHbRdhYfcQM6uvanyHd9_771jt8djkLo7L3c2Qps12bDxPGcJgStelmIdhHzAmiSrhRcTZJWdWgc38SwsWl9d0lRf9JJ-Oc-jMa_rcw4Rf4ziPvoVJbDQEPuemgkrqvvsA5TmA7r_poIhAiUSr0Sz20kNCPwmAL4r9_dujIQ3ekTngptrGQrY2IMWsGvWrb7mpWB1uu3QsZNfsInf-IqGuePh6JSQ0G71yyrRfAValipQDsZv9NKTBJkD-v4_KolDpBjzXjpe2dSOrSP0_V1jhgwxzWGtg4t-NyRf2VOpFoDW0LffNuWOi-Q4DAqrn2Q-AxV_RxyugfFM9J0oApD2pGyjIMZC9653idQUjq83yjD8m1njAR2rNm-l1YtZ2UsupOgmzW9AG_ZvV4nMHIbpZmwnMn91v9ff9_rO22tBy6_tEi26E8YS7VWBEXLhBwaKwj6fynCyYkYgU6YdEloxTbgKH232lWJj9XS0O1KXinSmSnbBG2koitBahrdO7ryaU78QWdJ4UmKcuD64P4toQazRJI5hjZt6OTVqQcTkW4mRFbkyl_3Aiwy4N6ioZM1wgSA3JyDfqN-3-4tRxv5o9dDrtX_xyL-gehqfMzLtgscmqW913eglan3Y1TL8leDWnf_H9JTnzXhP6KEVhB4Sm14T2wbGYtcc3W0JmV1Gm31TmDT9ifB37QnbNSGTWlnRKkJ-iqWbmBCPhFTZZYgid4dDrWwfBKf1_lbttq2edZugeMJQtAjf5ZAnBrrH7kx5pyoj4elV462BHV0KUOe9o80WRTUNkWHdijYH5rKXIyZCAcIjcc0lXcWPecYFZNTCbAIqP7_L8OQUgAmPuNFhus7ELH8ioB6odWY109xRyi17Q9U-a5ng8U5LsN7urVcKmtwa_Zz7D2o4h-o2PT89T8BnC58R1HnO63ZQ1NHj6dskB0FxfGvkY2d_g_0oVCrnYCBUjuMqpQq_Puc-XiZ1jlysw44EApGgIdne7R21TCiPmbdUZwQU2gWUnH508QeAUhKQF5qIEYX2HH0DD3TqyJ7rZqVlr95LJyumZ3NM28/https://www.amazon.in/stores/page/DECE5086-AFE9-4F3F-A26C-4D9E6309E886/?_encoding=UTF8&store_ref=SB_A08210613A7NRR9EV2EUT-A0585884134MNLHLAEFLT&pd_rd_plhdr=t&aaxitk=7e54e0b7824da5585a7fcbef0dc73c96&hsa_cr_id=6913562130202&lp_asins=B07PY3FHQT%2CB0CWGRVPYZ%2CB07SHMDWSB&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=sb8U6bX2TF&ref_=sbx_be_s_3psl_mbd_mb1_ls&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                        - img "proffisy" [ref=e2553]
+                      - generic [ref=e2555]:
+                        - generic [ref=e2556]:
+                          - link [ref=e2557] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JBtfNvBTnfvUNhOpN8mpL24AAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDj9MlP/clv1c_ek-ABIHXKsTWnuvbk1pDgEg6pcgZK_KoUKJxUhrBvl_A1iaqqmmEiitv1mKXPuqiex0FbyFLF5_v_2xKmeWpjzPzW3ubKnGmGaxtRJtFhNlXBwDlIKQVOBw1YPF5tgKRVdn0L_7V4YRcIbwvHkMU35qPcFybjAUKkmthz7SjwLwPiQqdj_fl0SNtNUZdWznnOb3QIxJbvwbOxs5F42AAsF2fXE1-QgsjnErPjmNP8VUDA09L6lK2uDS7qlZIR5LzGMb5ZLNVMVIqc-K5U2CIcyuD72wInFlP6lzZ8KVyeHoNK798zXglSy_7v9SPN1GncAN9AGpoSfB9xt59fap865CYfYRcVqoZ1oGbg9F55xKik5pHAJjnOjVnIzCwHeliUOQ6nS8yLgKr39iIBOnZgYmmLZObSYkJVzZX9qND8FRXNdT1u1pkaWppxE8isDptByiFrlvhcKM_eXdgovYdmuBpXkqWj89vxwFvCS7L58Njuy33jPl_jYIuJZxQRTzKYdCK57ubWOke3mYGZDjLtosvCOiqBzwMxGw5cLN415uuKIBZyWKzzyMnoAeYdagBPEPcj1Uexsdy-HN7knDsBKWiiS8IVgaTL-6Tsc5wknHbRdhYfcQM6uvanyHd9_771jt8djkLo7L3c2Qps12bDxPGcJgStelmIdhHzAmiSrhRcTZJWdWgc38SwsWl9d0lRf9JJ-Oc-jMa_rcw4Rf4ziPvoVJbDQEPuemgkrqvvsA5TmA7r_poIhAiUSr0Sz20kNCPwmAL4r9_dujIQ3ekTngptrGQrY2IMWsGvWrb7mpWB1uu3QsZNfsInf-IqGuePh6JSQ0G71yyrRfAValipQDsZv9NKTBJkD-v4_KolDpBjzXjpe2dSOrSP0_V1jhgwxzWGtg4t-NyRf2VOpFoDW0LffNuWOi-Q4DAqrn2Q-AxV_RxyugfFM9J0oApD2pGyjIMZC9653idQUjq83yjD8m1njAR2rNm-l1YtZ2UsupOgmzW9AG_ZvV4nMHIbpZmwnMn91v9ff9_rO22tBy6_tEi26E8YS7VWBEXLhBwaKwj6fynCyYkYgU6YdEloxTbgKH232lWJj9XS0O1KXinSmSnbBG2koitBahrdO7ryaU78QWdJ4UmKcuD64P4toQazRJI5hjZt6OTVqQcTkW4mRFbkyl_3Aiwy4N6ioZM1wgSA3JyDfqN-3-4tRxv5o9dDrtX_xyL-gehqfMzLtgscmqW913eglan3Y1TL8leDWnf_H9JTnzXhP6KEVhB4Sm14T2wbGYtcc3W0JmV1Gm31TmDT9ifB37QnbNSGTWlnRKkJ-iqWbmBCPhFTZZYgid4dDrWwfBKf1_lbttq2edZugeMJQtAjf5ZAnBrrH7kx5pyoj4elV462BHV0KUOe9o80WRTUNkWHdijYH5rKXIyZCAcIjcc0lXcWPecYFZNTCbAIqP7_L8OQUgAmPuNFhus7ELH8ioB6odWY109xRyi17Q9U-a5ng8U5LsN7urVcKmtwa_Zz7D2o4h-o2PT89T8BnC58R1HnO63ZQ1NHj6dskB0FxfGvkY2d_g_0oVCrnYCBUjuMqpQq_Puc-XiZ1jlysw44EApGgIdne7R21TCiPmbdUZwQU2gWUnH508QeAUhKQF5qIEYX2HH0DD3TqyJ7rZqVlr95LJyumZ3NM28/https://www.amazon.in/stores/page/DECE5086-AFE9-4F3F-A26C-4D9E6309E886/?_encoding=UTF8&store_ref=SB_A08210613A7NRR9EV2EUT-A0585884134MNLHLAEFLT&pd_rd_plhdr=t&aaxitk=7e54e0b7824da5585a7fcbef0dc73c96&hsa_cr_id=6913562130202&lp_asins=B07PY3FHQT%2CB0CWGRVPYZ%2CB07SHMDWSB&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=sb8U6bX2TF&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                          - link "proffisy" [ref=e2558] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JBtfNvBTnfvUNhOpN8mpL24AAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDj9MlP/clv1c_ek-ABIHXKsTWnuvbk1pDgEg6pcgZK_KoUKJxUhrBvl_A1iaqqmmEiitv1mKXPuqiex0FbyFLF5_v_2xKmeWpjzPzW3ubKnGmGaxtRJtFhNlXBwDlIKQVOBw1YPF5tgKRVdn0L_7V4YRcIbwvHkMU35qPcFybjAUKkmthz7SjwLwPiQqdj_fl0SNtNUZdWznnOb3QIxJbvwbOxs5F42AAsF2fXE1-QgsjnErPjmNP8VUDA09L6lK2uDS7qlZIR5LzGMb5ZLNVMVIqc-K5U2CIcyuD72wInFlP6lzZ8KVyeHoNK798zXglSy_7v9SPN1GncAN9AGpoSfB9xt59fap865CYfYRcVqoZ1oGbg9F55xKik5pHAJjnOjVnIzCwHeliUOQ6nS8yLgKr39iIBOnZgYmmLZObSYkJVzZX9qND8FRXNdT1u1pkaWppxE8isDptByiFrlvhcKM_eXdgovYdmuBpXkqWj89vxwFvCS7L58Njuy33jPl_jYIuJZxQRTzKYdCK57ubWOke3mYGZDjLtosvCOiqBzwMxGw5cLN415uuKIBZyWKzzyMnoAeYdagBPEPcj1Uexsdy-HN7knDsBKWiiS8IVgaTL-6Tsc5wknHbRdhYfcQM6uvanyHd9_771jt8djkLo7L3c2Qps12bDxPGcJgStelmIdhHzAmiSrhRcTZJWdWgc38SwsWl9d0lRf9JJ-Oc-jMa_rcw4Rf4ziPvoVJbDQEPuemgkrqvvsA5TmA7r_poIhAiUSr0Sz20kNCPwmAL4r9_dujIQ3ekTngptrGQrY2IMWsGvWrb7mpWB1uu3QsZNfsInf-IqGuePh6JSQ0G71yyrRfAValipQDsZv9NKTBJkD-v4_KolDpBjzXjpe2dSOrSP0_V1jhgwxzWGtg4t-NyRf2VOpFoDW0LffNuWOi-Q4DAqrn2Q-AxV_RxyugfFM9J0oApD2pGyjIMZC9653idQUjq83yjD8m1njAR2rNm-l1YtZ2UsupOgmzW9AG_ZvV4nMHIbpZmwnMn91v9ff9_rO22tBy6_tEi26E8YS7VWBEXLhBwaKwj6fynCyYkYgU6YdEloxTbgKH232lWJj9XS0O1KXinSmSnbBG2koitBahrdO7ryaU78QWdJ4UmKcuD64P4toQazRJI5hjZt6OTVqQcTkW4mRFbkyl_3Aiwy4N6ioZM1wgSA3JyDfqN-3-4tRxv5o9dDrtX_xyL-gehqfMzLtgscmqW913eglan3Y1TL8leDWnf_H9JTnzXhP6KEVhB4Sm14T2wbGYtcc3W0JmV1Gm31TmDT9ifB37QnbNSGTWlnRKkJ-iqWbmBCPhFTZZYgid4dDrWwfBKf1_lbttq2edZugeMJQtAjf5ZAnBrrH7kx5pyoj4elV462BHV0KUOe9o80WRTUNkWHdijYH5rKXIyZCAcIjcc0lXcWPecYFZNTCbAIqP7_L8OQUgAmPuNFhus7ELH8ioB6odWY109xRyi17Q9U-a5ng8U5LsN7urVcKmtwa_Zz7D2o4h-o2PT89T8BnC58R1HnO63ZQ1NHj6dskB0FxfGvkY2d_g_0oVCrnYCBUjuMqpQq_Puc-XiZ1jlysw44EApGgIdne7R21TCiPmbdUZwQU2gWUnH508QeAUhKQF5qIEYX2HH0DD3TqyJ7rZqVlr95LJyumZ3NM28/https://www.amazon.in/stores/page/DECE5086-AFE9-4F3F-A26C-4D9E6309E886/?_encoding=UTF8&store_ref=SB_A08210613A7NRR9EV2EUT-A0585884134MNLHLAEFLT&pd_rd_plhdr=t&aaxitk=7e54e0b7824da5585a7fcbef0dc73c96&hsa_cr_id=6913562130202&lp_asins=B07PY3FHQT%2CB0CWGRVPYZ%2CB07SHMDWSB&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=sb8U6bX2TF&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                            - img "proffisy" [ref=e2560]
+                        - generic [ref=e2561]:
+                          - link [ref=e2562] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JBtfNvBTnfvUNhOpN8mpL24AAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDj9MlP/clv1c_ek-ABIHXKsTWnuvbk1pDgEg6pcgZK_KoUKJxUhrBvl_A1iaqqmmEiitv1mKXPuqiex0FbyFLF5_v_2xKmeWpjzPzW3ubKnGmGaxtRJtFhNlXBwDlIKQVOBw1YPF5tgKRVdn0L_7V4YRcIbwvHkMU35qPcFybjAUKkmthz7SjwLwPiQqdj_fl0SNtNUZdWznnOb3QIxJbvwbOxs5F42AAsF2fXE1-QgsjnErPjmNP8VUDA09L6lK2uDS7qlZIR5LzGMb5ZLNVMVIqc-K5U2CIcyuD72wInFlP6lzZ8KVyeHoNK798zXglSy_7v9SPN1GncAN9AGpoSfB9xt59fap865CYfYRcVqoZ1oGbg9F55xKik5pHAJjnOjVnIzCwHeliUOQ6nS8yLgKr39iIBOnZgYmmLZObSYkJVzZX9qND8FRXNdT1u1pkaWppxE8isDptByiFrlvhcKM_eXdgovYdmuBpXkqWj89vxwFvCS7L58Njuy33jPl_jYIuJZxQRTzKYdCK57ubWOke3mYGZDjLtosvCOiqBzwMxGw5cLN415uuKIBZyWKzzyMnoAeYdagBPEPcj1Uexsdy-HN7knDsBKWiiS8IVgaTL-6Tsc5wknHbRdhYfcQM6uvanyHd9_771jt8djkLo7L3c2Qps12bDxPGcJgStelmIdhHzAmiSrhRcTZJWdWgc38SwsWl9d0lRf9JJ-Oc-jMa_rcw4Rf4ziPvoVJbDQEPuemgkrqvvsA5TmA7r_poIhAiUSr0Sz20kNCPwmAL4r9_dujIQ3ekTngptrGQrY2IMWsGvWrb7mpWB1uu3QsZNfsInf-IqGuePh6JSQ0G71yyrRfAValipQDsZv9NKTBJkD-v4_KolDpBjzXjpe2dSOrSP0_V1jhgwxzWGtg4t-NyRf2VOpFoDW0LffNuWOi-Q4DAqrn2Q-AxV_RxyugfFM9J0oApD2pGyjIMZC9653idQUjq83yjD8m1njAR2rNm-l1YtZ2UsupOgmzW9AG_ZvV4nMHIbpZmwnMn91v9ff9_rO22tBy6_tEi26E8YS7VWBEXLhBwaKwj6fynCyYkYgU6YdEloxTbgKH232lWJj9XS0O1KXinSmSnbBG2koitBahrdO7ryaU78QWdJ4UmKcuD64P4toQazRJI5hjZt6OTVqQcTkW4mRFbkyl_3Aiwy4N6ioZM1wgSA3JyDfqN-3-4tRxv5o9dDrtX_xyL-gehqfMzLtgscmqW913eglan3Y1TL8leDWnf_H9JTnzXhP6KEVhB4Sm14T2wbGYtcc3W0JmV1Gm31TmDT9ifB37QnbNSGTWlnRKkJ-iqWbmBCPhFTZZYgid4dDrWwfBKf1_lbttq2edZugeMJQtAjf5ZAnBrrH7kx5pyoj4elV462BHV0KUOe9o80WRTUNkWHdijYH5rKXIyZCAcIjcc0lXcWPecYFZNTCbAIqP7_L8OQUgAmPuNFhus7ELH8ioB6odWY109xRyi17Q9U-a5ng8U5LsN7urVcKmtwa_Zz7D2o4h-o2PT89T8BnC58R1HnO63ZQ1NHj6dskB0FxfGvkY2d_g_0oVCrnYCBUjuMqpQq_Puc-XiZ1jlysw44EApGgIdne7R21TCiPmbdUZwQU2gWUnH508QeAUhKQF5qIEYX2HH0DD3TqyJ7rZqVlr95LJyumZ3NM28/https://www.amazon.in/stores/page/DECE5086-AFE9-4F3F-A26C-4D9E6309E886/?_encoding=UTF8&store_ref=SB_A08210613A7NRR9EV2EUT-A0585884134MNLHLAEFLT&pd_rd_plhdr=t&aaxitk=7e54e0b7824da5585a7fcbef0dc73c96&hsa_cr_id=6913562130202&lp_asins=B07PY3FHQT%2CB0CWGRVPYZ%2CB07SHMDWSB&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=sb8U6bX2TF&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                          - link "Premium Printer Ink for HP GT51 GT53XL GT52" [ref=e2563] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JBtfNvBTnfvUNhOpN8mpL24AAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICDj9MlP/clv1c_ek-ABIHXKsTWnuvbk1pDgEg6pcgZK_KoUKJxUhrBvl_A1iaqqmmEiitv1mKXPuqiex0FbyFLF5_v_2xKmeWpjzPzW3ubKnGmGaxtRJtFhNlXBwDlIKQVOBw1YPF5tgKRVdn0L_7V4YRcIbwvHkMU35qPcFybjAUKkmthz7SjwLwPiQqdj_fl0SNtNUZdWznnOb3QIxJbvwbOxs5F42AAsF2fXE1-QgsjnErPjmNP8VUDA09L6lK2uDS7qlZIR5LzGMb5ZLNVMVIqc-K5U2CIcyuD72wInFlP6lzZ8KVyeHoNK798zXglSy_7v9SPN1GncAN9AGpoSfB9xt59fap865CYfYRcVqoZ1oGbg9F55xKik5pHAJjnOjVnIzCwHeliUOQ6nS8yLgKr39iIBOnZgYmmLZObSYkJVzZX9qND8FRXNdT1u1pkaWppxE8isDptByiFrlvhcKM_eXdgovYdmuBpXkqWj89vxwFvCS7L58Njuy33jPl_jYIuJZxQRTzKYdCK57ubWOke3mYGZDjLtosvCOiqBzwMxGw5cLN415uuKIBZyWKzzyMnoAeYdagBPEPcj1Uexsdy-HN7knDsBKWiiS8IVgaTL-6Tsc5wknHbRdhYfcQM6uvanyHd9_771jt8djkLo7L3c2Qps12bDxPGcJgStelmIdhHzAmiSrhRcTZJWdWgc38SwsWl9d0lRf9JJ-Oc-jMa_rcw4Rf4ziPvoVJbDQEPuemgkrqvvsA5TmA7r_poIhAiUSr0Sz20kNCPwmAL4r9_dujIQ3ekTngptrGQrY2IMWsGvWrb7mpWB1uu3QsZNfsInf-IqGuePh6JSQ0G71yyrRfAValipQDsZv9NKTBJkD-v4_KolDpBjzXjpe2dSOrSP0_V1jhgwxzWGtg4t-NyRf2VOpFoDW0LffNuWOi-Q4DAqrn2Q-AxV_RxyugfFM9J0oApD2pGyjIMZC9653idQUjq83yjD8m1njAR2rNm-l1YtZ2UsupOgmzW9AG_ZvV4nMHIbpZmwnMn91v9ff9_rO22tBy6_tEi26E8YS7VWBEXLhBwaKwj6fynCyYkYgU6YdEloxTbgKH232lWJj9XS0O1KXinSmSnbBG2koitBahrdO7ryaU78QWdJ4UmKcuD64P4toQazRJI5hjZt6OTVqQcTkW4mRFbkyl_3Aiwy4N6ioZM1wgSA3JyDfqN-3-4tRxv5o9dDrtX_xyL-gehqfMzLtgscmqW913eglan3Y1TL8leDWnf_H9JTnzXhP6KEVhB4Sm14T2wbGYtcc3W0JmV1Gm31TmDT9ifB37QnbNSGTWlnRKkJ-iqWbmBCPhFTZZYgid4dDrWwfBKf1_lbttq2edZugeMJQtAjf5ZAnBrrH7kx5pyoj4elV462BHV0KUOe9o80WRTUNkWHdijYH5rKXIyZCAcIjcc0lXcWPecYFZNTCbAIqP7_L8OQUgAmPuNFhus7ELH8ioB6odWY109xRyi17Q9U-a5ng8U5LsN7urVcKmtwa_Zz7D2o4h-o2PT89T8BnC58R1HnO63ZQ1NHj6dskB0FxfGvkY2d_g_0oVCrnYCBUjuMqpQq_Puc-XiZ1jlysw44EApGgIdne7R21TCiPmbdUZwQU2gWUnH508QeAUhKQF5qIEYX2HH0DD3TqyJ7rZqVlr95LJyumZ3NM28/https://www.amazon.in/stores/page/DECE5086-AFE9-4F3F-A26C-4D9E6309E886/?_encoding=UTF8&store_ref=SB_A08210613A7NRR9EV2EUT-A0585884134MNLHLAEFLT&pd_rd_plhdr=t&aaxitk=7e54e0b7824da5585a7fcbef0dc73c96&hsa_cr_id=6913562130202&lp_asins=B07PY3FHQT%2CB0CWGRVPYZ%2CB07SHMDWSB&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=sb8U6bX2TF&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                            - generic [ref=e2565]:
+                              - generic [ref=e2566]: Premium Printer Ink for HP GT51 GT53XL GT52
+                              - generic [ref=e2567]: Premium Printer Ink for HP GT51 GT53XL GT52
+                - generic [ref=e2569]:
+                  - generic:
+                    - generic:
+                      - link:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JJ0ML2lBQmNPpjNk7f3udRUAAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCCS5Zb/clv1c_ek-wBPHXKjbXDkeL8b_5m_gg7bQRGSKfnIokyf8PrZsZVU8T3sScRFX_NdlkQaz8uooYYYbZcGvkqZWsnzTtcNwCoU0WwpTDrsppsglZY7Q-6pXaaACBrqL2sbVkZ3Y7Z4i630vMzDDxrC7CxuGH-Nn0KLncl0Gq0sf0Fyu-rCYd1mEBRqDuX4gmYHxhdxEXuR6Vaeks2gwJ0eLX0zgJkmqDMdLYQU_S8OpXvg7vR5vGEyu-qi0yTdcUC_4D5q46NBhCI8oIQx2_gue4NRbRxw4RmOP849cFQMwM8OvjAns-I_HgLNIT6k9YMWO5lXD1lO6HAVpCGPQWcbmQPnQA2IwsYawcsWFYqfYn294_n18sstUZDKgKL-ONu1utMKUpISZzQyGKfSra_1iSwcbnfOB76voZqaBke_GHh6PHWoXk8_bgc-Zp-1ycS8YWpfqt55y8hVdHaEKuZ4D17mPWHYe8D4dox7Ahs33txXUGlDDSdSlnW-9p7oJ4gHlP_8WKiDOTR_jfXmQgk-Ry0qNtn_Kqp2_pCOKcgbq3LXOwpaWwA6uXYtwoT39J8aPvWnhPZ-YYl8G6vE_6gz8Tx43Nheywcw5kcitU0OApkeN8JJzLFMZ1CjmVe2MvlbJg1XMBZN_lh8_88kdI8xJHcrBkpLI8LjvIucrPSibeDuthVSZXDiTNITlhdLqlQylfv29O918e264wMdjwa39tjzem0qY7jvWqNNI9CWw5lNUfgW_ubVUZKEP9tQnHztJQowie-NT5tTcTAzMM5aDH0AnqAU3cqMTT8Xn1qtWum2wigXyIkgWw7J5xpZvgzwkKrvbiMKGgnUidN_2a8CGjvuiM3muZmOcYOLylmRH7XiWIePi8bWgrP9TrGfoV20QScKbCu9OZaJBwXU3Bb2nKLy8lrkULZq-zosBDXT41rgi8QEAHhR7DnnejoO6IJXmSd8Ip3pFUiSW--DJdheFOLe80h5dWNtquyzUOvpbM9Ft1yy-porz6vgVp2P-U9qb9zz8a6IV4uFx6vjSCYZsdVQA-oBg8HkaXTbDYcCbtKqe18dG-pcIE8OuNEXK4qYg7oVU21NP8is-8UNVwltIG_657ipQFoRnUX9-1Vy8hdsTbCwiZUqM8IGpgQvM882XY1tfHfEX7JLK0thbTeLZcwdBg8smfJ1-QaVqFaOoB8fquI8BhaWv07R0Df0Gm3jIO4z6erp_N-m-oSjc4BLI_Y4skapHNsT_6h7wNKAPJ3L7Yp-CoCYVweg9fj7eQkovVoRtuod5vG4fdtsMEbEPZyYUf4Z_4oMcaE2_2ySwACWAGq3X_JxdQaNy0HDSfQi8YuoYnFagtMR06vKe1cfuIrJmrfLKtpsXvYv3Y619oHG5gPdl2jzJ3DtqazLgk9W93o6FypSpJEE563eVyViFpFIerCzfOZ9JFz2kCtvVRrVsgoH7PDR8d-Dt-SPWtAyOtm7aZWpovkfLr-abUXqKE-Nxcfq0EA54FEp_u6vnxYziFPFYzIz6s-VcCfexwJb4BYhhX68ZivynOtT2_IqDBN-sP7PHYG8sLm3f-9FGVecGV0gcRQjh_a3aNjAigrHnxZ_jewbjYkN9XQCWLcDCXCChM-oB7eHNiXLYsgNGfOVRfgb2QqxfQXAw9mrYQIqgRQYALJF1SiqdfVzuU6tL7AkxqBKZjqtDSeg0yUUak9rv41vhM6A/https://www.amazon.in/stores/page/C8C138EF-9EC8-4CD2-A914-0D906752A394/?_encoding=UTF8&store_ref=SB_A098173420S4DNQ26TJM2-A01741174IY6GE4CG7QL&pd_rd_plhdr=t&aaxitk=b230572d80e7c02465f409c324ea3a5d&hsa_cr_id=0&lp_asins=B09RSCDZPF%2CB08W3FWJKZ&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=WldMFnooHP&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                      - link "Needle ink" [ref=e2570] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JJ0ML2lBQmNPpjNk7f3udRUAAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCCS5Zb/clv1c_ek-wBPHXKjbXDkeL8b_5m_gg7bQRGSKfnIokyf8PrZsZVU8T3sScRFX_NdlkQaz8uooYYYbZcGvkqZWsnzTtcNwCoU0WwpTDrsppsglZY7Q-6pXaaACBrqL2sbVkZ3Y7Z4i630vMzDDxrC7CxuGH-Nn0KLncl0Gq0sf0Fyu-rCYd1mEBRqDuX4gmYHxhdxEXuR6Vaeks2gwJ0eLX0zgJkmqDMdLYQU_S8OpXvg7vR5vGEyu-qi0yTdcUC_4D5q46NBhCI8oIQx2_gue4NRbRxw4RmOP849cFQMwM8OvjAns-I_HgLNIT6k9YMWO5lXD1lO6HAVpCGPQWcbmQPnQA2IwsYawcsWFYqfYn294_n18sstUZDKgKL-ONu1utMKUpISZzQyGKfSra_1iSwcbnfOB76voZqaBke_GHh6PHWoXk8_bgc-Zp-1ycS8YWpfqt55y8hVdHaEKuZ4D17mPWHYe8D4dox7Ahs33txXUGlDDSdSlnW-9p7oJ4gHlP_8WKiDOTR_jfXmQgk-Ry0qNtn_Kqp2_pCOKcgbq3LXOwpaWwA6uXYtwoT39J8aPvWnhPZ-YYl8G6vE_6gz8Tx43Nheywcw5kcitU0OApkeN8JJzLFMZ1CjmVe2MvlbJg1XMBZN_lh8_88kdI8xJHcrBkpLI8LjvIucrPSibeDuthVSZXDiTNITlhdLqlQylfv29O918e264wMdjwa39tjzem0qY7jvWqNNI9CWw5lNUfgW_ubVUZKEP9tQnHztJQowie-NT5tTcTAzMM5aDH0AnqAU3cqMTT8Xn1qtWum2wigXyIkgWw7J5xpZvgzwkKrvbiMKGgnUidN_2a8CGjvuiM3muZmOcYOLylmRH7XiWIePi8bWgrP9TrGfoV20QScKbCu9OZaJBwXU3Bb2nKLy8lrkULZq-zosBDXT41rgi8QEAHhR7DnnejoO6IJXmSd8Ip3pFUiSW--DJdheFOLe80h5dWNtquyzUOvpbM9Ft1yy-porz6vgVp2P-U9qb9zz8a6IV4uFx6vjSCYZsdVQA-oBg8HkaXTbDYcCbtKqe18dG-pcIE8OuNEXK4qYg7oVU21NP8is-8UNVwltIG_657ipQFoRnUX9-1Vy8hdsTbCwiZUqM8IGpgQvM882XY1tfHfEX7JLK0thbTeLZcwdBg8smfJ1-QaVqFaOoB8fquI8BhaWv07R0Df0Gm3jIO4z6erp_N-m-oSjc4BLI_Y4skapHNsT_6h7wNKAPJ3L7Yp-CoCYVweg9fj7eQkovVoRtuod5vG4fdtsMEbEPZyYUf4Z_4oMcaE2_2ySwACWAGq3X_JxdQaNy0HDSfQi8YuoYnFagtMR06vKe1cfuIrJmrfLKtpsXvYv3Y619oHG5gPdl2jzJ3DtqazLgk9W93o6FypSpJEE563eVyViFpFIerCzfOZ9JFz2kCtvVRrVsgoH7PDR8d-Dt-SPWtAyOtm7aZWpovkfLr-abUXqKE-Nxcfq0EA54FEp_u6vnxYziFPFYzIz6s-VcCfexwJb4BYhhX68ZivynOtT2_IqDBN-sP7PHYG8sLm3f-9FGVecGV0gcRQjh_a3aNjAigrHnxZ_jewbjYkN9XQCWLcDCXCChM-oB7eHNiXLYsgNGfOVRfgb2QqxfQXAw9mrYQIqgRQYALJF1SiqdfVzuU6tL7AkxqBKZjqtDSeg0yUUak9rv41vhM6A/https://www.amazon.in/stores/page/C8C138EF-9EC8-4CD2-A914-0D906752A394/?_encoding=UTF8&store_ref=SB_A098173420S4DNQ26TJM2-A01741174IY6GE4CG7QL&pd_rd_plhdr=t&aaxitk=b230572d80e7c02465f409c324ea3a5d&hsa_cr_id=0&lp_asins=B09RSCDZPF%2CB08W3FWJKZ&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=WldMFnooHP&ref_=sbx_be_s_3psl_mbd_mb2_ls&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                        - img "Needle ink" [ref=e2571]
+                      - generic [ref=e2573]:
+                        - generic [ref=e2574]:
+                          - link [ref=e2575] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJ0ML2lBQmNPpjNk7f3udRUAAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCCS5Zb/clv1c_ek-wBPHXKjbXDkeL8b_5m_gg7bQRGSKfnIokyf8PrZsZVU8T3sScRFX_NdlkQaz8uooYYYbZcGvkqZWsnzTtcNwCoU0WwpTDrsppsglZY7Q-6pXaaACBrqL2sbVkZ3Y7Z4i630vMzDDxrC7CxuGH-Nn0KLncl0Gq0sf0Fyu-rCYd1mEBRqDuX4gmYHxhdxEXuR6Vaeks2gwJ0eLX0zgJkmqDMdLYQU_S8OpXvg7vR5vGEyu-qi0yTdcUC_4D5q46NBhCI8oIQx2_gue4NRbRxw4RmOP849cFQMwM8OvjAns-I_HgLNIT6k9YMWO5lXD1lO6HAVpCGPQWcbmQPnQA2IwsYawcsWFYqfYn294_n18sstUZDKgKL-ONu1utMKUpISZzQyGKfSra_1iSwcbnfOB76voZqaBke_GHh6PHWoXk8_bgc-Zp-1ycS8YWpfqt55y8hVdHaEKuZ4D17mPWHYe8D4dox7Ahs33txXUGlDDSdSlnW-9p7oJ4gHlP_8WKiDOTR_jfXmQgk-Ry0qNtn_Kqp2_pCOKcgbq3LXOwpaWwA6uXYtwoT39J8aPvWnhPZ-YYl8G6vE_6gz8Tx43Nheywcw5kcitU0OApkeN8JJzLFMZ1CjmVe2MvlbJg1XMBZN_lh8_88kdI8xJHcrBkpLI8LjvIucrPSibeDuthVSZXDiTNITlhdLqlQylfv29O918e264wMdjwa39tjzem0qY7jvWqNNI9CWw5lNUfgW_ubVUZKEP9tQnHztJQowie-NT5tTcTAzMM5aDH0AnqAU3cqMTT8Xn1qtWum2wigXyIkgWw7J5xpZvgzwkKrvbiMKGgnUidN_2a8CGjvuiM3muZmOcYOLylmRH7XiWIePi8bWgrP9TrGfoV20QScKbCu9OZaJBwXU3Bb2nKLy8lrkULZq-zosBDXT41rgi8QEAHhR7DnnejoO6IJXmSd8Ip3pFUiSW--DJdheFOLe80h5dWNtquyzUOvpbM9Ft1yy-porz6vgVp2P-U9qb9zz8a6IV4uFx6vjSCYZsdVQA-oBg8HkaXTbDYcCbtKqe18dG-pcIE8OuNEXK4qYg7oVU21NP8is-8UNVwltIG_657ipQFoRnUX9-1Vy8hdsTbCwiZUqM8IGpgQvM882XY1tfHfEX7JLK0thbTeLZcwdBg8smfJ1-QaVqFaOoB8fquI8BhaWv07R0Df0Gm3jIO4z6erp_N-m-oSjc4BLI_Y4skapHNsT_6h7wNKAPJ3L7Yp-CoCYVweg9fj7eQkovVoRtuod5vG4fdtsMEbEPZyYUf4Z_4oMcaE2_2ySwACWAGq3X_JxdQaNy0HDSfQi8YuoYnFagtMR06vKe1cfuIrJmrfLKtpsXvYv3Y619oHG5gPdl2jzJ3DtqazLgk9W93o6FypSpJEE563eVyViFpFIerCzfOZ9JFz2kCtvVRrVsgoH7PDR8d-Dt-SPWtAyOtm7aZWpovkfLr-abUXqKE-Nxcfq0EA54FEp_u6vnxYziFPFYzIz6s-VcCfexwJb4BYhhX68ZivynOtT2_IqDBN-sP7PHYG8sLm3f-9FGVecGV0gcRQjh_a3aNjAigrHnxZ_jewbjYkN9XQCWLcDCXCChM-oB7eHNiXLYsgNGfOVRfgb2QqxfQXAw9mrYQIqgRQYALJF1SiqdfVzuU6tL7AkxqBKZjqtDSeg0yUUak9rv41vhM6A/https://www.amazon.in/stores/page/C8C138EF-9EC8-4CD2-A914-0D906752A394/?_encoding=UTF8&store_ref=SB_A098173420S4DNQ26TJM2-A01741174IY6GE4CG7QL&pd_rd_plhdr=t&aaxitk=b230572d80e7c02465f409c324ea3a5d&hsa_cr_id=0&lp_asins=B09RSCDZPF%2CB08W3FWJKZ&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=WldMFnooHP&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                          - link "Needle ink" [ref=e2576] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJ0ML2lBQmNPpjNk7f3udRUAAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCCS5Zb/clv1c_ek-wBPHXKjbXDkeL8b_5m_gg7bQRGSKfnIokyf8PrZsZVU8T3sScRFX_NdlkQaz8uooYYYbZcGvkqZWsnzTtcNwCoU0WwpTDrsppsglZY7Q-6pXaaACBrqL2sbVkZ3Y7Z4i630vMzDDxrC7CxuGH-Nn0KLncl0Gq0sf0Fyu-rCYd1mEBRqDuX4gmYHxhdxEXuR6Vaeks2gwJ0eLX0zgJkmqDMdLYQU_S8OpXvg7vR5vGEyu-qi0yTdcUC_4D5q46NBhCI8oIQx2_gue4NRbRxw4RmOP849cFQMwM8OvjAns-I_HgLNIT6k9YMWO5lXD1lO6HAVpCGPQWcbmQPnQA2IwsYawcsWFYqfYn294_n18sstUZDKgKL-ONu1utMKUpISZzQyGKfSra_1iSwcbnfOB76voZqaBke_GHh6PHWoXk8_bgc-Zp-1ycS8YWpfqt55y8hVdHaEKuZ4D17mPWHYe8D4dox7Ahs33txXUGlDDSdSlnW-9p7oJ4gHlP_8WKiDOTR_jfXmQgk-Ry0qNtn_Kqp2_pCOKcgbq3LXOwpaWwA6uXYtwoT39J8aPvWnhPZ-YYl8G6vE_6gz8Tx43Nheywcw5kcitU0OApkeN8JJzLFMZ1CjmVe2MvlbJg1XMBZN_lh8_88kdI8xJHcrBkpLI8LjvIucrPSibeDuthVSZXDiTNITlhdLqlQylfv29O918e264wMdjwa39tjzem0qY7jvWqNNI9CWw5lNUfgW_ubVUZKEP9tQnHztJQowie-NT5tTcTAzMM5aDH0AnqAU3cqMTT8Xn1qtWum2wigXyIkgWw7J5xpZvgzwkKrvbiMKGgnUidN_2a8CGjvuiM3muZmOcYOLylmRH7XiWIePi8bWgrP9TrGfoV20QScKbCu9OZaJBwXU3Bb2nKLy8lrkULZq-zosBDXT41rgi8QEAHhR7DnnejoO6IJXmSd8Ip3pFUiSW--DJdheFOLe80h5dWNtquyzUOvpbM9Ft1yy-porz6vgVp2P-U9qb9zz8a6IV4uFx6vjSCYZsdVQA-oBg8HkaXTbDYcCbtKqe18dG-pcIE8OuNEXK4qYg7oVU21NP8is-8UNVwltIG_657ipQFoRnUX9-1Vy8hdsTbCwiZUqM8IGpgQvM882XY1tfHfEX7JLK0thbTeLZcwdBg8smfJ1-QaVqFaOoB8fquI8BhaWv07R0Df0Gm3jIO4z6erp_N-m-oSjc4BLI_Y4skapHNsT_6h7wNKAPJ3L7Yp-CoCYVweg9fj7eQkovVoRtuod5vG4fdtsMEbEPZyYUf4Z_4oMcaE2_2ySwACWAGq3X_JxdQaNy0HDSfQi8YuoYnFagtMR06vKe1cfuIrJmrfLKtpsXvYv3Y619oHG5gPdl2jzJ3DtqazLgk9W93o6FypSpJEE563eVyViFpFIerCzfOZ9JFz2kCtvVRrVsgoH7PDR8d-Dt-SPWtAyOtm7aZWpovkfLr-abUXqKE-Nxcfq0EA54FEp_u6vnxYziFPFYzIz6s-VcCfexwJb4BYhhX68ZivynOtT2_IqDBN-sP7PHYG8sLm3f-9FGVecGV0gcRQjh_a3aNjAigrHnxZ_jewbjYkN9XQCWLcDCXCChM-oB7eHNiXLYsgNGfOVRfgb2QqxfQXAw9mrYQIqgRQYALJF1SiqdfVzuU6tL7AkxqBKZjqtDSeg0yUUak9rv41vhM6A/https://www.amazon.in/stores/page/C8C138EF-9EC8-4CD2-A914-0D906752A394/?_encoding=UTF8&store_ref=SB_A098173420S4DNQ26TJM2-A01741174IY6GE4CG7QL&pd_rd_plhdr=t&aaxitk=b230572d80e7c02465f409c324ea3a5d&hsa_cr_id=0&lp_asins=B09RSCDZPF%2CB08W3FWJKZ&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=WldMFnooHP&ref_=sbx_be_s_3psl_mbd_mb2_logo&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                            - img "Needle ink" [ref=e2578]
+                        - generic [ref=e2579]:
+                          - link [ref=e2580] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJ0ML2lBQmNPpjNk7f3udRUAAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCCS5Zb/clv1c_ek-wBPHXKjbXDkeL8b_5m_gg7bQRGSKfnIokyf8PrZsZVU8T3sScRFX_NdlkQaz8uooYYYbZcGvkqZWsnzTtcNwCoU0WwpTDrsppsglZY7Q-6pXaaACBrqL2sbVkZ3Y7Z4i630vMzDDxrC7CxuGH-Nn0KLncl0Gq0sf0Fyu-rCYd1mEBRqDuX4gmYHxhdxEXuR6Vaeks2gwJ0eLX0zgJkmqDMdLYQU_S8OpXvg7vR5vGEyu-qi0yTdcUC_4D5q46NBhCI8oIQx2_gue4NRbRxw4RmOP849cFQMwM8OvjAns-I_HgLNIT6k9YMWO5lXD1lO6HAVpCGPQWcbmQPnQA2IwsYawcsWFYqfYn294_n18sstUZDKgKL-ONu1utMKUpISZzQyGKfSra_1iSwcbnfOB76voZqaBke_GHh6PHWoXk8_bgc-Zp-1ycS8YWpfqt55y8hVdHaEKuZ4D17mPWHYe8D4dox7Ahs33txXUGlDDSdSlnW-9p7oJ4gHlP_8WKiDOTR_jfXmQgk-Ry0qNtn_Kqp2_pCOKcgbq3LXOwpaWwA6uXYtwoT39J8aPvWnhPZ-YYl8G6vE_6gz8Tx43Nheywcw5kcitU0OApkeN8JJzLFMZ1CjmVe2MvlbJg1XMBZN_lh8_88kdI8xJHcrBkpLI8LjvIucrPSibeDuthVSZXDiTNITlhdLqlQylfv29O918e264wMdjwa39tjzem0qY7jvWqNNI9CWw5lNUfgW_ubVUZKEP9tQnHztJQowie-NT5tTcTAzMM5aDH0AnqAU3cqMTT8Xn1qtWum2wigXyIkgWw7J5xpZvgzwkKrvbiMKGgnUidN_2a8CGjvuiM3muZmOcYOLylmRH7XiWIePi8bWgrP9TrGfoV20QScKbCu9OZaJBwXU3Bb2nKLy8lrkULZq-zosBDXT41rgi8QEAHhR7DnnejoO6IJXmSd8Ip3pFUiSW--DJdheFOLe80h5dWNtquyzUOvpbM9Ft1yy-porz6vgVp2P-U9qb9zz8a6IV4uFx6vjSCYZsdVQA-oBg8HkaXTbDYcCbtKqe18dG-pcIE8OuNEXK4qYg7oVU21NP8is-8UNVwltIG_657ipQFoRnUX9-1Vy8hdsTbCwiZUqM8IGpgQvM882XY1tfHfEX7JLK0thbTeLZcwdBg8smfJ1-QaVqFaOoB8fquI8BhaWv07R0Df0Gm3jIO4z6erp_N-m-oSjc4BLI_Y4skapHNsT_6h7wNKAPJ3L7Yp-CoCYVweg9fj7eQkovVoRtuod5vG4fdtsMEbEPZyYUf4Z_4oMcaE2_2ySwACWAGq3X_JxdQaNy0HDSfQi8YuoYnFagtMR06vKe1cfuIrJmrfLKtpsXvYv3Y619oHG5gPdl2jzJ3DtqazLgk9W93o6FypSpJEE563eVyViFpFIerCzfOZ9JFz2kCtvVRrVsgoH7PDR8d-Dt-SPWtAyOtm7aZWpovkfLr-abUXqKE-Nxcfq0EA54FEp_u6vnxYziFPFYzIz6s-VcCfexwJb4BYhhX68ZivynOtT2_IqDBN-sP7PHYG8sLm3f-9FGVecGV0gcRQjh_a3aNjAigrHnxZ_jewbjYkN9XQCWLcDCXCChM-oB7eHNiXLYsgNGfOVRfgb2QqxfQXAw9mrYQIqgRQYALJF1SiqdfVzuU6tL7AkxqBKZjqtDSeg0yUUak9rv41vhM6A/https://www.amazon.in/stores/page/C8C138EF-9EC8-4CD2-A914-0D906752A394/?_encoding=UTF8&store_ref=SB_A098173420S4DNQ26TJM2-A01741174IY6GE4CG7QL&pd_rd_plhdr=t&aaxitk=b230572d80e7c02465f409c324ea3a5d&hsa_cr_id=0&lp_asins=B09RSCDZPF%2CB08W3FWJKZ&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=WldMFnooHP&ref_=sbx_be_s_3psl_mbd_mb2_bkgd&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                          - link "Ink Refill for Cartridge Printers" [ref=e2581] [cursor=pointer]:
+                            - /url: https://aax-eu-zaz.amazon.in/x/c/JJ0ML2lBQmNPpjNk7f3udRUAAAGc8PvUxgoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCCS5Zb/clv1c_ek-wBPHXKjbXDkeL8b_5m_gg7bQRGSKfnIokyf8PrZsZVU8T3sScRFX_NdlkQaz8uooYYYbZcGvkqZWsnzTtcNwCoU0WwpTDrsppsglZY7Q-6pXaaACBrqL2sbVkZ3Y7Z4i630vMzDDxrC7CxuGH-Nn0KLncl0Gq0sf0Fyu-rCYd1mEBRqDuX4gmYHxhdxEXuR6Vaeks2gwJ0eLX0zgJkmqDMdLYQU_S8OpXvg7vR5vGEyu-qi0yTdcUC_4D5q46NBhCI8oIQx2_gue4NRbRxw4RmOP849cFQMwM8OvjAns-I_HgLNIT6k9YMWO5lXD1lO6HAVpCGPQWcbmQPnQA2IwsYawcsWFYqfYn294_n18sstUZDKgKL-ONu1utMKUpISZzQyGKfSra_1iSwcbnfOB76voZqaBke_GHh6PHWoXk8_bgc-Zp-1ycS8YWpfqt55y8hVdHaEKuZ4D17mPWHYe8D4dox7Ahs33txXUGlDDSdSlnW-9p7oJ4gHlP_8WKiDOTR_jfXmQgk-Ry0qNtn_Kqp2_pCOKcgbq3LXOwpaWwA6uXYtwoT39J8aPvWnhPZ-YYl8G6vE_6gz8Tx43Nheywcw5kcitU0OApkeN8JJzLFMZ1CjmVe2MvlbJg1XMBZN_lh8_88kdI8xJHcrBkpLI8LjvIucrPSibeDuthVSZXDiTNITlhdLqlQylfv29O918e264wMdjwa39tjzem0qY7jvWqNNI9CWw5lNUfgW_ubVUZKEP9tQnHztJQowie-NT5tTcTAzMM5aDH0AnqAU3cqMTT8Xn1qtWum2wigXyIkgWw7J5xpZvgzwkKrvbiMKGgnUidN_2a8CGjvuiM3muZmOcYOLylmRH7XiWIePi8bWgrP9TrGfoV20QScKbCu9OZaJBwXU3Bb2nKLy8lrkULZq-zosBDXT41rgi8QEAHhR7DnnejoO6IJXmSd8Ip3pFUiSW--DJdheFOLe80h5dWNtquyzUOvpbM9Ft1yy-porz6vgVp2P-U9qb9zz8a6IV4uFx6vjSCYZsdVQA-oBg8HkaXTbDYcCbtKqe18dG-pcIE8OuNEXK4qYg7oVU21NP8is-8UNVwltIG_657ipQFoRnUX9-1Vy8hdsTbCwiZUqM8IGpgQvM882XY1tfHfEX7JLK0thbTeLZcwdBg8smfJ1-QaVqFaOoB8fquI8BhaWv07R0Df0Gm3jIO4z6erp_N-m-oSjc4BLI_Y4skapHNsT_6h7wNKAPJ3L7Yp-CoCYVweg9fj7eQkovVoRtuod5vG4fdtsMEbEPZyYUf4Z_4oMcaE2_2ySwACWAGq3X_JxdQaNy0HDSfQi8YuoYnFagtMR06vKe1cfuIrJmrfLKtpsXvYv3Y619oHG5gPdl2jzJ3DtqazLgk9W93o6FypSpJEE563eVyViFpFIerCzfOZ9JFz2kCtvVRrVsgoH7PDR8d-Dt-SPWtAyOtm7aZWpovkfLr-abUXqKE-Nxcfq0EA54FEp_u6vnxYziFPFYzIz6s-VcCfexwJb4BYhhX68ZivynOtT2_IqDBN-sP7PHYG8sLm3f-9FGVecGV0gcRQjh_a3aNjAigrHnxZ_jewbjYkN9XQCWLcDCXCChM-oB7eHNiXLYsgNGfOVRfgb2QqxfQXAw9mrYQIqgRQYALJF1SiqdfVzuU6tL7AkxqBKZjqtDSeg0yUUak9rv41vhM6A/https://www.amazon.in/stores/page/C8C138EF-9EC8-4CD2-A914-0D906752A394/?_encoding=UTF8&store_ref=SB_A098173420S4DNQ26TJM2-A01741174IY6GE4CG7QL&pd_rd_plhdr=t&aaxitk=b230572d80e7c02465f409c324ea3a5d&hsa_cr_id=0&lp_asins=B09RSCDZPF%2CB08W3FWJKZ&lp_query=HP%20smart%20tank&lp_slot=desktop-hsa-3psl&aref=WldMFnooHP&ref_=sbx_be_s_3psl_mbd_mb2_hl&pd_rd_w=Vqt7z&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=MFA82R4EDQENJ9D3D1Q2&pd_rd_wg=2jv0N&pd_rd_r=759d0652-d41f-4fed-9dd1-0c9f69e36357
+                            - generic [ref=e2583]:
+                              - generic [ref=e2584]: Ink Refill for Cartridge Printers
+                              - generic [ref=e2585]: Ink Refill for Cartridge Printers
+          - generic [ref=e2591]:
+            - heading "Need help?" [level=2] [ref=e2594]
+            - generic [ref=e2595]:
+              - link "Visit the help section" [ref=e2596] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201889520
+              - text: or
+              - link "contact us" [ref=e2597] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+          - generic [ref=e2600]:
+            - iframe [ref=e2601]:
+              - generic [ref=f1e3]:
+                - generic [ref=f1e4]: Sponsored Ad. Product image. Branded image. Canon PIXMA MegaTank G4780 All-in-one Inktank Colour Printer with Duplex and ADF with 2 Years Standard Warranty. 19499.
+                - link "Sponsored Ad. Product image. Branded image. Canon PIXMA MegaTank G4780 All-in-one Inktank Colour Printer with Duplex and ADF with 2 Years Standard Warranty. 19499." [ref=f1e6] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/RKZTkoVps4LN_Tp2bpBZrD8AAAGc8PvUngoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICBKH0xJ/clv1c_ek-gggH2LcTCjgDuGS0gAOGVnqAGYPPZTGOXYBS4Pk9sMrQipuYI62qsNXrPMNDDHrivPKd1DxOEFSZZZ6QJzmd_o0njBHLeMwn4_MFNxEj09IfXFKfwXQTwctfVfYqn8SIW6hcFr_iOT3T7bMdp1zD7oAAfmPhQ_nRPNjJ3LF8ZIVWVYug9npxqYo7YJmhFptV77NEitRPBxNSVv5j54uuZGuQpDhqYw7MdHuZe4i72WFVmX3ptCaRfsSNoTEwkPZaMED6C63_5YWPKTvkLV-A-vJOz-Ur7k35PFNnzRcbHk_F9wNmkCaQlAqNcSWwY15NJC9SBhbQyZG20yzi3I9GvXwKBddZeHlRaaJlqmDYJuhRSTKzJ37Ec_hnz_b_yd2M0TK5DYXQut4dQRVyRTulieO0dq_PWsejnugvYfi2XzQ37Htmia5x_NNe98x8vrx5eQ_EHOsyJE8jEbxI6xt5cGKlXawiUS38mHdBW8RkVN3YWw-6F-kqaqP4QdzlwTD98L7Jd35gcEpqxjMbWx_gFgvrzhjUG3eFtGvr9AtXk7CPi3zb5U5UstAUXMKGe6QhBLk_TIvr0tt1KatqItUMaxBR9iRg_n8ys74H1P5H3RAF74Xr8Arsp0bmJWU001yszCKIoPZyyF3XAkZQBH2kfR8oByWo63_ghHOWsqB8YslQpOibwGN9OlpkOIpXTOxxhdxeKbPVBVwaPFxh5eR35OzpzigrBLz6NOLAGAUQ-uren5rFJAdiZ0x3iLvxXyhtAaXASLsATKcoMLYltBvt_dTNTV7yhFNpYuWE8DTWYXdSITYWrtaIFMj2dFCRWeTIFG3OozWYcVXWfnjIAnBQ21vpN-sQSlv2jSOBvFDBRFRRxLfNwSAWZUhU9JBumxcA5Zcw_2ToqurQ1CFtcBOMJxRpiWEK_4QtGuTT5nccBr0bKLlyUFj1BzZRgNmOyDKJNu1p_LZkso_3vssoypwusl3LoHltPy13EczWdE6OO0LEXyr5wQBCq3KTqzbJYhHM8_QSfRoit4QmIYAfT_RFn2FX23OHGaha0hInWcHsrk2NXQfYcIkcwuFfFxPsYNAHwXX8RHHnRAc-swR8tKCEKfbOUBk83l60l8M0PWX-2vFHU/http://www.amazon.in/dp/B0DVC7MC39/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=KNI75QgmZJ
+                - generic [ref=f1e9]:
+                  - img "Brand logo" [ref=f1e14]
+                  - img "Product image" [ref=f1e19]
+            - button "Leave feedback on Sponsored advertisement" [ref=e2603] [cursor=pointer]:
+              - generic [ref=e2604]: Sponsored
+        - link "Go back to filtering menu" [ref=e2606] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=e2607]:
+        - generic [ref=e2608]:
+          - link "Skip to main search results" [ref=e2609] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=e2611]:
+            - generic [ref=e2615]:
+              - group [ref=e2616]:
+                - heading "Popular Shopping Ideas" [level=2] [ref=e2617]
+                - list [ref=e2618]:
+                  - listitem [ref=e2619]:
+                    - link "All-in-one" [ref=e2621] [cursor=pointer]:
+                      - /url: /s?k=hp+smart+tank+all-in-one&ref=sr_nr_p_rag_integrated_qb_0
+                  - listitem [ref=e2622]:
+                    - link "Wireless" [ref=e2624] [cursor=pointer]:
+                      - /url: /s?k=hp+smart+tank+wireless&ref=sr_nr_p_rag_integrated_qb_1
+                  - listitem [ref=e2625]:
+                    - link "585" [ref=e2627] [cursor=pointer]:
+                      - /url: /s?k=hp+smart+tank+585+all-in-one+printer&ref=sr_nr_p_rag_integrated_qb_2
+                  - listitem [ref=e2628]:
+                    - link "Ink" [ref=e2630] [cursor=pointer]:
+                      - /url: /s?k=hp+smart+tank+ink&ref=sr_nr_p_rag_integrated_qb_3
+                  - listitem [ref=e2631]:
+                    - button "See more" [ref=e2634] [cursor=pointer]: See more
+              - separator [ref=e2636]
+              - group "Eligible for Free Delivery" [ref=e2637]:
+                - heading "Eligible for Free Delivery" [level=2] [ref=e2638]
+                - list "Eligible for Free Delivery" [ref=e2639]:
+                  - listitem "Popular Shopping Ideas" [ref=e2640]:
+                    - link "Apply the filter Free Shipping to narrow results" [ref=e2642] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_free_shipping_eligible%3A205563695031&dc&qid=1773569561&rnid=205563694031&ref=sr_nr_p_n_free_shipping_eligible_1&ds=v1%3AD%2FeX04ZgnSzohdP1BEAeIrcWLHDWfqdT%2BiePuJXr4q4
+                      - checkbox [ref=e2645]
+                      - text: Free Shipping
+                      - generic [ref=e2647]: Get FREE Shipping on eligible orders shipped by Amazon
+              - group "Brands" [ref=e2648]:
+                - heading "Brands" [level=2] [ref=e2649]
+                - list "Brands" [ref=e2650]:
+                  - listitem "Popular Shopping Ideas" [ref=e2651]:
+                    - link "Apply the filter HP to narrow results" [ref=e2653] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_123%3A308445&dc&qid=1773569561&rnid=91049095031&ref=sr_nr_p_123_1&ds=v1%3AYlm1JPzvOj51COD3QNEuHNB9JdBk2yI6suHiyEbuBNE
+                      - checkbox [ref=e2656]
+                      - text: HP
+                  - listitem "Popular Shopping Ideas" [ref=e2658]:
+                    - link "Apply the filter Epson to narrow results" [ref=e2660] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_123%3A233970&dc&qid=1773569561&rnid=91049095031&ref=sr_nr_p_123_2&ds=v1%3AcRXWcdSCT0oySY2xB%2FlrzCvPh7s9%2FvPEWbjuK%2FcjuYo
+                      - checkbox [ref=e2663]
+                      - text: Epson
+                  - listitem "Popular Shopping Ideas" [ref=e2665]:
+                    - link "Apply the filter Brother to narrow results" [ref=e2667] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_123%3A242668&dc&qid=1773569561&rnid=91049095031&ref=sr_nr_p_123_3&ds=v1%3AujEvICjKK8NWDvuhdvEj5qxLNCcQZIDrG14CrmwsVhU
+                      - checkbox [ref=e2670]
+                      - text: Brother
+              - group "Customer Reviews" [ref=e2672]:
+                - heading "Customer Reviews" [level=2] [ref=e2673]
+                - list "Customer Reviews" [ref=e2674]:
+                  - listitem [ref=e2675]:
+                    - link "Apply the filter 4 Stars & Up to narrow results" [ref=e2678] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_72%3A1318476031&dc&qid=1773569561&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AH4cRXG5oLCulILQ5EBvGe9GP62Iu9crq8LEQwGfPnzg
+                      - generic [ref=e2680]: 4 Stars
+                      - text: "& Up"
+              - group [ref=e2681]:
+                - generic [ref=e2682]:
+                  - generic [ref=e2683]: Price
+                  - generic [ref=e2686]:
+                    - generic [ref=e2687]:
+                      - generic [ref=e2688]: ₹250
+                      - generic [ref=e2689]: –
+                      - generic [ref=e2690]: ₹16,500+
+                    - generic [ref=e2692]:
+                      - generic:
+                        - slider "Minimum price": "0"
+                      - generic [ref=e2693]:
+                        - slider "Maximum price": "175"
+                - heading "Deals & Discounts" [level=2] [ref=e2694]
+                - list "Deals & Discounts" [ref=e2695]:
+                  - listitem [ref=e2696]:
+                    - link "All Discounts" [ref=e2698] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_deal_type%3A26921226031&dc&qid=1773569561&rnid=26921223031&ref=sr_nr_p_n_deal_type_1&ds=v1%3AgM1rZIuzh6N9%2F6H9x700lFqh3%2BVw8v7g%2B1hNAzJggw0
+                  - listitem [ref=e2699]:
+                    - link "Today's Deals" [ref=e2701] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_deal_type%3A26921224031&dc&qid=1773569561&rnid=26921223031&ref=sr_nr_p_n_deal_type_2&ds=v1%3A%2FBTMzrZ%2BPx7L6T54o6BXO5cM7sHfSx4%2Bo0xJfQVLOE8
+              - group "Connectivity" [ref=e2702]:
+                - heading "Connectivity" [level=2] [ref=e2703]
+                - list "Connectivity" [ref=e2704]:
+                  - listitem "Popular Shopping Ideas" [ref=e2705]:
+                    - link "Apply the filter Bluetooth to narrow results" [ref=e2707] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_feature_nine_browse-bin%3A27363203031&dc&qid=1773569561&rnid=27363201031&ref=sr_nr_p_n_feature_nine_browse-bin_1&ds=v1%3A8mTE5sj6LM9IKLtbWWHy8eOsZ0Bq79aoHyrBj6fecT0
+                      - checkbox [ref=e2710]
+                      - text: Bluetooth
+                  - listitem "Popular Shopping Ideas" [ref=e2712]:
+                    - link "Apply the filter USB to narrow results" [ref=e2714] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_feature_nine_browse-bin%3A27363206031&dc&qid=1773569561&rnid=27363201031&ref=sr_nr_p_n_feature_nine_browse-bin_2&ds=v1%3ABUS80OxrnVQZlwbI1ng7UNDeT1%2B1yVJLw9ZaZP9xgWQ
+                      - checkbox [ref=e2717]
+                      - text: USB
+                  - listitem "Popular Shopping Ideas" [ref=e2719]:
+                    - link "Apply the filter Wi-Fi to narrow results" [ref=e2721] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_feature_nine_browse-bin%3A27363205031&dc&qid=1773569561&rnid=27363201031&ref=sr_nr_p_n_feature_nine_browse-bin_3&ds=v1%3A7G5bd7UO0wjfTXnYAIlvx2Iu64q9Bzr5FuH3GI0AAWE
+                      - checkbox [ref=e2724]
+                      - text: Wi-Fi
+              - group "Discount" [ref=e2726]:
+                - heading "Discount" [level=2] [ref=e2727]
+                - list "Discount" [ref=e2728]:
+                  - listitem [ref=e2729]:
+                    - link "10% Off or more" [ref=e2731] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_pct-off-with-tax%3A2665399031&dc&qid=1773569561&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3AdywhrxVzch7EYdbR9DhKKl%2FEiupB89D8xtauGra%2ByF4
+                  - listitem [ref=e2732]:
+                    - link "25% Off or more" [ref=e2734] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_pct-off-with-tax%3A2665400031&dc&qid=1773569561&rnid=2665398031&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3ADDg%2FIQpJt%2F%2BrJ3vrd%2FPfXhQq1Y9y19TX7HlX3b0zIEU
+                  - listitem [ref=e2735]:
+                    - generic [ref=e2736]: 35% Off or more
+                  - listitem [ref=e2737]:
+                    - generic [ref=e2738]: 50% Off or more
+                  - listitem [ref=e2739]:
+                    - generic [ref=e2740]: 60% Off or more
+                  - listitem [ref=e2741]:
+                    - generic [ref=e2742]: 70% Off or more
+              - group "Features" [ref=e2743]:
+                - heading "Features" [level=2] [ref=e2744]
+                - list "Features" [ref=e2745]:
+                  - listitem "Popular Shopping Ideas" [ref=e2746]:
+                    - link "Apply the filter Borderless Printing to narrow results" [ref=e2748] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003362495111%3A29137127031&dc&qid=1773569561&rnid=29136852031&ref=sr_nr_p_n_g-1003362495111_1&ds=v1%3AhgeuHZnddEz5GOII86VbXBGxo1Ui9vifbbM6WrZ62f0
+                      - checkbox [ref=e2751]
+                      - text: Borderless Printing
+                  - listitem "Popular Shopping Ideas" [ref=e2753]:
+                    - link "Apply the filter Auto Document Feeder to narrow results" [ref=e2755] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003362495111%3A29137117031&dc&qid=1773569561&rnid=29136852031&ref=sr_nr_p_n_g-1003362495111_2&ds=v1%3ATMEWqjtaWC7%2BuVSTPBi3bnXq%2BtDxT9qfq%2Fw%2BW6qmYIs
+                      - checkbox [ref=e2758]
+                      - text: Auto Document Feeder
+                  - listitem "Popular Shopping Ideas" [ref=e2760]:
+                    - link "Apply the filter Auto-Duplex to narrow results" [ref=e2762] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003362495111%3A29137126031&dc&qid=1773569561&rnid=29136852031&ref=sr_nr_p_n_g-1003362495111_3&ds=v1%3A8BRqEGsEA%2BxjOXXjIzBva31Q%2BMGi4%2FS5RGawW%2FJ60Xc
+                      - checkbox [ref=e2765]
+                      - text: Auto-Duplex
+                  - listitem "Popular Shopping Ideas" [ref=e2767]:
+                    - link "Apply the filter Network-Ready to narrow results" [ref=e2769] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003362495111%3A29137131031&dc&qid=1773569561&rnid=29136852031&ref=sr_nr_p_n_g-1003362495111_4&ds=v1%3ACnXJiL1Jr5hHE%2F2sddARdI9%2FTnKuf9JD1n7A32ijVaw
+                      - checkbox [ref=e2772]
+                      - text: Network-Ready
+                  - listitem "Popular Shopping Ideas" [ref=e2774]:
+                    - link "Apply the filter Refillable Ink Tank to narrow results" [ref=e2776] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003362495111%3A29137118031&dc&qid=1773569561&rnid=29136852031&ref=sr_nr_p_n_g-1003362495111_5&ds=v1%3A9A9Fq0OaddhjZHJdlrf0HnOHdUtUg6FbfD3Tazg0nS8
+                      - checkbox [ref=e2779]
+                      - text: Refillable Ink Tank
+                  - listitem "Popular Shopping Ideas" [ref=e2781]:
+                    - link "Apply the filter Scan To Email to narrow results" [ref=e2783] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003362495111%3A29137129031&dc&qid=1773569561&rnid=29136852031&ref=sr_nr_p_n_g-1003362495111_6&ds=v1%3AzxWCx468%2BSQptl4tKcQ93futmp9rhNzWkqpJCNdJULY
+                      - checkbox [ref=e2786]
+                      - text: Scan To Email
+              - group "Computers & Accessories Brands" [ref=e2788]:
+                - heading "Computers & Accessories Brands" [level=2] [ref=e2789]
+                - list "Computers & Accessories Brands" [ref=e2790]:
+                  - listitem "Popular Shopping Ideas" [ref=e2791]:
+                    - link "Apply the filter Top Brands to narrow results" [ref=e2793] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_format_browse-bin%3A30678576031&dc&qid=1773569561&rnid=30678571031&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3AY1gKpEh4jVVowaV8cjWYF1sFCXlxRXX3yaSgHHRmWm8
+                      - checkbox [ref=e2796]
+                      - text: Top Brands
+              - group "Printer Output" [ref=e2798]:
+                - heading "Printer Output" [level=2] [ref=e2799]
+                - list "Printer Output" [ref=e2800]:
+                  - listitem "Popular Shopping Ideas" [ref=e2801]:
+                    - link "Apply the filter Colour to narrow results" [ref=e2803] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003363507111%3A28972315031&dc&qid=1773569561&rnid=28972289031&ref=sr_nr_p_n_g-1003363507111_1&ds=v1%3A7XzrPQppae0ZCCtLaJomwSHFNrlq23FgMomDkWiAtbY
+                      - checkbox [ref=e2806]
+                      - text: Colour
+              - group "Colour" [ref=e2808]:
+                - heading "Colour" [level=2] [ref=e2809]
+                - list "Colour" [ref=e2810]:
+                  - listitem [ref=e2811]:
+                    - generic:
+                      - link "Apply the filter Black to narrow results":
+                        - /url: /s?k=HP+smart+tank&rh=p_n_size_two_browse-vebin%3A15563995031&dc&qid=1773569561&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_1&ds=v1%3AXd4oO%2FUt6JYpjrFC%2FwxsLD1ZuT7u1BKhCSffn1LmFu0
+                  - listitem [ref=e2813]:
+                    - generic:
+                      - link "Apply the filter White to narrow results":
+                        - /url: /s?k=HP+smart+tank&rh=p_n_size_two_browse-vebin%3A15563997031&dc&qid=1773569561&rnid=15563994031&ref=sr_nr_p_n_size_two_browse-vebin_2&ds=v1%3APiOM0KYH7LfNtFq6s%2BhxIMVM%2FfjW0ZHxeX%2FL1EKHXKE
+              - group "Maximum Print Speed (Black and White)" [ref=e2815]:
+                - heading "Maximum Print Speed (Black and White)" [level=2] [ref=e2816]
+                - list "Maximum Print Speed (Black and White)" [ref=e2817]:
+                  - listitem "Popular Shopping Ideas" [ref=e2818]:
+                    - link "Apply the filter Up to 14 to narrow results" [ref=e2820] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-101016936088111%3A212266901031&dc&qid=1773569561&rnid=212266899031&ref=sr_nr_p_n_g-101016936088111_1&ds=v1%3AzHj3QgmbPlt9tR%2FMaZVs8X4I6nVZ0vXgzmJH%2FT9yd8U
+                      - checkbox [ref=e2823]
+                      - text: Up to 14
+                  - listitem "Popular Shopping Ideas" [ref=e2825]:
+                    - link "Apply the filter 15 to 29 to narrow results" [ref=e2827] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-101016936088111%3A212266900031&dc&qid=1773569561&rnid=212266899031&ref=sr_nr_p_n_g-101016936088111_2&ds=v1%3AFt1j4WA4HFdoqgrLzSahB2kP2WRE3B4FfHIudy0S%2FHQ
+                      - checkbox [ref=e2830]
+                      - text: 15 to 29
+                  - listitem "Popular Shopping Ideas" [ref=e2832]:
+                    - link "Apply the filter 30 to 44 to narrow results" [ref=e2834] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-101016936088111%3A212266902031&dc&qid=1773569561&rnid=212266899031&ref=sr_nr_p_n_g-101016936088111_3&ds=v1%3AkO%2BKzLNRHRV8HDNmgBqB%2FtJSmZohmTb2G6m3PlUkKow
+                      - checkbox [ref=e2837]
+                      - text: 30 to 44
+              - group "Pay On Delivery" [ref=e2839]:
+                - heading "Pay On Delivery" [level=2] [ref=e2840]
+                - list "Pay On Delivery" [ref=e2841]:
+                  - listitem "Popular Shopping Ideas" [ref=e2842]:
+                    - link "Apply the filter Eligible for Pay On Delivery to narrow results" [ref=e2844] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_is_cod_eligible%3A4931671031&dc&qid=1773569561&rnid=4931670031&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3AfkAo4mmyrANBCBiNAL9nXsAo0lqKdBqcaJnd2L4KaSA
+                      - checkbox [ref=e2847]
+                      - text: Eligible for Pay On Delivery
+              - group "Compatibility" [ref=e2849]:
+                - heading "Compatibility" [level=2] [ref=e2850]
+                - list "Compatibility" [ref=e2851]:
+                  - listitem "Popular Shopping Ideas" [ref=e2852]:
+                    - link "Apply the filter Smartphones to narrow results" [ref=e2854] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-101015171373111%3A93768902031&dc&qid=1773569561&rnid=93768847031&ref=sr_nr_p_n_g-101015171373111_1&ds=v1%3AaU%2F%2FMxkulCQ%2FNEOzAFpf%2B5nrduKkKvlFZpVs8dynneM
+                      - checkbox [ref=e2857]
+                      - text: Smartphones
+              - group "Availability" [ref=e2859]:
+                - heading "Availability" [level=2] [ref=e2860]
+                - list "Availability" [ref=e2861]:
+                  - listitem "Popular Shopping Ideas" [ref=e2862]:
+                    - link "Apply the filter Include Out of Stock to narrow results" [ref=e2864] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_availability%3A1318485031&dc&qid=1773569561&rnid=1318483031&ref=sr_nr_p_n_availability_2&ds=v1%3AXmkUrUbYCW8a%2Fe8pRBw2ylE5RF%2Bxn2yL8ItbqXlDqcY
+                      - checkbox [ref=e2867]
+                      - text: Include Out of Stock
+              - group "Control Type" [ref=e2869]:
+                - heading "Control Type" [level=2] [ref=e2870]
+                - list "Control Type" [ref=e2871]:
+                  - listitem "Popular Shopping Ideas" [ref=e2872]:
+                    - link "Apply the filter Android to narrow results" [ref=e2874] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003362439111%3A28972298031&dc&qid=1773569561&rnid=28972288031&ref=sr_nr_p_n_g-1003362439111_1&ds=v1%3AzEwaOrn3nJxp4a28VlzBS0e3%2FSWq6tHGF%2FqVPyaBlGw
+                      - checkbox [ref=e2877]
+                      - text: Android
+                  - listitem "Popular Shopping Ideas" [ref=e2879]:
+                    - link "Apply the filter iOS to narrow results" [ref=e2881] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003362439111%3A28972295031&dc&qid=1773569561&rnid=28972288031&ref=sr_nr_p_n_g-1003362439111_2&ds=v1%3AE7I%2FcZriTOo6eSdxuPGZESYaNMSMpBjLEKw8Q3r%2FRMY
+                      - checkbox [ref=e2884]
+                      - text: iOS
+              - group "Item Condition" [ref=e2886]:
+                - heading "Item Condition" [level=2] [ref=e2887]
+                - list "Item Condition" [ref=e2888]:
+                  - listitem "Popular Shopping Ideas" [ref=e2889]:
+                    - link "Apply the filter New to narrow results" [ref=e2891] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_condition-type%3A8609960031&dc&qid=1773569561&rnid=8609959031&ref=sr_nr_p_n_condition-type_1&ds=v1%3AKKaPP8te%2FYNVdGxIiwymc2cF3T9%2Funri%2BhB88lzdOdc
+                      - checkbox [ref=e2894]
+                      - text: New
+              - group "Seller" [ref=e2896]:
+                - heading "Seller" [level=2] [ref=e2897]
+                - list "Seller" [ref=e2898]:
+                  - listitem "Popular Shopping Ideas" [ref=e2899]:
+                    - link "Apply the filter Clicktech Retail Private Ltd to narrow results" [ref=e2901] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_6%3AAJ6SIZC8YQDZX&dc&qid=1773569561&rnid=1318474031&ref=sr_nr_p_6_1&ds=v1%3AZrluTkw8EgAu5ZbTwBax%2FSSllC3HLQJ342EULyxTrz0
+                      - checkbox [ref=e2904]
+                      - text: Clicktech Retail Private Ltd
+                  - listitem "Popular Shopping Ideas" [ref=e2906]:
+                    - link "Apply the filter Clicktech Business to narrow results" [ref=e2908] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_6%3AA34RBS7MAVZ4G4&dc&qid=1773569561&rnid=1318474031&ref=sr_nr_p_6_2&ds=v1%3AST0TuYVV1e5DlCvL0791mlR6ggJFGoNd6Td%2FY5l%2Bcfs
+                      - checkbox [ref=e2911]
+                      - text: Clicktech Business
+                  - listitem [ref=e2913]:
+                    - button "See more, Seller" [ref=e2916] [cursor=pointer]: See more
+              - group "Print media" [ref=e2918]:
+                - heading "Print media" [level=2] [ref=e2919]
+                - list "Print media" [ref=e2920]:
+                  - listitem "Popular Shopping Ideas" [ref=e2921]:
+                    - link "Apply the filter Paper (plain) to narrow results" [ref=e2923] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003291669111%3A28215115031&dc&qid=1773569561&rnid=28215096031&ref=sr_nr_p_n_g-1003291669111_1&ds=v1%3A3XqLoeoLHMsnqptZ7NsgRR31eP2iacfIoM6bEueddb4
+                      - checkbox [ref=e2926]
+                      - text: Paper (plain)
+                  - listitem "Popular Shopping Ideas" [ref=e2928]:
+                    - link "Apply the filter Envelopes to narrow results" [ref=e2930] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003291669111%3A28215117031&dc&qid=1773569561&rnid=28215096031&ref=sr_nr_p_n_g-1003291669111_2&ds=v1%3AHzIbhhdC5LJWb9q%2BJF870Gwx9TxUoPthlroHFihez28
+                      - checkbox [ref=e2933]
+                      - text: Envelopes
+                  - listitem "Popular Shopping Ideas" [ref=e2935]:
+                    - link "Apply the filter Glossy photo paper to narrow results" [ref=e2937] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003291669111%3A28215116031&dc&qid=1773569561&rnid=28215096031&ref=sr_nr_p_n_g-1003291669111_3&ds=v1%3ADfJcP92HLHOTX11SEVk2FNyysqvD6fTHLPjGYudlt%2Bc
+                      - checkbox [ref=e2940]
+                      - text: Glossy photo paper
+                  - listitem "Popular Shopping Ideas" [ref=e2942]:
+                    - link "Apply the filter High-resolution paper to narrow results" [ref=e2944] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003291669111%3A28215112031&dc&qid=1773569561&rnid=28215096031&ref=sr_nr_p_n_g-1003291669111_4&ds=v1%3A9P63%2FS8fatOjr8J0jj3SiSnN9ubgh8rI0vQCIjsmJpw
+                      - checkbox [ref=e2947]
+                      - text: High-resolution paper
+                  - listitem "Popular Shopping Ideas" [ref=e2949]:
+                    - link "Apply the filter Labels to narrow results" [ref=e2951] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003291669111%3A28215118031&dc&qid=1773569561&rnid=28215096031&ref=sr_nr_p_n_g-1003291669111_5&ds=v1%3AU4aiY1leVk1m5wTmfoHvFrlRQyLsJDYqkkGUju%2Fsem4
+                      - checkbox [ref=e2954]
+                      - text: Labels
+              - group "Printer Technology" [ref=e2956]:
+                - heading "Printer Technology" [level=2] [ref=e2957]
+                - list "Printer Technology" [ref=e2958]:
+                  - listitem "Popular Shopping Ideas" [ref=e2959]:
+                    - link "Apply the filter Inkjet to narrow results" [ref=e2961] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_feature_seven_browse-bin%3A27356561031&dc&qid=1773569561&rnid=27356553031&ref=sr_nr_p_n_feature_seven_browse-bin_1&ds=v1%3AhcXHLv2%2Fg0TyvztbuDr6yRJo9xdPyA3f2m2cE8%2BDHaA
+                      - checkbox [ref=e2964]
+                      - text: Inkjet
+              - group "Printer Ink Type" [ref=e2966]:
+                - heading "Printer Ink Type" [level=2] [ref=e2967]
+                - list "Printer Ink Type" [ref=e2968]:
+                  - listitem "Popular Shopping Ideas" [ref=e2969]:
+                    - link "Apply the filter Dye-Based Ink to narrow results" [ref=e2971] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-101016610939111%3A206406208031&dc&qid=1773569561&rnid=206406206031&ref=sr_nr_p_n_g-101016610939111_1&ds=v1%3AKd9H%2BQu6FBE8K9%2BhB2KEKV9np13RdBDqI25O1f8PKQ4
+                      - checkbox [ref=e2974]
+                      - text: Dye-Based Ink
+              - group "Scanner Type" [ref=e2976]:
+                - heading "Scanner Type" [level=2] [ref=e2977]
+                - list "Scanner Type" [ref=e2978]:
+                  - listitem "Popular Shopping Ideas" [ref=e2979]:
+                    - link "Apply the filter Flatbed to narrow results" [ref=e2981] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_feature_six_browse-bin%3A27346939031&dc&qid=1773569561&rnid=27346899031&ref=sr_nr_p_n_feature_six_browse-bin_1&ds=v1%3AeHIE7E4WG9R9g8hkFUS%2F4XjwDjD2USHYT6bCXr8884c
+                      - checkbox [ref=e2984]
+                      - text: Flatbed
+                  - listitem "Popular Shopping Ideas" [ref=e2986]:
+                    - link "Apply the filter Sheetfed to narrow results" [ref=e2988] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_feature_six_browse-bin%3A27346937031&dc&qid=1773569561&rnid=27346899031&ref=sr_nr_p_n_feature_six_browse-bin_2&ds=v1%3AnwoSgeW2sG1QVJ43cSOiog7Zzc1HVcIsP3QMx5iSL1Y
+                      - checkbox [ref=e2991]
+                      - text: Sheetfed
+              - group "New Arrivals" [ref=e2993]:
+                - heading "New Arrivals" [level=2] [ref=e2994]
+                - list "New Arrivals" [ref=e2995]:
+                  - listitem [ref=e2996]:
+                    - link "Last 30 days" [ref=e2998] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_date_first_available_absolute%3A1318487031&dc&qid=1773569561&rnid=1318486031&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3ACDNothRRjhVPfwT8zix38HGl%2FvUIubAmjRPVElDvq3o
+                  - listitem [ref=e2999]:
+                    - link "Last 90 days" [ref=e3001] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_date_first_available_absolute%3A1318488031&dc&qid=1773569561&rnid=1318486031&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3AIS8hbiJ864BVSSrmwhR0%2BAjpZWKK7cjlYBVBt%2Bpfsqw
+              - group "Maximum Print Speed (Color)" [ref=e3002]:
+                - heading "Maximum Print Speed (Color)" [level=2] [ref=e3003]
+                - list "Maximum Print Speed (Color)" [ref=e3004]:
+                  - listitem "Popular Shopping Ideas" [ref=e3005]:
+                    - link "Apply the filter Up to 4 to narrow results" [ref=e3007] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-101016671013111%3A207354237031&dc&qid=1773569561&rnid=207354236031&ref=sr_nr_p_n_g-101016671013111_1&ds=v1%3AozvADvo3WN5sFxyE7%2B4NA%2FmQ6Jyf3bvQtn3YQHaB2h0
+                      - checkbox [ref=e3010]
+                      - text: Up to 4
+                  - listitem "Popular Shopping Ideas" [ref=e3012]:
+                    - link "Apply the filter 5 to 9 to narrow results" [ref=e3014] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-101016671013111%3A207354240031&dc&qid=1773569561&rnid=207354236031&ref=sr_nr_p_n_g-101016671013111_2&ds=v1%3ARNy5LTnkTmiOiG64fTZYzA2%2F%2FqtvBUH4QIkq8Yl628o
+                      - checkbox [ref=e3017]
+                      - text: 5 to 9
+                  - listitem "Popular Shopping Ideas" [ref=e3019]:
+                    - link "Apply the filter 15 to 19 to narrow results" [ref=e3021] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-101016671013111%3A207354239031&dc&qid=1773569561&rnid=207354236031&ref=sr_nr_p_n_g-101016671013111_3&ds=v1%3Akdrjo7J5Xel8dQiME16AlLhNKNG%2BgqVtDeH%2F4bLG%2FGU
+                      - checkbox [ref=e3024]
+                      - text: 15 to 19
+                  - listitem "Popular Shopping Ideas" [ref=e3026]:
+                    - link "Apply the filter 20 to 24 to narrow results" [ref=e3028] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-101016671013111%3A207354242031&dc&qid=1773569561&rnid=207354236031&ref=sr_nr_p_n_g-101016671013111_4&ds=v1%3APg4OMex9Ye%2BAnkUOSzdrgM57YqKs57U3Kq6I0%2Fjs0kA
+                      - checkbox [ref=e3031]
+                      - text: 20 to 24
+              - group "Max Paper Size" [ref=e3033]:
+                - heading "Max Paper Size" [level=2] [ref=e3034]
+                - list "Max Paper Size" [ref=e3035]:
+                  - listitem "Popular Shopping Ideas" [ref=e3036]:
+                    - link "Apply the filter A4 to narrow results" [ref=e3038] [cursor=pointer]:
+                      - /url: /s?k=HP+smart+tank&rh=p_n_g-1003506794111%3A49835327031&dc&qid=1773569561&rnid=49834950031&ref=sr_nr_p_n_g-1003506794111_1&ds=v1%3AouiqQvjUi02S7dbJVZE9y1gCTj8PymmkyKtx6QStUNY
+                      - checkbox [ref=e3041]
+                      - text: A4
+            - generic [ref=e3046]:
+              - iframe [ref=e3047]:
+                - generic [ref=f2e4]:
+                  - generic [ref=f2e5]:
+                    - link "HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [ref=f2e6] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RO9sQedISnroryCgIwuOnNUAAAGc8PvUuwoAAAH_AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICCIvD7U/clv1c_ek8OM3GX57OOBXc7_aNgPdNcc4rwpz3MMmJ99MCB-xr5NLIr5zEA6DfmBbrq7pXKxo7PPUW8pu7ZpdKwgrUK1uTH0mNlMq-px3ouPeIlni566KPYR1od9302VDexD6S8lHhdMporIl-Aik1bK8s2Z8HwigxxOoy6VQtqvkOXtRYNLQm1UGpZWFLBse2bsd7YgAFv864uehOSvPEUryCpaX1-C4UnHKfd_dVTMiDVGHGS-wtIXPzteDbn-b51utnKivBuezNAMGkeVTJmsgv3Jcj1vyjgvWEnBWAopluAzlrHUavAdsSmvDc33ummepMZoLO621DEAww4srv7pqgB1G_CFqXHB4L_9RW4dsoUY-Ezowdrb0NsWgLkeUXaRqdiAQKFzPwviQ/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1OTE5NjkxNDkwOTM0MDkwOjE3NzM1Njk1NjE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDU1MDMyOTYxNDEzMjo6Ojo&url=%2Fdp%2FB09MFHQL9J%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26aref%3D6DwbpqTMfS%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=6DwbpqTMfS&sp_cr=ZAZ
+                    - img "HP Smart Tank 670 All-in-One Auto Duplex WiFi Integrated Ink Tank Colour Printer, Scanner, Copier- High Capacity Tank with Automatic Ink Sensor, Multicolor" [ref=f2e10]
+                    - generic [ref=f2e12]:
+                      - generic [ref=f2e13]: HP Smart Tank 670 All-in-One Auto Duplex WiFi I...
+                      - link "2,310" [ref=f2e15] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/RO9sQedISnroryCgIwuOnNUAAAGc8PvUuwoAAAH_AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICCIvD7U/clv1c_ek8OM3GX57OOBXc7_aNgPdNcc4rwpz3MMmJ99MCB-xr5NLIr5zEA6DfmBbrq7pXKxo7PPUW8pu7ZpdKwgrUK1uTH0mNlMq-px3ouPeIlni566KPYR1od9302VDexD6S8lHhdMporIl-Aik1bK8s2Z8HwigxxOoy6VQtqvkOXtRYNLQm1UGpZWFLBse2bsd7YgAFv864uehOSvPEUryCpaX1-C4UnHKfd_dVTMiDVGHGS-wtIXPzteDbn-b51utnKivBuezNAMGkeVTJmsgv3Jcj1vyjgvWEnBWAopluAzlrHUavAdsSmvDc33ummepMZoLO621DEAww4srv7pqgB1G_CFqXHB4L_9RW4dsoUY-Ezowdrb0NsWgLkeUXaRqdiAQKFzPwviQ/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1OTE5NjkxNDkwOTM0MDkwOjE3NzM1Njk1NjE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDU1MDMyOTYxNDEzMjo6Ojo&url=%2Fdp%2FB09MFHQL9J%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26aref%3D6DwbpqTMfS%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=6DwbpqTMfS&sp_cr=ZAZ#customerReviews
+                        - text: 2,310
+                      - generic [ref=f2e17]: ₹17,999.00
+                    - link "Shop now" [ref=f2e22] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RO9sQedISnroryCgIwuOnNUAAAGc8PvUuwoAAAH_AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICCIvD7U/clv1c_ek8OM3GX57OOBXc7_aNgPdNcc4rwpz3MMmJ99MCB-xr5NLIr5zEA6DfmBbrq7pXKxo7PPUW8pu7ZpdKwgrUK1uTH0mNlMq-px3ouPeIlni566KPYR1od9302VDexD6S8lHhdMporIl-Aik1bK8s2Z8HwigxxOoy6VQtqvkOXtRYNLQm1UGpZWFLBse2bsd7YgAFv864uehOSvPEUryCpaX1-C4UnHKfd_dVTMiDVGHGS-wtIXPzteDbn-b51utnKivBuezNAMGkeVTJmsgv3Jcj1vyjgvWEnBWAopluAzlrHUavAdsSmvDc33ummepMZoLO621DEAww4srv7pqgB1G_CFqXHB4L_9RW4dsoUY-Ezowdrb0NsWgLkeUXaRqdiAQKFzPwviQ/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1OTE5NjkxNDkwOTM0MDkwOjE3NzM1Njk1NjE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDU1MDMyOTYxNDEzMjo6Ojo&url=%2Fdp%2FB09MFHQL9J%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26aref%3D6DwbpqTMfS%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=6DwbpqTMfS&sp_cr=ZAZ
+                  - separator [ref=f2e24]
+                  - generic [ref=f2e25]:
+                    - link "HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=f2e26] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RO9sQedISnroryCgIwuOnNUAAAGc8PvUuwoAAAH_AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICCIvD7U/clv1c_ek8OM3GX57OOBXc7_aNgPdNcc4rwpz3MMmJ99MCB-xr5NLIr5zEA6DfmBbrq7pXKxo7PPUW8pu7ZpdKwgrUK1uTH0mNlMq-px3ouPeIlni566KPYR1od9302VDexD6S8lHhdMporIl-Aik1bK8s2Z8HwigxxOoy6VQtqvkOXtRYNLQm1UGpZWFLBse2bsd7YgAFv864uehOSvPEUryCpaX1-C4UnHKfd_dVTMiDVGHGS-wtIXPzteDbn-b51utnKivBuezNAMGkeVTJmsgv3Jcj1vyjgvWEnBWAopluAzlrHUavAdsSmvDc33ummepMZoLO621DEAww4srv7pqgB1G_CFqXHB4L_9RW4dsoUY-Ezowdrb0NsWgLkeUXaRqdiAQKFzPwviQ/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1OTE5NjkxNDkwOTM0MDkwOjE3NzM1Njk1NjE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDU1MDQzNDgyMDczMjo6Ojo&url=%2Fdp%2FB0BN1S41VH%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26aref%3DBF1Wqs2Bi3%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=BF1Wqs2Bi3&sp_cr=ZAZ
+                    - img "HP Smart Tank 580 All-in-One WiFi Colour Printer | 1 Extra Black Ink Bottle | 1+1 Year Extended Warranty on Registration| Up to 8000 Black & 6000 Colour Prints I Print,Scan & Copy for Office/Home" [ref=f2e30]
+                    - generic [ref=f2e32]:
+                      - generic [ref=f2e33]: HP Smart Tank 580 All-in-One WiFi Colour Printe...
+                      - link "1,528" [ref=f2e35] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/RO9sQedISnroryCgIwuOnNUAAAGc8PvUuwoAAAH_AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICCIvD7U/clv1c_ek8OM3GX57OOBXc7_aNgPdNcc4rwpz3MMmJ99MCB-xr5NLIr5zEA6DfmBbrq7pXKxo7PPUW8pu7ZpdKwgrUK1uTH0mNlMq-px3ouPeIlni566KPYR1od9302VDexD6S8lHhdMporIl-Aik1bK8s2Z8HwigxxOoy6VQtqvkOXtRYNLQm1UGpZWFLBse2bsd7YgAFv864uehOSvPEUryCpaX1-C4UnHKfd_dVTMiDVGHGS-wtIXPzteDbn-b51utnKivBuezNAMGkeVTJmsgv3Jcj1vyjgvWEnBWAopluAzlrHUavAdsSmvDc33ummepMZoLO621DEAww4srv7pqgB1G_CFqXHB4L_9RW4dsoUY-Ezowdrb0NsWgLkeUXaRqdiAQKFzPwviQ/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1OTE5NjkxNDkwOTM0MDkwOjE3NzM1Njk1NjE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDU1MDQzNDgyMDczMjo6Ojo&url=%2Fdp%2FB0BN1S41VH%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26aref%3DBF1Wqs2Bi3%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=BF1Wqs2Bi3&sp_cr=ZAZ#customerReviews
+                        - text: 1,528
+                      - generic [ref=f2e37]: ₹14,499.00
+                    - link "Shop now" [ref=f2e42] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RO9sQedISnroryCgIwuOnNUAAAGc8PvUuwoAAAH_AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICCIvD7U/clv1c_ek8OM3GX57OOBXc7_aNgPdNcc4rwpz3MMmJ99MCB-xr5NLIr5zEA6DfmBbrq7pXKxo7PPUW8pu7ZpdKwgrUK1uTH0mNlMq-px3ouPeIlni566KPYR1od9302VDexD6S8lHhdMporIl-Aik1bK8s2Z8HwigxxOoy6VQtqvkOXtRYNLQm1UGpZWFLBse2bsd7YgAFv864uehOSvPEUryCpaX1-C4UnHKfd_dVTMiDVGHGS-wtIXPzteDbn-b51utnKivBuezNAMGkeVTJmsgv3Jcj1vyjgvWEnBWAopluAzlrHUavAdsSmvDc33ummepMZoLO621DEAww4srv7pqgB1G_CFqXHB4L_9RW4dsoUY-Ezowdrb0NsWgLkeUXaRqdiAQKFzPwviQ/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1OTE5NjkxNDkwOTM0MDkwOjE3NzM1Njk1NjE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDU1MDQzNDgyMDczMjo6Ojo&url=%2Fdp%2FB0BN1S41VH%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26aref%3DBF1Wqs2Bi3%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=BF1Wqs2Bi3&sp_cr=ZAZ
+              - button "Leave feedback on Sponsored advertisement" [ref=e3049] [cursor=pointer]:
+                - generic [ref=e3050]: Sponsored
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e3052]:
+    - button "Back to top" [ref=e3053] [cursor=pointer]:
+      - generic [ref=e3054]: Back to top
+    - generic [ref=e3055]:
+      - generic [ref=e3056]:
+        - heading "Get to Know Us" [level=6] [ref=e3057]
+        - list [ref=e3058]:
+          - listitem [ref=e3059]:
+            - link "About Amazon" [ref=e3060] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e3061]:
+            - link "Careers" [ref=e3062] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e3063]:
+            - link "Press Releases" [ref=e3064] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e3065]:
+            - link "Amazon Science" [ref=e3066] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e3068]:
+        - heading "Connect with Us" [level=6] [ref=e3069]
+        - list [ref=e3070]:
+          - listitem [ref=e3071]:
+            - link "Facebook" [ref=e3072] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e3073]:
+            - link "Twitter" [ref=e3074] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e3075]:
+            - link "Instagram" [ref=e3076] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e3078]:
+        - heading "Make Money with Us" [level=6] [ref=e3079]
+        - list [ref=e3080]:
+          - listitem [ref=e3081]:
+            - link "Sell on Amazon" [ref=e3082] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e3083]:
+            - link "Sell under Amazon Accelerator" [ref=e3084] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e3085]:
+            - link "Protect and Build Your Brand" [ref=e3086] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e3087]:
+            - link "Amazon Global Selling" [ref=e3088] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e3089]:
+            - link "Supply to Amazon" [ref=e3090] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e3091]:
+            - link "Become an Affiliate" [ref=e3092] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e3093]:
+            - link "Fulfilment by Amazon" [ref=e3094] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e3095]:
+            - link "Advertise Your Products" [ref=e3096] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e3097]:
+            - link "Amazon Pay on Merchants" [ref=e3098] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e3100]:
+        - heading "Let Us Help You" [level=6] [ref=e3101]
+        - list [ref=e3102]:
+          - listitem [ref=e3103]:
+            - link "Your Account" [ref=e3104] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e3105]:
+            - link "Returns Centre" [ref=e3106] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e3107]:
+            - link "Recalls and Product Safety Alerts" [ref=e3108] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e3109]:
+            - link "100% Purchase Protection" [ref=e3110] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e3111]:
+            - link "Amazon App Download" [ref=e3112] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e3113]:
+            - link "Help" [ref=e3114] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e3116]:
+      - link "Amazon India Home" [ref=e3119] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e3122]:
+        - generic [ref=e3123]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e3124] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e3126]: English
+          - button "Expand to Change Language or Country" [ref=e3127] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e3128] [cursor=pointer]:
+          - generic [ref=e3130]: India
+    - generic "More on Amazon" [ref=e3131]:
+      - generic "More on Amazon" [ref=e3132]:
+        - list [ref=e3133]:
+          - listitem [ref=e3134]:
+            - link "AbeBooks Books, art & collectibles" [ref=e3135] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e3136]
+              - generic [ref=e3137]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e3138]
+          - listitem [ref=e3139]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e3140] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e3141]
+              - generic [ref=e3142]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e3143]
+          - listitem [ref=e3144]:
+            - link "Audible Download Audio Books" [ref=e3145] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e3146]
+              - generic [ref=e3147]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e3148]
+          - listitem [ref=e3149]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e3150] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e3151]
+              - generic [ref=e3152]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e3153]:
+          - listitem [ref=e3154]:
+            - link "Shopbop Designer Fashion Brands" [ref=e3155] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e3156]
+              - generic [ref=e3157]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e3158]
+          - listitem [ref=e3159]:
+            - link "Amazon Business Everything For Your Business" [ref=e3160] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e3161]
+              - generic [ref=e3162]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e3163]
+          - listitem [ref=e3164]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e3165] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e3166]
+              - generic [ref=e3167]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+          - listitem [ref=e3168]
+          - listitem [ref=e3169]
+    - generic [ref=e3170]:
+      - list [ref=e3171]:
+        - listitem [ref=e3172]:
+          - link "Conditions of Use & Sale" [ref=e3173] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e3174]:
+          - link "Privacy Notice" [ref=e3175] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e3176]:
+          - link "Interest-Based Ads" [ref=e3177] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e3178]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e3180]:
+    - iframe [ref=f4e2]:
+      - generic [active]:
+        - img [ref=f5e1]
+        - img [ref=f5e2]
+        - img [ref=f5e3]
+        - img [ref=f5e4]
+        - img [ref=f5e5]
+        - img [ref=f5e6]
+        - img [ref=f5e7]
+        - img [ref=f5e8]
+        - img [ref=f5e9]
+        - img [ref=f5e10]
+        - img [ref=f5e11]
+        - img [ref=f5e12]
+        - img [ref=f5e13]
+        - img [ref=f5e14]
+        - img [ref=f5e15]
+        - img [ref=f5e16]
+        - img [ref=f5e17]
+        - img [ref=f5e18]
+        - img [ref=f5e19]
+        - img [ref=f5e20]
+        - img [ref=f5e21]
+        - img [ref=f5e22]
+        - img [ref=f5e23]
+        - img [ref=f5e24]
+        - img [ref=f5e25]
+        - img [ref=f5e26]
+        - img [ref=f5e27]
+        - img [ref=f5e28]
+        - img [ref=f5e29]
+        - img [ref=f5e30]
+        - img [ref=f5e31]
+        - img [ref=f5e32]
+        - img [ref=f5e33]
+        - img [ref=f5e34]
+        - img [ref=f5e35]
+        - img [ref=f5e36]
+        - img [ref=f5e37]
+```
