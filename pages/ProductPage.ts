@@ -17,7 +17,7 @@ export class ProductPage {
         this.addToCartButton = this.page.locator("#add-to-cart-button")
         this.productAddedToCartMessage = this.page.getByText("Added to cart")
         this.cartSubtotalMsg = this.page.getByText("Cart subtotal:")
-        this.gotoCartButton = page.getByText("Go to Cart")
+        this.gotoCartButton = page.locator("#sw-gtc")
 
     }
 
@@ -45,6 +45,7 @@ export class ProductPage {
     }
 
     async clickOnGotoCartButton() {
+        await expect(this.gotoCartButton).toBeVisible()
         await this.gotoCartButton.click()
     }
 
