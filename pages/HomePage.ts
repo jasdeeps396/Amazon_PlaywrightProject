@@ -19,6 +19,7 @@ export class HomePage {
     }
 
     async verifyThatHomePageLoadedSuccessfully(): Promise<void> {
+        await this.page.waitForLoadState('domcontentloaded')
         await expect(this.carouselCard.last()).toBeVisible()
     }
 
