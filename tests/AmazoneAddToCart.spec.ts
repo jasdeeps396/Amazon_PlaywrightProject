@@ -7,7 +7,7 @@ const SEARCH_PRODUCT = productData.SEARCH_PRODUCT
 const product_Quantity =productData.product_Quantity
 const PRODUCT_NAME=productData.SEARCH_PRODUCT
 
-test.only("User can search HP Smart Tank printer and add Smart Tank 589 to cart", async ({ page }) => {
+test("User can search HP Smart Tank printer and add Smart Tank 589 to cart", async ({ page }) => {
   const app = new App(page)
 
   await app.homePage.goto()
