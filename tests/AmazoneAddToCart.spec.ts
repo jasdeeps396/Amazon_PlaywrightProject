@@ -24,7 +24,7 @@ test("User can search HP Smart Tank printer and add Smart Tank 589 to cart", asy
   app.initProductPage(newTap)
 
   // verify product opened
-  await app.productPage.verifyProductOpened(PRODUCT_NAME)
+  const productPrice = await app.productPage.verifyProductOpened(PRODUCT_NAME)
 
   // select product quantity
   await app.productPage.selectProductQuantity(product_Quantity)
@@ -34,6 +34,7 @@ test("User can search HP Smart Tank printer and add Smart Tank 589 to cart", asy
 
   // verify product added to cart
   await app.productPage.verifyProductAddedToCartDetails()
+  await app.productPage.verifyCartSubtotal(productPrice!)
 
   // click on gotoCart button
 
@@ -41,6 +42,7 @@ test("User can search HP Smart Tank printer and add Smart Tank 589 to cart", asy
 
   // verify product details on cart page
   await app.cartPage.verifyProductAddedToCartDetails(product_Quantity)
+
 
   
 

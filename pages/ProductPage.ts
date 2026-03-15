@@ -8,6 +8,7 @@ export class ProductPage {
     productAddedToCartMessage: Locator
     cartSubtotalMsg: Locator
     gotoCartButton: Locator
+    priceLocator: Locator
 
     constructor(page: Page) {
 
@@ -18,13 +19,18 @@ export class ProductPage {
         this.productAddedToCartMessage = this.page.getByText("Added to cart")
         this.cartSubtotalMsg = this.page.getByText("Cart subtotal:")
         this.gotoCartButton = page.locator("#sw-gtc")
+        this.priceLocator = page.locator("#corePriceDisplay_desktop_feature_div  .a-price-whole")
 
     }
 
-    async verifyProductOpened(productName: string): Promise<void> {
+    async verifyProductOpened(productName: string) {
         await this.productTitle.first().waitFor()
 
         await expect(this.productTitle.first()).toContainText(productName, { ignoreCase: true })
+        await expect(this.priceLocator).toBeVisible()
+        const productPrice = await this.priceLocator.textContent()
+        return productPrice;
+
     }
 
     async selectProductQuantity(quantity: string) {
@@ -41,8 +47,25 @@ export class ProductPage {
     async verifyProductAddedToCartDetails() {
         await this.productAddedToCartMessage.first().waitFor()
         await expect(this.productAddedToCartMessage.first()).toBeVisible()
-        await expect(this.cartSubtotalMsg).toBeVisible()
+
+
+
     }
+    async verifyCartSubtotal(productPrice:string) {
+        
+        const price = Number(productPrice.replace(/,/g, ''))
+        const doubledPrice = price * 2;
+        
+
+        const formattedPrice = new Intl.NumberFormat('en-IN', {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
+        }).format(doubledPrice);
+       
+        await expect(this.cartSubtotalMsg).toBeVisible()
+        await expect(this.page.getByText(formattedPrice).first()).toBeVisible()
+    }
+
 
     async clickOnGotoCartButton() {
         await expect(this.gotoCartButton).toBeVisible()
